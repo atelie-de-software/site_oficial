@@ -1,0 +1,28 @@
+@mixin placeholder {
+  &::-webkit-input-placeholder {@content}
+  &:-moz-placeholder           {@content}
+  &::-moz-placeholder          {@content}
+  &:-ms-input-placeholder      {@content}  
+}
+
+input,
+textarea {
+  border-radius: 4px;
+  border: 1px solid #000000;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  padding: 20px 9px;
+  width: 100%;
+
+  color: #000000;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 21.15px;
+  letter-spacing: 0.18px;
+  @include placeholder {
+      color: #000000;
+      font-weight:700;
+      opacity: 1;
+  }
+}
+

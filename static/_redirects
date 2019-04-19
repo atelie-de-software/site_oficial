@@ -1,0 +1,4 @@
+# Redirects from what the browser requests to what we serve
+
+/vagas              https://docs.google.com/forms/d/e/1FAIpQLSdTCpnq5z_k6xd1kIQapsZNAbS9U7qSUjMQ4mrfo7hp7h8JZA/viewform?usp=sf_link
+/design-vagas       https://docs.google.com/forms/d/e/1FAIpQLSeE2ZxmfoK87Yo-1RfS6oaTdHuI4UNB-Mr02osvwPTkjbU8Lw/viewform?usp=sf_link

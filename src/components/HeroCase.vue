@@ -1,0 +1,52 @@
+<template>
+  <div class="container hero">
+    <div class="row">
+      <div class="col-md-6">
+        <h1>Conheça
+          <br>os nossos
+          <br>cases
+        </h1>
+      </div>
+
+      <div class="col-md-4 offset-md-1 logo">
+        <p>Abaixo você encontrará alguns dos trabalhos realizados pelo Ateliê. Se quiser saber mais ou falar do seu projeto é só entrar em contao.</p>
+      </div>
+    </div>
+  </div>
+</template>
+
+<style lang="scss" scoped>
+.hero {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  padding-top: 45px;
+  @media screen and (max-width: 640px) {
+    padding-top: 10px;
+  }
+}
+h1 {
+  color: #444140;
+  font-size: 81px;
+  font-weight: 800;
+  line-height: 86.12px;
+  text-transform: uppercase;
+  letter-spacing: 2.1px;
+  margin-bottom: 67px;
+  @media screen and (max-width: 640px) {
+    font-size: 38px;
+    margin-bottom: 20px;
+    line-height: 1;
+  }
+}
+p {
+  color: #444140;
+  margin-bottom: 41px;
+  width: 560px;
+  line-height: 28px;
+}
+</style>
