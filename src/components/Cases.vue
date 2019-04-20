@@ -3,9 +3,9 @@
     <div class="header-cases">
       <h2 tabindex="0">cases</h2>
     </div>
-    <swiper :mySwiper="swiperOption">
-      <swiper-slide class="swiper-wrapper">
-        <div class="swiper-slide" v-for="(slide, index) in slides" :key="index">
+    <ClientOnly>
+      <carousel :perPage="1">
+        <slide class="swiper-slide" v-for="(slide, index) in slides" :key="index">
           <div class="container">
             <div class="row">
               <div class="col-md-5 content">
@@ -22,27 +22,29 @@
               </div>
             </div>
           </div>
-        </div>
-      </swiper-slide>
-      <div class="swiper-button-prev" slot="button-prev">
-        <g-image src="@/assets/images/left-arrow.svg" alt="Slide anterior" />
-      </div>
-      <div class="swiper-button-next" slot="button-next">
-        <g-image src="@/assets/images/right-arrow.svg" alt="Próximo slide" />
-      </div>
-    </swiper>
+        </slide>
+      </carousel>
+    </ClientOnly>
+
   </div>
 </template>
 
 <script>
 import Notebook from '@/components/Notebook'
-import { swiper, swiperSlide } from 'vue-awesome-swiper'
-
+// import { swiper, swiperSlide } from 'vue-awesome-swiper'
+// 'vue-awesome-swiper/swiperSlide'
 export default {
   name: 'Cases',
   components: {
-    swiper,
-    swiperSlide
+    Carousel: () =>
+      import ('vue-carousel')
+      .then(m => m.Carousel)
+      .catch(),
+    Slide: () =>
+      import ('vue-carousel')
+      .then(m => m.Slide)
+      .catch(),
+    Notebook
   },
   data() {
     return {
@@ -90,9 +92,6 @@ export default {
         }
       ]
     }
-  },
-  components: {
-    Notebook
   }
 }
 </script>
