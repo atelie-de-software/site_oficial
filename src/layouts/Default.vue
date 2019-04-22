@@ -16,12 +16,11 @@ export default {
     htmlAttrs: {
       lang: 'pt-BR'
     },
-    description: 'Nós criamos soluções digitais',
     meta: [
       { charset: 'utf-8' },
+      { name: 'description', content: 'Nós criamos soluções digitais' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { name: 'og:description', content: 'Nós criamos soluções digitais' },
-      // { name: 'og:image', content: '' },
       { name: 'og:url', content: 'http://atelie.software' },
     ],
   },

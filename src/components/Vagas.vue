@@ -20,6 +20,7 @@
 <style scoped lang="scss">
 .container {
   margin-top: 150px;
+  margin-bottom: 150px;
 }
 .mobile-frame {
   max-width: 345px;

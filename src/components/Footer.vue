@@ -1,20 +1,34 @@
 <template>
-  <footer>
-    <div class="container">
+  <div>
+    <div class="container address">
       <div class="row">
-        <div class="col-md-3">
-          <g-image src="/logo_atelie_footer.png" alt="Logo ateliê de software" />
-        </div>
-        <div class="col-md-6 vertical">
+        <div class="col-md-12">
           <address>Av. João Pinheiro, 341 - Sala 3 - Centro, Poços de Caldas - MG, 37701-880</address>
-          <span tabindex="0">Todos os direitos reservados Ateliê de Software {{year}}©</span>
         </div>
       </div>
     </div>
-  </footer>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <g-image src="/logo_atelie_footer.png" alt="Logo ateliê de software" />
+          </div>
+          <div class="col-md-6 vertical">
+            <span tabindex="0">Todos os direitos reservados Ateliê de Software {{year}}©</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
 </template>
 
 <style lang="scss" scoped>
+.address {
+  text-align: center;
+  address {
+    line-height: 50px
+  }
+}
 footer {
   height: 79px;
   background-color: #f2f2f2;
@@ -35,8 +49,7 @@ footer {
       }
     }
   }
-  span,
-  address {
+  span {
     color: #878f99;
     font-size: 15px;
     font-weight: 300;

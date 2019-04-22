@@ -6,6 +6,7 @@
         <div class="blockquote">
           <p tabindex="0">Somos uma empresa com estilo de Gestão Horizontal. Cultura é o resultado de tudo que fazemos aqui dentro. Valorizamos a autonomia e a colaboração entre as pessoas e gostamos de compartilhar conhecimentos com todos os integrantes do nosso time e também da comunidade ao nosso redor.</p>
         </div>
+        <g-link to="/cultura" class="btn">saiba mais</g-link>        
       </div>
       <div class="col-md-6">
         <Person/>

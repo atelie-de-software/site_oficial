@@ -2,7 +2,7 @@
   <div class="container hero">
     <div class="row">
       <div class="col-md-9">
-        <h1 tabindex="0">Nós criamos soluções digitais.</h1>
+        <h1 tabindex="0">Software sob medida para o seu negócio.</h1>
         <p tabindex="0">O nosso propósito é desenvolver software com alta qualidade e rápido retorno para os nossos clientes.</p>
       </div>
 

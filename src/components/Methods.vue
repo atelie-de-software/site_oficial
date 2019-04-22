@@ -14,10 +14,8 @@
 
 <style lang="scss" scoped>
 .methods {
-  margin-bottom: 50px;
-  @media screen and (max-width: 786px) {
-    margin-bottom: 30px;
-  }
+  margin-top: 65px;
+  margin-bottom: 65px;
 }
 .content {
   text-align: right;

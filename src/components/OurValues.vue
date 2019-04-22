@@ -12,7 +12,7 @@
       </div>
       <div class="col-md-6">
         <h3>Colaboração</h3>
-        <p>Ter autonomia significa fazer o trabalho que precisa ser feito da maneira que você acredita ser a melhor, considerando o impacto e as consequências dessa escolha na atuação das pessoas que trabalham com você, no nosso negócio e no negócio do cliente.</p>
+        <p>Colaborar significa fazer o trabalho junto com outras pessoas para criar novos aprendizados, aumentar a resiliência da equipe e ter qualidade no resultado final. A colaboração estimula a troca de conhecimentos e é a base do trabalho em equipe.</p>
       </div>
       <div class="col-md-6">
         <h3>Aprendizado</h3>
@@ -20,7 +20,7 @@
       </div>
       <div class="col-md-6">
         <h3>Auto-organização</h3>
-        <p>Colaborar significa fazer o trabalho junto com outras pessoas para criar novos aprendizados, aumentar a resiliência da equipe e ter qualidade no resultado final. A colaboração estimula a troca de conhecimentos e é a base do trabalho em equipe.</p>
+        <p>É a capacidade que uma equipe tem de encontrar a melhor forma de trabalhar coletivamente, respeitando as restrições do ambiente e a capacidade do seus integrantes para alcançar resultados que sozinhos não conseguiríamos.</p>
       </div>
       <div class="col-md-6">
         <h3>Transparência</h3>

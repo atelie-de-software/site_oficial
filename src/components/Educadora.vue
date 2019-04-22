@@ -11,6 +11,7 @@
           A Educadora FM (
           <a href="www.educadorafm.com.br">www.educadorafm.com.br</a>) é a rádio do Grupo Bandeirantes de Televisão líder de audiência em Campinas e região. Em 2013 começamos o projeto de criação de um novo gerenciador de conteúdo e do site da rádio, que no seu lançamento bateu a marca de 1 milhão de acessos.
         </p>
+        <p>Atualmente, estamos desenvolvendo a segunda fase do projeto para aumentar ainda mais a audiência da rádio a partir da gamificação da interação dos usuários com o site e da criação dos aplicativos para Android e iOS.</p>
       </div>
     </div>
   </div>

@@ -31,7 +31,7 @@ export default {
     title: 'Home',
     meta: [
       { name: 'og:title', content: 'Home - Ateliê de Software' },
-    ],
+    ]
   },
   components: {
     Default,
@@ -43,20 +43,7 @@ export default {
     Share,
     Contact,
     FooterSection
-  },
-  // methods: {
-  //   scrollToHash() {
-  //     var hash = $nuxt.$route.hash
-  //     this.$nextTick(() => {
-  //       this.$scrollTo(hash, 0, { offset: 0 })
-  //     })
-  //   }
-  // },
-  // mounted() {
-  //   if ($nuxt.$route.hash) {
-  //     this.scrollToHash()
-  //   }
-  // }
+  }
 }
 </script>
 

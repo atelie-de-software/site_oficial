@@ -17,13 +17,10 @@
 
 <style lang="scss" scoped>
 .hero {
-  min-height: 50vh;
   display: flex;
   align-items: center;
-  @media screen and (max-width: 786px) {
-    min-height: auto;
-    margin: 40px 0;
-  }
+  padding-top: 100px;
+  padding-bottom: 40px;
 }
 .row > div {
   display: flex;

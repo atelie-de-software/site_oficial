@@ -15,7 +15,7 @@
                 </div>
                 <div class="text-and-button">
                   <p tabindex="0">{{slide.content}}</p>
-                  <a href="/cases" class="btn">conheça nossos cases</a>
+                  <g-link to="/cases" class="btn">conheça nossos cases</g-link>
                 </div>
               </div>
               <div tabindex="-1" class="col-md-7 show-desktop">

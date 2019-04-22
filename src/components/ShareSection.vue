@@ -1,5 +1,5 @@
 <template>
-  <div class="share-section" id="share">
+  <div class="share-section" id="share" v-if="postsLoaded">
     <div class="container">
       <div class="row">
         <div class="col-md-4 title">
@@ -99,6 +99,9 @@ export default {
         this.posts.items[3]
       ]
       return posts
+    },
+    postsLoaded: function () {
+      return this.posts.items
     }
   },
   filters: {

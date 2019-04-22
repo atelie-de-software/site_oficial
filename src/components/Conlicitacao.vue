@@ -1,6 +1,11 @@
 <template>
   <div class="container">
     <div class="row">
+      <div class="col-md-12 logo">
+        <g-image src="@/assets/images/conlicitacao.png" alt/>
+      </div>
+    </div>
+    <div class="row">
       <div class="col-md-4">
         <p>O ConLicitação é uma empresa que possui o maior banco de dados de avisos de licitações, leilões, editais e resultados de processos de compras governamentais do país.</p>
         <p>Em 2008, iniciamos o projeto de reestruturação e reimplementação dos seus sistemas internos e a criação de novos softwares.</p>
@@ -17,8 +22,11 @@
 <style scoped>
 .container {
   text-align: center;
-  margin-top: 230px;
   margin-bottom: 180px;
+}
+.logo {
+  margin-top: 120px;
+  margin-bottom: 40px;
 }
 </style>
 
