@@ -13,8 +13,11 @@
           <div class="col-md-3">
             <g-image src="/logo_atelie_footer.png" alt="Logo ateliê de software" />
           </div>
-          <div class="col-md-6 vertical">
+          <div class="col-md-6">
             <span tabindex="0">Todos os direitos reservados Ateliê de Software {{year}}©</span>
+          </div>
+          <div class="col-md-3 vertical">
+            <SocialLinks />
           </div>
         </div>
       </div>
@@ -72,8 +75,12 @@ footer {
 </style>
 
 <script>
+import SocialLinks from '@/components/SocialIcons'
 export default {
   name: 'siteFooter',
+  components: {
+    SocialLinks
+  },
   computed: {
     year: function() {
       return new Date().getFullYear()
