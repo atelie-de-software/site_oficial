@@ -25,7 +25,7 @@
 <style scoped lang="scss">
 .container {
   margin-top: 150px;
-  margin: 125px;
+  margin-bottom: 125px;
 }
 .text-center {
   text-align: center;

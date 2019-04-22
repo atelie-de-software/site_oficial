@@ -2,10 +2,11 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <g-image src="~/assets/images/educadora-print.png" alt />
+        <g-image src="~/assets/images/educadora-print.png" class="show-desktop" alt />
       </div>
       <div class="col-md-6 center">
         <g-image src="~/assets/images/educadora-logo.png" alt />
+        <g-image src="~/assets/images/educadora-print.png" class="show-mobile" alt />
         <p>
           A Educadora FM (
           <a href="www.educadorafm.com.br">www.educadorafm.com.br</a>) é a rádio do Grupo Bandeirantes de Televisão líder de audiência em Campinas e região. Em 2013 começamos o projeto de criação de um novo gerenciador de conteúdo e do site da rádio, que no seu lançamento bateu a marca de 1 milhão de acessos.

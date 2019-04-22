@@ -1,18 +1,22 @@
 <template>
-  <div class="notebook" :style="style">
+  <div class="tablet" :style="style">
     <g-image src="@/assets/images/tablet.png" alt />
   </div>
 </template>
 
 <style lang="scss" scoped>
-.notebook {
+.tablet {
+    box-shadow: -52px 47px 80px 0px rgba(0, 0, 0, 0.15);
+    display: block;
     border-radius: 60px;
-    background-size: 99% auto;
+    background-size: 97% 97%;
     background-repeat: no-repeat;
     background-position: center center;
+    margin-bottom: -10px;
   img {
     position: relative;
     z-index: 10;
+    display: block;
   }
 }
 .background {

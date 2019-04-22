@@ -2,10 +2,10 @@
   <div class="container">
     <div class="row">
       <div class="col-md-4">
-        <g-image src="~/assets/images/granatum-logo.png" alt />
+        <g-image src="~/assets/images/granatum-logo.png" class="logo" alt />
       </div>
       <div class="col-md-4">
-        <Mobile :background="granatumPrint" />
+        <Mobile :background="granatumPrint"  class="logo"/>
       </div>
       <div class="col-md-4">
         <p>
@@ -31,6 +31,9 @@
     padding-top: 40px;
     padding-bottom: 40px;
   }
+}
+.logo {
+  margin: 40px 0
 }
 </style>
 

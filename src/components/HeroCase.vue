@@ -20,6 +20,10 @@
   min-height: 50vh;
   display: flex;
   align-items: center;
+  @media screen and (max-width: 786px) {
+    min-height: auto;
+    margin: 40px 0;
+  }
 }
 .row > div {
   display: flex;

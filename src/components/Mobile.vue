@@ -6,13 +6,15 @@
 
 <style lang="scss" scoped>
 .mobile {
-    border-radius: 20%;
+    box-shadow: -52px 47px 80px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 60px;
     background-size: auto 95%;
     background-repeat: no-repeat;
     background-position: center center;
   img {
     position: relative;
     z-index: 10;
+    display: block;
   }
 }
 .background {
