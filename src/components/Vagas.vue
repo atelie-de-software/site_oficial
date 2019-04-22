@@ -5,13 +5,14 @@
         <g-image src="~/assets/images/vagas-logo.png" class="logo" alt />
         <div>
           <p>A VAGAS.com é líder no mercado de e-recruitment no Brasil e oferece soluções para facilitar a conexão dos melhores talentos às empresas.</p>
-          <g-image src="~/assets/images/vagas-iphone.png" class="show-mobile" alt />
+          <Mobile :background="granatumPrint" class="show-mobile"/>
+
           <p>A parceria Vagas - Ateliê de Software é responsável por criar novas soluções e otimizar processos já existentes, prezando pela eficiência, praticidade e pela experiência do usuário.</p>
         </div>
         <a href="#" class="btn">conheça o projeto</a>
       </div>
       <div class="col-md-6">
-        <g-image src="~/assets/images/vagas-iphone.png" class="show-desktop" alt />
+        <Mobile :background="granatumPrint" class="show-desktop"/>
       </div>
     </div>
   </div>
@@ -35,3 +36,20 @@
   }
 }
 </style>
+
+
+<script>
+import Mobile from '@/components/Mobile'
+import Print from '@/assets/images/vagas-print.jpg'
+export default {
+  name: 'VagasCase',
+  components: {
+    Mobile
+  },
+  computed: {
+    granatumPrint () {
+      return Print
+    }
+  }
+}
+</script>

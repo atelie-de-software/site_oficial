@@ -5,7 +5,7 @@
         <g-image src="~/assets/images/granatum-logo.png" alt />
       </div>
       <div class="col-md-4">
-        <g-image src="~/assets/images/granatum-iphone.png" alt />
+        <Mobile :background="granatumPrint" />
       </div>
       <div class="col-md-4">
         <p>
@@ -34,3 +34,19 @@
   }
 }
 </style>
+
+<script>
+import Mobile from '@/components/Mobile'
+import Print from '@/assets/images/granatum-print.jpg'
+export default {
+  name: 'GranatumCase',
+  components: {
+    Mobile
+  },
+  computed: {
+    granatumPrint () {
+      return Print
+    }
+  }
+}
+</script>
