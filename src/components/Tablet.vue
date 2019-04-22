@@ -1,0 +1,45 @@
+<template>
+  <div class="notebook" :style="style">
+    <g-image src="@/assets/images/tablet.png" alt />
+  </div>
+</template>
+
+<style lang="scss" scoped>
+.notebook {
+    border-radius: 60px;
+    background-size: 99% auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+  img {
+    position: relative;
+    z-index: 10;
+  }
+}
+.background {
+  position: absolute;
+  display: block;
+  width: 77%;
+  height: 82%;
+  top: 10px;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  margin: auto;
+  background-size: cover;
+  background-position: center center;
+}
+</style>
+
+<script>
+export default {
+  name: 'Tablet',
+  computed: {
+    style() {
+      return `background-image: url(${this.background})`
+    }
+  },
+  props: {
+    background: String
+  }
+}
+</script>
