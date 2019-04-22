@@ -27,6 +27,12 @@ import FooterSection from '@/components/Footer'
 
 export default {
   name: 'Home',
+  metaInfo: {
+    title: 'Home',
+    meta: [
+      { name: 'og:title', content: 'Home - Ateliê de Software' },
+    ],
+  },
   components: {
     Default,
     Hero,

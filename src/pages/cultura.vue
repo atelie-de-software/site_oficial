@@ -15,7 +15,13 @@ import FooterSection from '@/components/Footer'
 import Default from '~/layouts/Default.vue'
 
 export default {
-  name: 'Home',
+  name: 'Cultura',
+  metaInfo: {
+    title: 'Cultura',
+    meta: [
+      { name: 'og:title', content: 'Cultura - Ateliê de Software' },
+    ],
+  },
   components: {
     Default,
     HeroCulture,

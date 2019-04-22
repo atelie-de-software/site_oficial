@@ -13,14 +13,16 @@ import Header from '../components/Header.vue'
 export default {
   name: 'default',
   metaInfo: {
-    title: 'Home',
     htmlAttrs: {
       lang: 'pt-BR'
     },
+    description: 'Nós criamos soluções digitais',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Nós criamos soluções digitais' }
+      { name: 'og:description', content: 'Nós criamos soluções digitais' },
+      // { name: 'og:image', content: '' },
+      { name: 'og:url', content: 'http://atelie.software' },
     ],
   },
   components: {
@@ -28,7 +30,6 @@ export default {
   }
 }
 </script>
-
 
 <style>
 html {

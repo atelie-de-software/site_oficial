@@ -27,7 +27,13 @@ import Synergia from '@/components/Synergia'
 import Default from '~/layouts/Default.vue'
 
 export default {
-  name: 'Home',
+  name: 'Cases',
+  metaInfo: {
+    title: 'Cases',
+    meta: [
+      { name: 'og:title', content: 'Cases - Ateliê de Software' },
+    ],
+  },
   components: {
     Default,
     HeroCase,
