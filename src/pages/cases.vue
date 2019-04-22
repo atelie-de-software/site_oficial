@@ -2,13 +2,13 @@
   <Default>
     <section class="home">
       <HeroCase/>
-      <Educadora/>
       <Conlicitacao/>
       <Granatum/>
-      <Lumiar/>
       <Dsop/>
+      <Lumiar/>
       <Vagas/>
       <Synergia/>
+      <Educadora/>
       <FooterSection/>
     </section>
   </Default>

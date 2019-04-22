@@ -14,7 +14,6 @@
         </p>
 
         <p>Hoje o Granatum é utilizado em todo o Brasil, possui mais de 1.200 clientes ativos, controla milhares de registros financeiros de diversas empresas, transações de pagamento e emissão de notas fiscais eletrônicas.</p>
-        <a href="#" class="btn">conheça o projeto</a>
       </div>
     </div>
   </div>

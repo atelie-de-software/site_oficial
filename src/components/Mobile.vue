@@ -1,13 +1,13 @@
 <template>
-  <div class="notebook" :style="style">
+  <div class="mobile" :style="style">
     <g-image src="@/assets/images/mobile.png" alt />
   </div>
 </template>
 
 <style lang="scss" scoped>
-.notebook {
+.mobile {
     border-radius: 20%;
-    background-size: 90% auto;
+    background-size: auto 95%;
     background-repeat: no-repeat;
     background-position: center center;
   img {

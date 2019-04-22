@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-md-6 center">
         <g-image src="~/assets/images/synergia-logo.png" alt="Synergia Logo" class="show-mobile logo" />
-        <g-image src="~/assets/images/synergia-laptop.png" aria-hidden="true" />
+        <Notebook :background="SynergiaPrint" />
       </div>
       <div class="col-md-6 center">
         <g-image src="~/assets/images/synergia-logo.png" alt="Synergia Logo" class="show-desktop" />
@@ -12,7 +12,6 @@
 
           <p>O time da Synergia do Ateliê de Software é responsável por sistematizar todas as etapas da pesquisa e criar inteligência para que elas possam trazer bons resultados.</p>
         </div>
-        <a href="#" class="btn">conheça o projeto</a>
       </div>
     </div>
   </div>
@@ -37,3 +36,20 @@
 }
 </style>
 
+
+<script>
+import Notebook from '@/components/Notebook'
+import Print from '@/assets/images/synergia-print.jpg'
+
+export default {
+  name: 'SynergiaCase',
+  components: {
+    Notebook
+  },
+  computed: {
+    SynergiaPrint() {
+      return Print
+    }
+  }
+}
+</script>

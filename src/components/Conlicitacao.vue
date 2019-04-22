@@ -7,7 +7,6 @@
         <p>Em 2008, iniciamos o projeto de reestruturação e reimplementação dos seus sistemas internos e a criação de novos softwares.</p>
 
         <p>Depois de 10 anos, uma equipe dedicada do Ateliê de Software faz melhorias constantes e incrementais nos sistemas, além de colaborar na criação de novos produtos e negócios, ajudando o ConLicitação a triplicar sua base de clientes.</p>
-        <a href="#" class="btn">conheça o projeto</a>
       </div>
       <div class="col-md-8">
         <Tablet :background="print" class="show-desktop"/>

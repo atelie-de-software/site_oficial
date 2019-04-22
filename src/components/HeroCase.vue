@@ -17,8 +17,9 @@
 
 <style lang="scss" scoped>
 .hero {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
 }
 .row > div {
   display: flex;
