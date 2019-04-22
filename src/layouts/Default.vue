@@ -1,8 +1,11 @@
 <template>
-  <transition name="page" appear>
+  <transition
+    name="page"
+    appear
+  >
     <main>
-      <Header/>
-      <slot/>
+      <Header />
+      <slot />
     </main>
   </transition>
 </template>
@@ -11,7 +14,7 @@
 import Header from '../components/Header.vue'
 
 export default {
-  name: 'default',
+  name: 'Default',
   metaInfo: {
     htmlAttrs: {
       lang: 'pt-BR'
@@ -21,8 +24,8 @@ export default {
       { name: 'description', content: 'Nós criamos soluções digitais' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { name: 'og:description', content: 'Nós criamos soluções digitais' },
-      { name: 'og:url', content: 'http://atelie.software' },
-    ],
+      { name: 'og:url', content: 'http://atelie.software' }
+    ]
   },
   components: {
     Header

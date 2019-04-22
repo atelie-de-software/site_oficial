@@ -1,9 +1,9 @@
 <template>
   <Default>
     <section class="home">
-      <HeroCulture/>
-      <OurValues/>
-      <FooterSection/>
+      <HeroCulture />
+      <OurValues />
+      <FooterSection />
     </section>
   </Default>
 </template>
@@ -19,8 +19,8 @@ export default {
   metaInfo: {
     title: 'Cultura',
     meta: [
-      { name: 'og:title', content: 'Cultura - Ateliê de Software' },
-    ],
+      { name: 'og:title', content: 'Cultura - Ateliê de Software' }
+    ]
   },
   components: {
     Default,

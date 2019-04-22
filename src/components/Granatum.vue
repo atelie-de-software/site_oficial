@@ -2,10 +2,17 @@
   <div class="container">
     <div class="row">
       <div class="col-md-4">
-        <g-image src="~/assets/images/granatum-logo.png" class="logo" alt />
+        <g-image
+          src="~/assets/images/granatum-logo.png"
+          class="logo"
+          alt
+        />
       </div>
       <div class="col-md-4">
-        <Mobile :background="granatumPrint"  class="logo"/>
+        <Mobile
+          :background="granatumPrint"
+          class="logo"
+        />
       </div>
       <div class="col-md-4">
         <p>

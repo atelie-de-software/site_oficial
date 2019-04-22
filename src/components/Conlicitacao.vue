@@ -2,7 +2,10 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12 logo">
-        <g-image src="@/assets/images/conlicitacao.png" alt/>
+        <g-image
+          src="@/assets/images/conlicitacao.png"
+          alt
+        />
       </div>
     </div>
     <div class="row">
@@ -13,7 +16,10 @@
         <p>Depois de 10 anos, uma equipe dedicada do Ateliê de Software faz melhorias constantes e incrementais nos sistemas, além de colaborar na criação de novos produtos e negócios, ajudando o ConLicitação a triplicar sua base de clientes.</p>
       </div>
       <div class="col-md-8">
-        <Tablet :background="print" class="show-desktop"/>
+        <Tablet
+          :background="print"
+          class="show-desktop"
+        />
       </div>
     </div>
   </div>
@@ -30,7 +36,6 @@
 }
 </style>
 
-
 <script>
 import Tablet from '@/components/Tablet'
 import ConlicitaPrint from '@/assets/images/conlicitacao-print.jpg'
@@ -41,7 +46,7 @@ export default {
     Tablet
   },
   computed: {
-    print() {
+    print () {
       return ConlicitaPrint
     }
   }

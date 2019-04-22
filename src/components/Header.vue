@@ -3,11 +3,11 @@
     <div class="row header-nav">
       <div class="col-lg-4 col-md-3 col-6">
         <g-link to="/">
-          <Logo/>
+          <Logo />
         </g-link>
       </div>
       <div class="col-md-8 col-6 nav">
-        <Navbar/>
+        <Navbar />
       </div>
     </div>
   </header>

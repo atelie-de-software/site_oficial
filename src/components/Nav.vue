@@ -1,17 +1,36 @@
 <template>
   <div class="nav-container">
-    <button class="menu" @click="toggleMenu">
-      <span></span>
-      <span></span>
-      <span></span>
+    <button
+      class="menu"
+      @click="toggleMenu"
+    >
+      <span />
+      <span />
+      <span />
     </button>
-    <nav :class="menuClass" @click="closeMenu">
-      <g-link to="/cultura" href="/#cultura">Cultura</g-link>
-      <g-link to="/cases">Cases</g-link>
+    <nav
+      :class="menuClass"
+      @click="closeMenu"
+    >
+      <g-link
+        to="/cultura"
+        href="/#cultura"
+      >
+        Cultura
+      </g-link>
+      <g-link to="/cases">
+        Cases
+      </g-link>
       <ClientOnly>
-        <g-link :to="{ path: '/', hash: '#mundo'}">No Mundo</g-link>
-        <g-link :to="{ path: '/', hash: '#share'}">share!</g-link>
-        <g-link :to="{ path: '/', hash: '#contato'}">Fale Conosco</g-link>
+        <g-link :to="{ path: '/', hash: '#mundo'}">
+          No Mundo
+        </g-link>
+        <g-link :to="{ path: '/', hash: '#share'}">
+          share!
+        </g-link>
+        <g-link :to="{ path: '/', hash: '#contato'}">
+          Fale Conosco
+        </g-link>
       </ClientOnly>
     </nav>
   </div>
@@ -105,37 +124,37 @@ nav {
 
 <script>
 export default {
-  name: 'navbar',
-  data() {
+  name: 'Navbar',
+  data () {
     return {
       menuOpened: false
     }
   },
   computed: {
-    menuClass: function() {
+    menuClass: function () {
       return this.menuOpened ? 'open' : ''
     }
   },
+  mounted () {
+    if (this.$route.hash) {
+      console.log('narf')
+      this.scrollToHash()
+    }
+  },
   methods: {
-    toggleMenu: function() {
+    toggleMenu: function () {
       this.menuOpened = !this.menuOpened
     },
-    closeMenu: function() {
+    closeMenu: function () {
       this.menuOpened = false
     },
-    scrollToHash() {
+    scrollToHash () {
       const toHash = this.$route.hash
       this.$nextTick(() => {
         setTimeout(() => {
           this.$scrollTo(toHash, 0, { offset: 0 })
-        }, 500);
+        }, 500)
       })
-    }
-  },
-  mounted() {
-    if (this.$route.hash) {
-      console.log('narf')
-      this.scrollToHash()
     }
   }
 }

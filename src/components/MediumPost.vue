@@ -1,9 +1,17 @@
 <template>
   <div>
-    <span><time tabindex="0" :datetime="date">{{datetime}}</time> - <strong>{{author}}</strong></span>
-    <h6 tabindex="0">{{title}}</h6>
+    <span><time
+      tabindex="0"
+      :datetime="date"
+    >{{ datetime }}</time> - <strong>{{ author }}</strong></span>
+    <h6 tabindex="0">
+      {{ title }}
+    </h6>
     <div class="read-more">
-      <a :href="link" target="_blank" >Leia mais</a>
+      <a
+        :href="link"
+        target="_blank"
+      >Leia mais</a>
     </div>
   </div>
 </template>
@@ -42,15 +50,15 @@
 export default {
   name: 'MediumPosts',
   props: {
-    date: String,
-    author: String,
-    title: String,
-    link: String
+    date: { type: String, default: '' },
+    author: { type: String, default: '' },
+    title: { type: String, default: '' },
+    link: { type: String, default: '' }
   },
   computed: {
-    datetime: function  () {
+    datetime: function () {
       if (!this.date) return ''
-      return `${this.date.slice(8,10)}/${this.date.slice(5,7)}`
+      return `${this.date.slice(8, 10)}/${this.date.slice(5, 7)}`
     }
   }
 }

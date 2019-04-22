@@ -1,15 +1,27 @@
 <template>
-  <div class="culture container" id="cultura">
+  <div
+    id="cultura"
+    class="culture container"
+  >
     <div class="row">
       <div class="col-md-6 content">
-        <h3 tabindex="0">Nossa Cultura</h3>
+        <h3 tabindex="0">
+          Nossa Cultura
+        </h3>
         <div class="blockquote">
-          <p tabindex="0">Somos uma empresa com estilo de Gestão Horizontal. Cultura é o resultado de tudo que fazemos aqui dentro. Valorizamos a autonomia e a colaboração entre as pessoas e gostamos de compartilhar conhecimentos com todos os integrantes do nosso time e também da comunidade ao nosso redor.</p>
+          <p tabindex="0">
+            Somos uma empresa com estilo de Gestão Horizontal. Cultura é o resultado de tudo que fazemos aqui dentro. Valorizamos a autonomia e a colaboração entre as pessoas e gostamos de compartilhar conhecimentos com todos os integrantes do nosso time e também da comunidade ao nosso redor.
+          </p>
         </div>
-        <g-link to="/cultura" class="btn">saiba mais</g-link>        
+        <g-link
+          to="/cultura"
+          class="btn"
+        >
+          saiba mais
+        </g-link>
       </div>
       <div class="col-md-6">
-        <Person/>
+        <Person />
       </div>
     </div>
   </div>

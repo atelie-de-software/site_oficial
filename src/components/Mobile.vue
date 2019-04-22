@@ -1,6 +1,12 @@
 <template>
-  <div class="mobile" :style="style">
-    <g-image src="@/assets/images/mobile.png" alt />
+  <div
+    class="mobile"
+    :style="style"
+  >
+    <g-image
+      src="@/assets/images/mobile.png"
+      alt
+    />
   </div>
 </template>
 
@@ -35,13 +41,13 @@
 <script>
 export default {
   name: 'Tablet',
+  props: {
+    background: { type: String, default: '' }
+  },
   computed: {
-    style() {
+    style () {
       return `background-image: url(${this.background})`
     }
-  },
-  props: {
-    background: String
   }
 }
 </script>

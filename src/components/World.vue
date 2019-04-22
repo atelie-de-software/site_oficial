@@ -1,13 +1,29 @@
 <template>
-  <div class="container world" id="mundo">
+  <div
+    id="mundo"
+    class="container world"
+  >
     <div class="row">
-      <g-image src="~/assets/images/line-logo.png" alt aria-hidden="true" class="line-logo" />
+      <g-image
+        src="~/assets/images/line-logo.png"
+        alt
+        aria-hidden="true"
+        class="line-logo"
+      />
       <div class="col-md-7">
-        <h3 tabindex="0">O Ateliê pelo mundo</h3>
-        <p tabindex="0">Nossos serviços diferenciados também são oferecidos em Portugal através da parceira com a SCOPPHU, empresa que complementa nossa proposta de valor oferecendo serviços de formação e consultoria em gestão de projetos e agile para o mercado europeu.</p>
+        <h3 tabindex="0">
+          O Ateliê pelo mundo
+        </h3>
+        <p tabindex="0">
+          Nossos serviços diferenciados também são oferecidos em Portugal através da parceira com a SCOPPHU, empresa que complementa nossa proposta de valor oferecendo serviços de formação e consultoria em gestão de projetos e agile para o mercado europeu.
+        </p>
       </div>
       <div class="col-md-5">
-        <g-image tabindex="0" src="/scopphu.png" alt="scopphu: the agile transition company" />
+        <g-image
+          tabindex="0"
+          src="/scopphu.png"
+          alt="scopphu: the agile transition company"
+        />
       </div>
     </div>
   </div>

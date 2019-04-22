@@ -1,15 +1,15 @@
 <template>
   <Default>
     <section class="home">
-      <HeroCase/>
-      <Conlicitacao/>
-      <Granatum/>
-      <Dsop/>
-      <Lumiar/>
-      <Vagas/>
-      <Synergia/>
-      <Educadora/>
-      <FooterSection/>
+      <HeroCase />
+      <Conlicitacao />
+      <Granatum />
+      <Dsop />
+      <Lumiar />
+      <Vagas />
+      <Synergia />
+      <Educadora />
+      <FooterSection />
     </section>
   </Default>
 </template>
@@ -31,8 +31,8 @@ export default {
   metaInfo: {
     title: 'Cases',
     meta: [
-      { name: 'og:title', content: 'Cases - Ateliê de Software' },
-    ],
+      { name: 'og:title', content: 'Cases - Ateliê de Software' }
+    ]
   },
   components: {
     Default,

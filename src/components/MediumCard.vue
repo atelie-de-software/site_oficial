@@ -1,23 +1,48 @@
 <template>
-  <div class="card" aria-label="Blog">
-    <g-image tabindex="0" class="featured-image" :src="thumb" alt />
+  <div
+    class="card"
+    aria-label="Blog"
+  >
+    <g-image
+      tabindex="0"
+      class="featured-image"
+      :src="thumb"
+      alt
+    />
     <div class="infos">
       <div class="date">
-        <time tabindex="0" :datetime="date">{{datetime}}</time>
+        <time
+          tabindex="0"
+          :datetime="date"
+        >{{ datetime }}</time>
       </div>
       <div class="photo author">
-        <g-image tabindex="-1" src="//placehold.it/135x135" alt />
+        <g-image
+          tabindex="-1"
+          src="//placehold.it/135x135"
+          alt
+        />
       </div>
       <div class="name">
-        <h6 tabindex="0">{{author}}</h6>
+        <h6 tabindex="0">
+          {{ author }}
+        </h6>
       </div>
     </div>
     <div class="content">
-      <h6 tabindex="0">{{title}}</h6>
-      <p tabindex="0">{{description}}</p>
+      <h6 tabindex="0">
+        {{ title }}
+      </h6>
+      <p tabindex="0">
+        {{ description }}
+      </p>
     </div>
     <div class="read-more">
-      <a :href="link" target="_blank" class="btn">Leia mais</a>
+      <a
+        :href="link"
+        target="_blank"
+        class="btn"
+      >Leia mais</a>
     </div>
   </div>
 </template>
@@ -107,19 +132,19 @@
 export default {
   name: 'MediumCard',
   props: {
-    title: String,
-    date: String,
-    author: String,
-    content: String,
-    thumb: String,
-    link: String
+    title: { type: String, default: '' },
+    date: { type: String, default: '' },
+    author: { type: String, default: '' },
+    content: { type: String, default: '' },
+    thumb: { type: String, default: '' },
+    link: { type: String, default: '' }
   },
   computed: {
-    description: function() {
+    description: function () {
       if (!this.content) return ''
       return `${this.content.slice(0, 130)} (...)`
     },
-    datetime: function() {
+    datetime: function () {
       if (!this.date) return ''
       return `${this.date.slice(8, 10)}/${this.date.slice(5, 7)}`
     }

@@ -2,12 +2,19 @@
   <div class="container hero">
     <div class="row">
       <div class="col-md-9">
-        <h1 tabindex="0">Software sob medida para o seu negócio.</h1>
-        <p tabindex="0">O nosso propósito é desenvolver software com alta qualidade e rápido retorno para os nossos clientes.</p>
+        <h1 tabindex="0">
+          Software sob medida para o seu negócio.
+        </h1>
+        <p tabindex="0">
+          O nosso propósito é desenvolver software com alta qualidade e rápido retorno para os nossos clientes.
+        </p>
       </div>
 
       <div class="col-md-3 logo">
-        <g-image src="/logo_element.png" alt />
+        <g-image
+          src="/logo_element.png"
+          alt
+        />
       </div>
     </div>
   </div>

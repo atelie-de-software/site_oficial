@@ -2,7 +2,8 @@
   <div class="container hero">
     <div class="row">
       <div class="col-md-6">
-        <h1>Conheça
+        <h1>
+          Conheça
           <br>os nossos
           <br>cases
         </h1>

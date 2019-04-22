@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "build": "gridsome build",
+    "lint": "vue-cli-service lint",
     "develop": "gridsome develop",
     "explore": "gridsome explore"
   },
@@ -14,5 +15,12 @@
     "vue-carousel": "^0.18.0",
     "vue-scrollto": "^2.15.0",
     "vuelidate": "^0.7.4"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-eslint": "^3.6.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0"
   }
 }

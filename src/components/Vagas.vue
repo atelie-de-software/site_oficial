@@ -2,8 +2,15 @@
   <div class="container">
     <div class="row">
       <div class="col-md-7 content">
-        <g-image src="~/assets/images/vagas-logo.png" class="logo" alt />
-        <Mobile :background="granatumPrint" class="mobile-frame show-mobile"/>
+        <g-image
+          src="~/assets/images/vagas-logo.png"
+          class="logo"
+          alt
+        />
+        <Mobile
+          :background="granatumPrint"
+          class="mobile-frame show-mobile"
+        />
         <div>
           <p>A VAGAS.com é líder no mercado de e-recruitment no Brasil e oferece soluções para facilitar a conexão dos melhores talentos às empresas.</p>
 
@@ -11,7 +18,10 @@
         </div>
       </div>
       <div class="col-md-5 align-mobile-frame">
-        <Mobile :background="granatumPrint" class="mobile-frame show-desktop"/>
+        <Mobile
+          :background="granatumPrint"
+          class="mobile-frame show-desktop"
+        />
       </div>
     </div>
   </div>
@@ -46,7 +56,6 @@
   margin: 40px 0;
 }
 </style>
-
 
 <script>
 import Mobile from '@/components/Mobile'

@@ -1,9 +1,12 @@
 <template>
-  <div class="contact" id="contato">
+  <div
+    id="contato"
+    class="contact"
+  >
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <Form/>
+          <Form />
         </div>
       </div>
     </div>

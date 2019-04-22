@@ -2,12 +2,19 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center">
-        <g-image src="~/assets/images/dsop-logo.png" alt />
+        <g-image
+          src="~/assets/images/dsop-logo.png"
+          alt
+        />
       </div>
     </div>
     <div class="row">
       <div class="col-md-12 text-center">
-        <g-image src="~/assets/images/dsop-print.png" alt aria-hidden="true" />
+        <g-image
+          src="~/assets/images/dsop-print.png"
+          alt
+          aria-hidden="true"
+        />
       </div>
     </div>
     <div class="row">

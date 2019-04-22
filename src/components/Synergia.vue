@@ -2,11 +2,19 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6 center">
-        <g-image src="~/assets/images/synergia-logo.png" alt="Synergia Logo" class="show-mobile logo" />
+        <g-image
+          src="~/assets/images/synergia-logo.png"
+          alt="Synergia Logo"
+          class="show-mobile logo"
+        />
         <Notebook :background="SynergiaPrint" />
       </div>
       <div class="col-md-6 center">
-        <g-image src="~/assets/images/synergia-logo.png" alt="Synergia Logo" class="show-desktop" />
+        <g-image
+          src="~/assets/images/synergia-logo.png"
+          alt="Synergia Logo"
+          class="show-desktop"
+        />
         <div class="content">
           <p>A Synergia, através de suas pesquisas socioambientais, muda a vida de milhares de pessoas e trás uma melhora na qualidade de vida e nos impactos ambientais que nos rodeiam, gerando relatórios e informações que embasam projetos e estudos na área.</p>
 
@@ -36,7 +44,6 @@
 }
 </style>
 
-
 <script>
 import Notebook from '@/components/Notebook'
 import Print from '@/assets/images/synergia-print.jpg'
@@ -47,7 +54,7 @@ export default {
     Notebook
   },
   computed: {
-    SynergiaPrint() {
+    SynergiaPrint () {
       return Print
     }
   }

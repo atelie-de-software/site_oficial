@@ -33,12 +33,11 @@
     </div>
     <div class="row">
       <div class="col-md-12 center">
-        <Person/>
+        <Person />
       </div>
     </div>
   </div>
 </template>
-
 
 <style lang="scss" scoped>
 h1 {

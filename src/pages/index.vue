@@ -1,15 +1,15 @@
 <template>
   <Default>
     <section class="home">
-      <Hero/>
-      <Culture/>
-      <Methods/>
-      <Cases/>
-      <World/>
-      <Share/>
-      <Contact/>
-      <Form/>
-      <FooterSection/>
+      <Hero />
+      <Culture />
+      <Methods />
+      <Cases />
+      <World />
+      <Share />
+      <Contact />
+      <Form />
+      <FooterSection />
     </section>
   </Default>
 </template>
@@ -30,7 +30,7 @@ export default {
   metaInfo: {
     title: 'Home',
     meta: [
-      { name: 'og:title', content: 'Home - Ateliê de Software' },
+      { name: 'og:title', content: 'Home - Ateliê de Software' }
     ]
   },
   components: {

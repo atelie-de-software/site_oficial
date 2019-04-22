@@ -1,6 +1,12 @@
 <template>
-  <div class="notebook" :style="style">
-    <g-image src="/notebook.png" alt />
+  <div
+    class="notebook"
+    :style="style"
+  >
+    <g-image
+      src="/notebook.png"
+      alt
+    />
   </div>
 </template>
 
@@ -32,13 +38,13 @@
 <script>
 export default {
   name: 'Notebook',
+  props: {
+    background: { type: String, default: '' }
+  },
   computed: {
-    style() {
+    style () {
       return `background-image: url(${this.background})`
     }
-  },
-  props: {
-    background: String
   }
 }
 </script>

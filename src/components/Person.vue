@@ -3,9 +3,9 @@
     <g-image
       v-for="(person, index) in persons"
       v-show="selectedPerson === index"
+      :key="index"
       :src="person"
       aria-hidden="true"
-      :key="index"
     />
   </span>
 </template>
@@ -13,13 +13,13 @@
 <script>
 export default {
   name: 'Person',
-  data() {
+  data () {
     return {
       persons: ['/person1.png', '/person2.png', '/person3.png'],
       selectedPerson: undefined
     }
   },
-  created() {
+  created () {
     this.selectedPerson = Math.floor(Math.random() * 3)
   }
 }

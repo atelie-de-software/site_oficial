@@ -12,41 +12,87 @@
         data-netlify="true"
         action="https://formspree.io/daniel.oshiro@webgoal.com.br"
       >
-        <div class="form-content" v-show="stepOne">
-          <label class="sr-only" for="nome">nome:</label>
-          <input required type="text" name="Nome" v-model="nome" placeholder="nome">
-          <label class="sr-only" for="email">email:</label>
-          <input required type="email" name="Email" v-model="email" placeholder="email">
-          <label class="sr-only" for="empresa">empresa:</label>
-          <input required type="text" name="Empresa" v-model="empresa" placeholder="empresa">
+        <div
+          v-show="stepOne"
+          class="form-content"
+        >
+          <label
+            class="sr-only"
+            for="nome"
+          >nome:</label>
+          <input
+            v-model="nome"
+            required
+            type="text"
+            name="Nome"
+            placeholder="nome"
+          >
+          <label
+            class="sr-only"
+            for="email"
+          >email:</label>
+          <input
+            v-model="email"
+            required
+            type="email"
+            name="Email"
+            placeholder="email"
+          >
+          <label
+            class="sr-only"
+            for="empresa"
+          >empresa:</label>
+          <input
+            v-model="empresa"
+            required
+            type="text"
+            name="Empresa"
+            placeholder="empresa"
+          >
           <textarea
-            name="Descrição"
             id
+            v-model="descricao"
+            name="Descrição"
             cols="10"
             rows="4"
             placeholder="fale sobre seu projeto"
-            v-model="descricao"
-          ></textarea>
-          <button type="button" class="btn" @click="nextStep">Próximo</button>
+          />
+          <button
+            type="button"
+            class="btn"
+            @click="nextStep"
+          >
+            Próximo
+          </button>
         </div>
 
-        <div class="form-content" v-show="!stepOne">
+        <div
+          v-show="!stepOne"
+          class="form-content"
+        >
           <p tabindex="0">
-            <strong>{{nome}}</strong>, agora nos fale um pouco sobre o seu projeto.
+            <strong>{{ nome }}</strong>, agora nos fale um pouco sobre o seu projeto.
           </p>
           <p>
             <strong tabindex="0">Valor estimado em reais:</strong>
           </p>
           <div class="row">
-            <div class="col-md-4 item" v-for="(price, index) in prices" :key="index">
+            <div
+              v-for="(price, index) in prices"
+              :key="index"
+              class="col-md-4 item"
+            >
               <input
+                :id="price"
+                v-model="projectPrice"
                 name="Valor Estimado"
                 type="radio"
-                :id="price"
                 :value="price"
-                v-model="projectPrice"
               >
-              <label :for="price" tabindex="0">{{price}}</label>
+              <label
+                :for="price"
+                tabindex="0"
+              >{{ price }}</label>
             </div>
           </div>
           <div class="row divider">
@@ -60,7 +106,12 @@
               <hr>
             </div>
           </div>
-          <input type="submit" value="Enviar" class="btn" :disabled="!projectPrice">
+          <input
+            type="submit"
+            value="Enviar"
+            class="btn"
+            :disabled="!projectPrice"
+          >
         </div>
       </form>
     </div>
@@ -154,8 +205,8 @@ h1 {
 import { required, email } from 'vuelidate/lib/validators'
 
 export default {
-  name: 'formContato',
-  data() {
+  name: 'FormContato',
+  data () {
     return {
       prices: [
         '150 mil',
@@ -186,7 +237,7 @@ export default {
     }
   },
   methods: {
-    nextStep() {
+    nextStep () {
       this.$v.$touch()
       if (!this.$v.$invalid) {
         this.stepOne = false
