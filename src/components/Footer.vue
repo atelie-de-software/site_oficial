@@ -29,7 +29,8 @@
 .address {
   text-align: center;
   address {
-    line-height: 50px
+    line-height: 50px;
+    font-style: normal;
   }
 }
 footer {
