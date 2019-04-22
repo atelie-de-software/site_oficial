@@ -8,7 +8,7 @@
         </h1>
       </div>
 
-      <div class="col-md-4 offset-md-1 logo">
+      <div class="col-md-4 offset-md-1">
         <p>Abaixo você encontrará alguns dos trabalhos realizados pelo Ateliê. Se quiser saber mais ou falar do seu projeto é só entrar em contao.</p>
       </div>
     </div>
@@ -20,14 +20,9 @@
   padding-top: 50px;
   padding-bottom: 50px;
 }
-.logo {
+.row > div {
   display: flex;
-  justify-content: center;
-  align-items: baseline;
-  padding-top: 45px;
-  @media screen and (max-width: 640px) {
-    padding-top: 10px;
-  }
+  align-items: center;
 }
 h1 {
   color: #444140;
@@ -36,7 +31,6 @@ h1 {
   line-height: 86.12px;
   text-transform: uppercase;
   letter-spacing: 2.1px;
-  margin-bottom: 67px;
   @media screen and (max-width: 640px) {
     font-size: 38px;
     margin-bottom: 20px;
@@ -45,8 +39,6 @@ h1 {
 }
 p {
   color: #444140;
-  margin-bottom: 41px;
-  width: 560px;
   line-height: 28px;
 }
 </style>

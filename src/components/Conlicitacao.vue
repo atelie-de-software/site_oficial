@@ -1,11 +1,6 @@
 <template>
   <div class="container">
     <div class="row">
-      <div class="col-md-12 center">
-        <g-image src="~/assets/images/conlicitacao.png" alt />
-      </div>
-    </div>
-    <div class="row">
       <div class="col-md-4">
         <p>O ConLicitação é uma empresa que possui o maior banco de dados de avisos de licitações, leilões, editais e resultados de processos de compras governamentais do país.</p>
         <Tablet :background="print" class="show-mobile"/>
@@ -22,10 +17,10 @@
 </template>
 
 <style scoped>
-.center {
+.container {
   text-align: center;
-  margin-top: 130px;
-  margin-bottom: 50px;
+  margin-top: 230px;
+  margin-bottom: 180px;
 }
 </style>
 
