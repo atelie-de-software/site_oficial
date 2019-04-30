@@ -7,7 +7,13 @@
     </div>
 
     <ClientOnly>
-      <Carousel :per-page="1">
+      <Carousel
+        :per-page="1"
+        :navigation-enabled="true"
+        :pagination-enabled="false"
+        navigation-next-label="›"
+        navigation-prev-label="‹"
+      >
         <Slide
           v-for="slide in slides"
           :key="slide.key"
@@ -151,14 +157,6 @@ p {
   a {
     margin-bottom: 50px;
   }
-}
-.swiper-button-prev {
-  background-image: none;
-  left: 5%;
-}
-.swiper-button-next {
-  background-image: none;
-  right: 5%;
 }
 .header-cases {
   @media screen and (min-width: 787px) {
