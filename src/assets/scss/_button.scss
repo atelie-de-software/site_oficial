@@ -7,7 +7,7 @@
   border: 0px;
   width: auto;
 
-  color: #ffffff;
+  color: #2e312f;
   font-size: 14px;
   font-weight: 700;
   line-height: 24.33px;
@@ -17,6 +17,6 @@
   -webkit-box-shadow: 0px 10px 40px -4px rgba(0, 249, 147, 0.5);
   box-shadow: 0px 10px 40px -4px rgba(0, 249, 147, 0.5);
   &:hover {
-    color: darken($color: #ffffff, $amount: 70%);
+    color: #fff;
   }
 }
