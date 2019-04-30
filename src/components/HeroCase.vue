@@ -10,7 +10,7 @@
       </div>
 
       <div class="col-md-4 offset-md-1">
-        <p>Abaixo você encontrará alguns dos trabalhos realizados pelo Ateliê. Se quiser saber mais ou falar do seu projeto é só entrar em contao.</p>
+        <p>Abaixo você encontrará alguns dos trabalhos realizados pelo Ateliê. Se quiser saber mais ou falar do seu projeto é só entrar em contato.</p>
       </div>
     </div>
   </div>
