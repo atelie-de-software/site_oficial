@@ -14,6 +14,7 @@
             <g-image
               src="/logo_atelie_footer.png"
               alt="Logo ateliê de software"
+              @click="scrolltop"
             />
           </div>
           <div class="col-md-6">
@@ -88,6 +89,11 @@ export default {
   computed: {
     year: function () {
       return new Date().getFullYear()
+    }
+  },
+  methods: {
+    scrolltop () {
+      window.scroll({top: 0, left: 0, behavior: 'smooth' });
     }
   }
 }
