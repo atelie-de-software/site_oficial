@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-md-12 logo">
         <g-image
-          src="@/assets/images/conlicitacao.png"
+          src="@/assets/images/conlicitacao-logo.png"
           alt
         />
       </div>
