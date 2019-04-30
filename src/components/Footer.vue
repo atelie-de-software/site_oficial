@@ -3,7 +3,7 @@
     <div class="container address">
       <div class="row">
         <div class="col-md-12">
-          <address>Av. João Pinheiro, 341 - Sala 3 - Centro, Poços de Caldas - MG, 37701-880</address>
+          <address>Av. João Pinheiro, 341 - Sala 3 - Centro, Poços de Caldas - MG, 37701-880 | (35) 3722-3776</address>
         </div>
       </div>
     </div>
