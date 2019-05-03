@@ -6,8 +6,7 @@
           {{ $t('hero.message') }}
         </h1>
         <p tabindex="0">
-          O nosso propósito é desenvolver software com alta qualidade e rápido
-          retorno para os nossos clientes.
+          {{ $t('hero.description') }}
         </p>
       </div>
 

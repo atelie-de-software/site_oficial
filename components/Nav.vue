@@ -131,7 +131,7 @@ export default {
   },
   mounted() {
     if (this.$route.hash) {
-      this.scrollToHash()
+      // this.scrollToHash()
     }
   },
   methods: {
@@ -140,14 +140,6 @@ export default {
     },
     closeMenu: function() {
       this.menuOpened = false
-    },
-    scrollToHash() {
-      const toHash = this.$route.hash
-      this.$nextTick(() => {
-        setTimeout(() => {
-          this.$scrollTo(toHash, 0, { offset: 0 })
-        }, 500)
-      })
     },
     changeLanguage(value) {
       const language = value.value ? 'en' : 'pt'
