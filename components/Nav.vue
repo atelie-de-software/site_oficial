@@ -6,21 +6,26 @@
       <span />
     </button>
     <nav :class="menuClass" @click="closeMenu">
-      <nuxt-link to="/cultura" href="/#cultura">
+      <nuxt-link :to="localePath('cultura')" href="/#cultura">
         Cultura
       </nuxt-link>
-      <nuxt-link to="/cases">
+      <nuxt-link :to="localePath('cases')">
         Cases
       </nuxt-link>
-      <nuxt-link :to="{ path: '/', hash: '#mundo' }">
+      <nuxt-link :to="{ path: localePath('index'), hash: '#mundo' }">
         No Mundo
       </nuxt-link>
-      <nuxt-link :to="{ path: '/', hash: '#share' }">
+      <nuxt-link :to="{ path: localePath('index'), hash: '#share' }">
         share!
       </nuxt-link>
-      <nuxt-link :to="{ path: '/', hash: '#contato' }">
+      <nuxt-link :to="{ path: localePath('index'), hash: '#contato' }">
         Fale Conosco
       </nuxt-link>
+      <toggle-button
+        :value="false"
+        :labels="{ checked: 'en', unchecked: 'pt' }"
+        @change="changeLanguage"
+      />
     </nav>
   </div>
 </template>
@@ -143,6 +148,10 @@ export default {
           this.$scrollTo(toHash, 0, { offset: 0 })
         }, 500)
       })
+    },
+    changeLanguage(value) {
+      const language = value.value ? 'en' : 'pt'
+      this.$router.push(this.switchLocalePath(language))
     }
   }
 }

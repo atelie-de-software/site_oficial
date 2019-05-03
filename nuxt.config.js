@@ -1,3 +1,5 @@
+const en = require('./locales/en')
+const pt = require('./locales/pt')
 const pkg = require('./package')
 
 module.exports = {
@@ -33,7 +35,10 @@ module.exports = {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [{ src: '~/plugins/carousel.js', ssr: false }],
+  plugins: [
+    { src: '~/plugins/carousel.js', ssr: false },
+    { src: '~/plugins/toggle.js', ssr: false }
+  ],
 
   router: {
     scrollBehavior: async (to, from, savedPosition) => {
@@ -74,7 +79,24 @@ module.exports = {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
+    [
+      'nuxt-i18n',
+      {
+        locales: [{ code: 'en', iso: 'en-US' }, { code: 'pt', iso: 'pt-BR' }],
+        defaultLocale: 'pt',
+        detectBrowserLanguage: {
+          useCookie: true
+        },
+        vueI18n: {
+          fallbackLocale: 'pt',
+          messages: {
+            en,
+            pt
+          }
+        }
+      }
+    ]
   ],
   /*
    ** Axios module configuration

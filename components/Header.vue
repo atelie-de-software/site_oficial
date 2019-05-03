@@ -2,7 +2,7 @@
   <header class="container">
     <div class="row header-nav">
       <div class="col-lg-4 col-md-3 col-6">
-        <nuxt-link to="/">
+        <nuxt-link :to="localePath('index')">
           <Logo />
         </nuxt-link>
       </div>
