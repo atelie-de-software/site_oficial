@@ -24,12 +24,16 @@ module.exports = {
   /*
    ** Global CSS
    */
-  css: [],
+  css: [
+    '@/assets/scss/bootstrap/bootstrap',
+    '@/assets/scss/main.scss',
+    '@/assets/css/page-transitions.css'
+  ],
 
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: [{ src: '~/plugins/carousel.js', ssr: false }],
 
   /*
    ** Nuxt.js modules

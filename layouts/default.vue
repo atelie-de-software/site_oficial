@@ -1,11 +1,8 @@
 <template>
-  <transition
-    name="page"
-    appear
-  >
+  <transition name="page" appear>
     <main>
       <Header />
-      <slot />
+      <Nuxt />
     </main>
   </transition>
 </template>

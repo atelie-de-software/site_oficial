@@ -1,22 +1,16 @@
 <template>
-  <div
-    class="mobile"
-    :style="style"
-  >
-    <g-image
-      src="@/assets/images/mobile.png"
-      alt
-    />
+  <div class="mobile" :style="style">
+    <img src="@/assets/images/mobile.png" alt />
   </div>
 </template>
 
 <style lang="scss" scoped>
 .mobile {
-    box-shadow: -52px 47px 80px 0px rgba(0, 0, 0, 0.15);
-    border-radius: 60px;
-    background-size: auto 95%;
-    background-repeat: no-repeat;
-    background-position: center center;
+  box-shadow: -52px 47px 80px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 60px;
+  background-size: auto 95%;
+  background-repeat: no-repeat;
+  background-position: center center;
   img {
     position: relative;
     z-index: 10;
@@ -45,7 +39,7 @@ export default {
     background: { type: String, default: '' }
   },
   computed: {
-    style () {
+    style() {
       return `background-image: url(${this.background})`
     }
   }

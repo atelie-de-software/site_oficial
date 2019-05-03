@@ -2,27 +2,28 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center">
-        <g-image
-          src="~/assets/images/dsop-logo.png"
-          alt
-        />
+        <img src="~/assets/images/dsop-logo.png" alt />
       </div>
     </div>
     <div class="row">
       <div class="col-md-12 text-center">
-        <g-image
-          src="~/assets/images/dsop-print.png"
-          alt
-          aria-hidden="true"
-        />
+        <img src="~/assets/images/dsop-print.png" alt aria-hidden="true" />
       </div>
     </div>
     <div class="row">
       <div class="col-md-6 offset-md-3">
         <div>
-          <p>Diagnosticar, Sonhar, Orçar e Poupar. A DSOP promove educação financeira ajudando seus parceiros a construir hábitos saudáveis e fazer escolhas conscientes para a realização dos seus sonhos.</p>
+          <p>
+            Diagnosticar, Sonhar, Orçar e Poupar. A DSOP promove educação
+            financeira ajudando seus parceiros a construir hábitos saudáveis e
+            fazer escolhas conscientes para a realização dos seus sonhos.
+          </p>
 
-          <p>O time DSOP do Ateliê de Software é responsável pela plataforma que auxilia os colaboradores DSOP a promoverem educação financeira em escolas, empresas e para trabalhadores brasil afora.</p>
+          <p>
+            O time DSOP do Ateliê de Software é responsável pela plataforma que
+            auxilia os colaboradores DSOP a promoverem educação financeira em
+            escolas, empresas e para trabalhadores brasil afora.
+          </p>
         </div>
       </div>
     </div>

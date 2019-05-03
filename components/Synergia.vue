@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6 center">
-        <g-image
+        <img
           src="~/assets/images/synergia-logo.png"
           alt="Synergia Logo"
           class="show-mobile logo"
@@ -10,15 +10,24 @@
         <Notebook :background="SynergiaPrint" />
       </div>
       <div class="col-md-6 center">
-        <g-image
+        <img
           src="~/assets/images/synergia-logo.png"
           alt="Synergia Logo"
           class="show-desktop"
         />
         <div class="content">
-          <p>A Synergia, através de suas pesquisas socioambientais, muda a vida de milhares de pessoas e trás uma melhora na qualidade de vida e nos impactos ambientais que nos rodeiam, gerando relatórios e informações que embasam projetos e estudos na área.</p>
+          <p>
+            A Synergia, através de suas pesquisas socioambientais, muda a vida
+            de milhares de pessoas e trás uma melhora na qualidade de vida e nos
+            impactos ambientais que nos rodeiam, gerando relatórios e
+            informações que embasam projetos e estudos na área.
+          </p>
 
-          <p>O time da Synergia do Ateliê de Software é responsável por sistematizar todas as etapas da pesquisa e criar inteligência para que elas possam trazer bons resultados.</p>
+          <p>
+            O time da Synergia do Ateliê de Software é responsável por
+            sistematizar todas as etapas da pesquisa e criar inteligência para
+            que elas possam trazer bons resultados.
+          </p>
         </div>
       </div>
     </div>
@@ -54,7 +63,7 @@ export default {
     Notebook
   },
   computed: {
-    SynergiaPrint () {
+    SynergiaPrint() {
       return Print
     }
   }

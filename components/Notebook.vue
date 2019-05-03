@@ -1,12 +1,6 @@
 <template>
-  <div
-    class="notebook"
-    :style="style"
-  >
-    <g-image
-      src="/notebook.png"
-      alt
-    />
+  <div class="notebook" :style="style">
+    <img src="/notebook.png" alt />
   </div>
 </template>
 
@@ -15,7 +9,7 @@
   background-size: 77% auto;
   background-repeat: no-repeat;
   background-position: center center;
-  g-image {
+  img {
     position: relative;
     z-index: 10;
   }
@@ -42,7 +36,7 @@ export default {
     background: { type: String, default: '' }
   },
   computed: {
-    style () {
+    style() {
       return `background-image: url(${this.background})`
     }
   }

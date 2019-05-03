@@ -6,11 +6,13 @@
           METODOLOGIA
         </h3>
         <p tabindex="0">
-          Composto pelas etapas de Concepção, Preparação, Execução e Transição, nosso processo engloba os principais momentos e desafios de um projeto de desenvolvimento de software de primeira linha.
+          Composto pelas etapas de Concepção, Preparação, Execução e Transição,
+          nosso processo engloba os principais momentos e desafios de um projeto
+          de desenvolvimento de software de primeira linha.
         </p>
       </div>
       <div class="col-md-8">
-        <g-image
+        <img
           tabindex="0"
           src="/method.png"
           alt="representação da concepção dos valores: inception, lean ux, agile dev"

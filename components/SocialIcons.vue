@@ -1,9 +1,6 @@
 <template>
   <div>
-    <a
-      target="_blank"
-      href="https://www.facebook.com/atelie.software/"
-    >
+    <a target="_blank" href="https://www.facebook.com/atelie.software/">
       <span class="icon-facebook" />
     </a>
     <a
@@ -12,10 +9,7 @@
     >
       <span class="icon-youtube" />
     </a>
-    <a
-      target="_blank"
-      href="https://twitter.com/atelie_software"
-    >
+    <a target="_blank" href="https://twitter.com/atelie_software">
       <span class="icon-twitter" />
     </a>
     <a
@@ -24,10 +18,7 @@
     >
       <span class="icon-linkedin" />
     </a>
-    <a
-      target="_blank"
-      href="https://www.instagram.com/atelie.software/"
-    >
+    <a target="_blank" href="https://www.instagram.com/atelie.software/">
       <span class="icon-instagram" />
     </a>
   </div>

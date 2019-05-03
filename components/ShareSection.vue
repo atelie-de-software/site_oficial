@@ -1,16 +1,9 @@
 <template>
-  <div
-    v-if="postsLoaded"
-    id="share"
-    class="share-section"
-  >
+  <div v-if="postsLoaded" id="share" class="share-section">
     <div class="container">
       <div class="row">
         <div class="col-md-4 title">
-          <h2
-            tabindex="0"
-            class="share"
-          >
+          <h2 tabindex="0" class="share">
             share
             <span>!</span>
           </h2>
@@ -85,14 +78,14 @@
 </style>
 
 <script>
+import axios from 'axios'
 import MediumCard from './MediumCard.vue'
 import MediumPost from './MediumPost.vue'
-import axios from 'axios'
 
 export default {
   name: 'Share',
   filters: {
-    removeHtml: function (value) {
+    removeHtml: function(value) {
       if (!value) return ''
       const regex = /(&nbsp;|<([^>]+)>)/gi
       const output = value.replace(regex, '')
@@ -103,16 +96,16 @@ export default {
     MediumCard,
     MediumPost
   },
-  data () {
+  data() {
     return {
       posts: []
     }
   },
   computed: {
-    firstPost: function () {
+    firstPost: function() {
       return this.posts.items ? this.posts.items[0] : []
     },
-    latestPosts: function () {
+    latestPosts: function() {
       if (!this.posts.items) return []
       const posts = [
         this.posts.items[1],
@@ -121,17 +114,17 @@ export default {
       ]
       return posts
     },
-    postsLoaded: function () {
+    postsLoaded: function() {
       return this.posts.items
     }
   },
-  mounted: function () {
-    this.$nextTick(function () {
+  mounted: function() {
+    this.$nextTick(function() {
       this.loadPosts()
     })
   },
   methods: {
-    async loadPosts () {
+    async loadPosts() {
       const posts = await axios.get(
         'https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fshare.atelie.software%2Ffeed'
       )

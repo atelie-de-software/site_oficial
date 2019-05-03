@@ -6,51 +6,36 @@
       </h2>
     </div>
 
-    <ClientOnly>
-      <Carousel
-        :per-page="1"
-        :navigation-enabled="true"
-        :pagination-enabled="false"
-        navigation-next-label="›"
-        navigation-prev-label="‹"
-      >
-        <Slide
-          v-for="slide in slides"
-          :key="slide.key"
-          class="swiper-wrapper"
-        >
-          <div class="container">
-            <div class="row">
-              <div class="col-md-5 content">
-                <div
-                  tabindex="-1"
-                  class="col-md-12 show-mobile"
-                >
-                  <Notebook :background="slide.screen" />
-                </div>
-                <div class="text-and-button">
-                  <p tabindex="0">
-                    {{ slide.content }}
-                  </p>
-                  <g-link
-                    to="/cases"
-                    class="btn"
-                  >
-                    conheça nossos cases
-                  </g-link>
-                </div>
-              </div>
-              <div
-                tabindex="-1"
-                class="col-md-7 show-desktop"
-              >
+    <Carousel
+      :per-page="1"
+      :navigation-enabled="true"
+      :pagination-enabled="false"
+      navigation-next-label="›"
+      navigation-prev-label="‹"
+    >
+      <Slide v-for="slide in slides" :key="slide.key" class="swiper-wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5 content">
+              <div tabindex="-1" class="col-md-12 show-mobile">
                 <Notebook :background="slide.screen" />
               </div>
+              <div class="text-and-button">
+                <p tabindex="0">
+                  {{ slide.content }}
+                </p>
+                <nuxt-link to="/cases" class="btn">
+                  conheça nossos cases
+                </nuxt-link>
+              </div>
+            </div>
+            <div tabindex="-1" class="col-md-7 show-desktop">
+              <Notebook :background="slide.screen" />
             </div>
           </div>
-        </Slide>
-      </Carousel>
-    </ClientOnly>
+        </div>
+      </Slide>
+    </Carousel>
   </div>
 </template>
 
@@ -60,17 +45,9 @@ import Notebook from '@/components/Notebook'
 export default {
   name: 'Cases',
   components: {
-    Notebook,
-    Carousel: () =>
-      import('vue-carousel')
-        .then(m => m.Carousel)
-        .catch(),
-    Slide: () =>
-      import('vue-carousel')
-        .then(m => m.Slide)
-        .catch()
+    Notebook
   },
-  data () {
+  data() {
     return {
       swiperOption: {
         navigation: {

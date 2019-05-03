@@ -2,9 +2,9 @@
   <header class="container">
     <div class="row header-nav">
       <div class="col-lg-4 col-md-3 col-6">
-        <g-link to="/">
+        <nuxt-link to="/">
           <Logo />
-        </g-link>
+        </nuxt-link>
       </div>
       <div class="col-md-8 col-6 nav">
         <Navbar />

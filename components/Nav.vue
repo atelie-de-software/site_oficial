@@ -1,37 +1,26 @@
 <template>
   <div class="nav-container">
-    <button
-      class="menu"
-      @click="toggleMenu"
-    >
+    <button class="menu" @click="toggleMenu">
       <span />
       <span />
       <span />
     </button>
-    <nav
-      :class="menuClass"
-      @click="closeMenu"
-    >
-      <g-link
-        to="/cultura"
-        href="/#cultura"
-      >
+    <nav :class="menuClass" @click="closeMenu">
+      <nuxt-link to="/cultura" href="/#cultura">
         Cultura
-      </g-link>
-      <g-link to="/cases">
+      </nuxt-link>
+      <nuxt-link to="/cases">
         Cases
-      </g-link>
-      <ClientOnly>
-        <g-link :to="{ path: '/', hash: '#mundo'}">
-          No Mundo
-        </g-link>
-        <g-link :to="{ path: '/', hash: '#share'}">
-          share!
-        </g-link>
-        <g-link :to="{ path: '/', hash: '#contato'}">
-          Fale Conosco
-        </g-link>
-      </ClientOnly>
+      </nuxt-link>
+      <nuxt-link :to="{ path: '/', hash: '#mundo' }">
+        No Mundo
+      </nuxt-link>
+      <nuxt-link :to="{ path: '/', hash: '#share' }">
+        share!
+      </nuxt-link>
+      <nuxt-link :to="{ path: '/', hash: '#contato' }">
+        Fale Conosco
+      </nuxt-link>
     </nav>
   </div>
 </template>
@@ -125,30 +114,29 @@ nav {
 <script>
 export default {
   name: 'Navbar',
-  data () {
+  data() {
     return {
       menuOpened: false
     }
   },
   computed: {
-    menuClass: function () {
+    menuClass: function() {
       return this.menuOpened ? 'open' : ''
     }
   },
-  mounted () {
+  mounted() {
     if (this.$route.hash) {
-      console.log('narf')
       this.scrollToHash()
     }
   },
   methods: {
-    toggleMenu: function () {
+    toggleMenu: function() {
       this.menuOpened = !this.menuOpened
     },
-    closeMenu: function () {
+    closeMenu: function() {
       this.menuOpened = false
     },
-    scrollToHash () {
+    scrollToHash() {
       const toHash = this.$route.hash
       this.$nextTick(() => {
         setTimeout(() => {

@@ -3,7 +3,10 @@
     <div class="container address">
       <div class="row">
         <div class="col-md-12">
-          <address>Av. João Pinheiro, 341 - Sala 3 - Centro, Poços de Caldas - MG, 37701-880 | (35) 3722-3776</address>
+          <address>
+            Av. João Pinheiro, 341 - Sala 3 - Centro, Poços de Caldas - MG,
+            37701-880 | (35) 3722-3776
+          </address>
         </div>
       </div>
     </div>
@@ -11,14 +14,16 @@
       <div class="container">
         <div class="row">
           <div class="col-md-3">
-            <g-image
+            <img
               src="/logo_atelie_footer.png"
               alt="Logo ateliê de software"
               @click="scrolltop"
             />
           </div>
           <div class="col-md-6">
-            <span tabindex="0">Todos os direitos reservados Ateliê de Software {{ year }}©</span>
+            <span tabindex="0"
+              >Todos os direitos reservados Ateliê de Software {{ year }}©</span
+            >
           </div>
           <div class="col-md-3 vertical">
             <SocialLinks />
@@ -73,7 +78,7 @@ footer {
     flex-direction: column;
     text-align: center;
     address {
-      margin-bottom: 10px
+      margin-bottom: 10px;
     }
   }
 }
@@ -87,13 +92,13 @@ export default {
     SocialLinks
   },
   computed: {
-    year: function () {
+    year: function() {
       return new Date().getFullYear()
     }
   },
   methods: {
-    scrolltop () {
-      window.scroll({top: 0, left: 0, behavior: 'smooth' });
+    scrolltop() {
+      window.scroll({ top: 0, left: 0, behavior: 'smooth' })
     }
   }
 }

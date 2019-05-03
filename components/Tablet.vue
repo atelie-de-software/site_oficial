@@ -1,24 +1,18 @@
 <template>
-  <div
-    class="tablet"
-    :style="style"
-  >
-    <g-image
-      src="@/assets/images/tablet.png"
-      alt
-    />
+  <div class="tablet" :style="style">
+    <img src="@/assets/images/tablet.png" alt />
   </div>
 </template>
 
 <style lang="scss" scoped>
 .tablet {
-    box-shadow: -52px 47px 80px 0px rgba(0, 0, 0, 0.15);
-    display: block;
-    border-radius: 60px;
-    background-size: 97% 97%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    margin-bottom: -10px;
+  box-shadow: -52px 47px 80px 0px rgba(0, 0, 0, 0.15);
+  display: block;
+  border-radius: 60px;
+  background-size: 97% 97%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-bottom: -10px;
   img {
     position: relative;
     z-index: 10;
@@ -47,7 +41,7 @@ export default {
     background: { type: String, default: '' }
   },
   computed: {
-    style () {
+    style() {
       return `background-image: url(${this.background})`
     }
   }

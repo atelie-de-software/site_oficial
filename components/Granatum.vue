@@ -2,25 +2,25 @@
   <div class="container">
     <div class="row">
       <div class="col-md-4">
-        <g-image
-          src="~/assets/images/granatum-logo.png"
-          class="logo"
-          alt
-        />
+        <img src="~/assets/images/granatum-logo.png" class="logo" alt />
       </div>
       <div class="col-md-4">
-        <Mobile
-          :background="granatumPrint"
-          class="logo"
-        />
+        <Mobile :background="granatumPrint" class="logo" />
       </div>
       <div class="col-md-4">
         <p>
           O Granatum (
-          <a href="https://www.granatum.com.br">www.granatum.com.br</a>) é um sistema online de controle financeiro para micro e pequenas empresas, sendo um produto criado, desenvolvido e mantido pela Webgoal.
+          <a href="https://www.granatum.com.br">www.granatum.com.br</a>) é um
+          sistema online de controle financeiro para micro e pequenas empresas,
+          sendo um produto criado, desenvolvido e mantido pela Webgoal.
         </p>
 
-        <p>Hoje o Granatum é utilizado em todo o Brasil, possui mais de 1.200 clientes ativos, controla milhares de registros financeiros de diversas empresas, transações de pagamento e emissão de notas fiscais eletrônicas.</p>
+        <p>
+          Hoje o Granatum é utilizado em todo o Brasil, possui mais de 1.200
+          clientes ativos, controla milhares de registros financeiros de
+          diversas empresas, transações de pagamento e emissão de notas fiscais
+          eletrônicas.
+        </p>
       </div>
     </div>
   </div>
@@ -40,7 +40,7 @@
   }
 }
 .logo {
-  margin: 40px 0
+  margin: 40px 0;
 }
 </style>
 
@@ -53,7 +53,7 @@ export default {
     Mobile
   },
   computed: {
-    granatumPrint () {
+    granatumPrint() {
       return Print
     }
   }

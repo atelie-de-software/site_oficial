@@ -1,17 +1,15 @@
 <template>
-  <Default>
-    <section class="home">
-      <HeroCase />
-      <Conlicitacao />
-      <Granatum />
-      <Dsop />
-      <Lumiar />
-      <Vagas />
-      <Synergia />
-      <Educadora />
-      <FooterSection />
-    </section>
-  </Default>
+  <section class="home">
+    <HeroCase />
+    <Conlicitacao />
+    <Granatum />
+    <Dsop />
+    <Lumiar />
+    <Vagas />
+    <Synergia />
+    <Educadora />
+    <FooterSection />
+  </section>
 </template>
 
 <script>
@@ -24,18 +22,14 @@ import Lumiar from '@/components/Lumiar'
 import Dsop from '@/components/Dsop'
 import Vagas from '@/components/Vagas'
 import Synergia from '@/components/Synergia'
-import Default from '~/layouts/Default.vue'
 
 export default {
   name: 'Cases',
   metaInfo: {
     title: 'Cases',
-    meta: [
-      { name: 'og:title', content: 'Cases - Ateliê de Software' }
-    ]
+    meta: [{ name: 'og:title', content: 'Cases - Ateliê de Software' }]
   },
   components: {
-    Default,
     HeroCase,
     FooterSection,
     Educadora,

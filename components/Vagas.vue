@@ -2,26 +2,23 @@
   <div class="container">
     <div class="row">
       <div class="col-md-7 content">
-        <g-image
-          src="~/assets/images/vagas-logo.png"
-          class="logo"
-          alt
-        />
-        <Mobile
-          :background="granatumPrint"
-          class="mobile-frame show-mobile"
-        />
+        <img src="~/assets/images/vagas-logo.png" class="logo" alt />
+        <Mobile :background="granatumPrint" class="mobile-frame show-mobile" />
         <div>
-          <p>A VAGAS.com é líder no mercado de e-recruitment no Brasil e oferece soluções para facilitar a conexão dos melhores talentos às empresas.</p>
+          <p>
+            A VAGAS.com é líder no mercado de e-recruitment no Brasil e oferece
+            soluções para facilitar a conexão dos melhores talentos às empresas.
+          </p>
 
-          <p>A parceria Vagas - Ateliê de Software é responsável por criar novas soluções e otimizar processos já existentes, prezando pela eficiência, praticidade e pela experiência do usuário.</p>
+          <p>
+            A parceria Vagas - Ateliê de Software é responsável por criar novas
+            soluções e otimizar processos já existentes, prezando pela
+            eficiência, praticidade e pela experiência do usuário.
+          </p>
         </div>
       </div>
       <div class="col-md-5 align-mobile-frame">
-        <Mobile
-          :background="granatumPrint"
-          class="mobile-frame show-desktop"
-        />
+        <Mobile :background="granatumPrint" class="mobile-frame show-desktop" />
       </div>
     </div>
   </div>
@@ -66,7 +63,7 @@ export default {
     Mobile
   },
   computed: {
-    granatumPrint () {
+    granatumPrint() {
       return Print
     }
   }

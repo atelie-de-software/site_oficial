@@ -1,27 +1,12 @@
 <template>
-  <div
-    class="card"
-    aria-label="Blog"
-  >
-    <g-image
-      tabindex="0"
-      class="featured-image"
-      :src="thumb"
-      alt
-    />
+  <div class="card" aria-label="Blog">
+    <img tabindex="0" class="featured-image" :src="thumb" alt />
     <div class="infos">
       <div class="date">
-        <time
-          tabindex="0"
-          :datetime="date"
-        >{{ datetime }}</time>
+        <time tabindex="0" :datetime="date">{{ datetime }}</time>
       </div>
       <div class="photo author">
-        <g-image
-          tabindex="-1"
-          src="//placehold.it/135x135"
-          alt
-        />
+        <img tabindex="-1" src="//placehold.it/135x135" alt />
       </div>
       <div class="name">
         <h6 tabindex="0">
@@ -38,11 +23,7 @@
       </p>
     </div>
     <div class="read-more">
-      <a
-        :href="link"
-        target="_blank"
-        class="btn"
-      >Leia mais</a>
+      <a :href="link" target="_blank" class="btn">Leia mais</a>
     </div>
   </div>
 </template>
@@ -140,11 +121,11 @@ export default {
     link: { type: String, default: '' }
   },
   computed: {
-    description: function () {
+    description: function() {
       if (!this.content) return ''
       return `${this.content.slice(0, 130)} (...)`
     },
-    datetime: function () {
+    datetime: function() {
       if (!this.date) return ''
       return `${this.date.slice(8, 10)}/${this.date.slice(5, 7)}`
     }

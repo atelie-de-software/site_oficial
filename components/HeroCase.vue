@@ -4,13 +4,15 @@
       <div class="col-md-6">
         <h1>
           Conheça
-          <br>os nossos
-          <br>cases
+          <br />os nossos <br />cases
         </h1>
       </div>
 
       <div class="col-md-4 offset-md-1">
-        <p>Abaixo você encontrará alguns dos trabalhos realizados pelo Ateliê. Se quiser saber mais ou falar do seu projeto é só entrar em contato.</p>
+        <p>
+          Abaixo você encontrará alguns dos trabalhos realizados pelo Ateliê. Se
+          quiser saber mais ou falar do seu projeto é só entrar em contato.
+        </p>
       </div>
     </div>
   </div>

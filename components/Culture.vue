@@ -1,8 +1,5 @@
 <template>
-  <div
-    id="cultura"
-    class="culture container"
-  >
+  <div id="cultura" class="culture container">
     <div class="row">
       <div class="col-md-6 content">
         <h3 tabindex="0">
@@ -10,15 +7,16 @@
         </h3>
         <div class="blockquote">
           <p tabindex="0">
-            Somos uma empresa com estilo de Gestão Horizontal. Cultura é o resultado de tudo que fazemos aqui dentro. Valorizamos a autonomia e a colaboração entre as pessoas e gostamos de compartilhar conhecimentos com todos os integrantes do nosso time e também da comunidade ao nosso redor.
+            Somos uma empresa com estilo de Gestão Horizontal. Cultura é o
+            resultado de tudo que fazemos aqui dentro. Valorizamos a autonomia e
+            a colaboração entre as pessoas e gostamos de compartilhar
+            conhecimentos com todos os integrantes do nosso time e também da
+            comunidade ao nosso redor.
           </p>
         </div>
-        <g-link
-          to="/cultura"
-          class="btn"
-        >
+        <nuxt-link to="/cultura" class="btn">
           saiba mais
-        </g-link>
+        </nuxt-link>
       </div>
       <div class="col-md-6">
         <Person />

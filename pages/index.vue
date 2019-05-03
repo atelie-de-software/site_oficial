@@ -1,21 +1,18 @@
 <template>
-  <Default>
-    <section class="home">
-      <Hero />
-      <Culture />
-      <Methods />
-      <Cases />
-      <World />
-      <Share />
-      <Contact />
-      <Form />
-      <FooterSection />
-    </section>
-  </Default>
+  <section class="home">
+    <Hero />
+    <Culture />
+    <Methods />
+    <Cases />
+    <World />
+    <Share />
+    <Contact />
+    <Form />
+    <FooterSection />
+  </section>
 </template>
 
 <script>
-import Default from '~/layouts/Default.vue'
 import Hero from '@/components/Hero'
 import Culture from '@/components/Culture'
 import Methods from '@/components/Methods'
@@ -29,12 +26,9 @@ export default {
   name: 'Home',
   metaInfo: {
     title: 'Home',
-    meta: [
-      { name: 'og:title', content: 'Home - Ateliê de Software' }
-    ]
+    meta: [{ name: 'og:title', content: 'Home - Ateliê de Software' }]
   },
   components: {
-    Default,
     Hero,
     Culture,
     Methods,
@@ -47,5 +41,4 @@ export default {
 }
 </script>
 
-<style>
-</style>
+<style></style>

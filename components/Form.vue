@@ -3,7 +3,7 @@
     <div class="form-container">
       <h1 tabindex="0">
         fale
-        <br>conosco
+        <br />conosco
       </h1>
 
       <form
@@ -12,43 +12,31 @@
         data-netlify="true"
         action="https://formspree.io/daniel.oshiro@webgoal.com.br"
       >
-        <div
-          v-show="stepOne"
-          class="form-content"
-        >
-          <label
-            class="sr-only"
-            for="nome"
-          >nome:</label>
+        <div v-show="stepOne" class="form-content">
+          <label class="sr-only" for="nome">nome:</label>
           <input
             v-model="nome"
             required
             type="text"
             name="Nome"
             placeholder="nome"
-          >
-          <label
-            class="sr-only"
-            for="email"
-          >email:</label>
+          />
+          <label class="sr-only" for="email">email:</label>
           <input
             v-model="email"
             required
             type="email"
             name="Email"
             placeholder="email"
-          >
-          <label
-            class="sr-only"
-            for="empresa"
-          >empresa:</label>
+          />
+          <label class="sr-only" for="empresa">empresa:</label>
           <input
             v-model="empresa"
             required
             type="text"
             name="Empresa"
             placeholder="empresa"
-          >
+          />
           <textarea
             id
             v-model="descricao"
@@ -57,21 +45,15 @@
             rows="4"
             placeholder="fale sobre seu projeto"
           />
-          <button
-            type="button"
-            class="btn"
-            @click="nextStep"
-          >
+          <button type="button" class="btn" @click="nextStep">
             Próximo
           </button>
         </div>
 
-        <div
-          v-show="!stepOne"
-          class="form-content"
-        >
+        <div v-show="!stepOne" class="form-content">
           <p tabindex="0">
-            <strong>{{ nome }}</strong>, agora nos fale um pouco sobre o seu projeto.
+            <strong>{{ nome }}</strong
+            >, agora nos fale um pouco sobre o seu projeto.
           </p>
           <p>
             <strong tabindex="0">Valor estimado em reais:</strong>
@@ -88,22 +70,19 @@
                 name="Valor Estimado"
                 type="radio"
                 :value="price"
-              >
-              <label
-                :for="price"
-                tabindex="0"
-              >{{ price }}</label>
+              />
+              <label :for="price" tabindex="0">{{ price }}</label>
             </div>
           </div>
           <div class="row divider">
             <div class="col-md-5">
-              <hr>
+              <hr />
             </div>
             <div class="col-md-2">
               <strong>ou</strong>
             </div>
             <div class="col-md-5">
-              <hr>
+              <hr />
             </div>
           </div>
           <input
@@ -111,7 +90,7 @@
             value="Enviar"
             class="btn"
             :disabled="!projectPrice"
-          >
+          />
         </div>
       </form>
     </div>
@@ -206,7 +185,7 @@ import { required, email } from 'vuelidate/lib/validators'
 
 export default {
   name: 'FormContato',
-  data () {
+  data() {
     return {
       prices: [
         '150 mil',
@@ -237,7 +216,7 @@ export default {
     }
   },
   methods: {
-    nextStep () {
+    nextStep() {
       this.$v.$touch()
       if (!this.$v.$invalid) {
         this.stepOne = false
