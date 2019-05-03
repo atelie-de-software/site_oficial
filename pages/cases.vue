@@ -25,7 +25,7 @@ import Synergia from '@/components/Synergia'
 
 export default {
   name: 'Cases',
-  metaInfo: {
+  head: {
     title: 'Cases',
     meta: [{ name: 'og:title', content: 'Cases - Ateliê de Software' }]
   },

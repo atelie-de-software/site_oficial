@@ -13,7 +13,7 @@ import FooterSection from '@/components/Footer'
 
 export default {
   name: 'Cultura',
-  metaInfo: {
+  head: {
     title: 'Cultura',
     meta: [{ name: 'og:title', content: 'Cultura - Ateliê de Software' }]
   },
