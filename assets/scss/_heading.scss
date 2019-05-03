@@ -1,0 +1,33 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 151px;
+  font-weight: 700;
+  opacity: .7;
+  letter-spacing: 13px;
+}
+
+h3 {
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 4.36px;
+  margin-bottom: 35px;
+  @media screen and (max-width: 640px) {
+    font-size: 23px;
+    line-height: 24px;
+  }
+}
+
+h6 {
+  color: #878f99;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 27px;
+}
