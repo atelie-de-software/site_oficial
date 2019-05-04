@@ -2,8 +2,8 @@
   <div>
     <div class="form-container">
       <h1 tabindex="0">
-        fale
-        <br />conosco
+        {{ $t('form.messageI') }}
+        <br />{{ $t('form.messageII') }}
       </h1>
 
       <form
@@ -13,40 +13,40 @@
         action="https://formspree.io/daniel.oshiro@webgoal.com.br"
       >
         <div v-show="stepOne" class="form-content">
-          <label class="sr-only" for="nome">nome:</label>
+          <label for="nome">{{ $t('form.name') }}</label>
           <input
             v-model="nome"
             required
             type="text"
             name="Nome"
-            placeholder="nome"
+            placeholder=""
           />
-          <label class="sr-only" for="email">email:</label>
+          <label for="email">{{ $t('form.email') }}</label>
           <input
             v-model="email"
             required
             type="email"
             name="Email"
-            placeholder="email"
+            placeholder=""
           />
-          <label class="sr-only" for="empresa">empresa:</label>
+          <label for="empresa">{{ $t('form.company') }}</label>
           <input
             v-model="empresa"
             required
             type="text"
             name="Empresa"
-            placeholder="empresa"
+            placeholder=""
           />
+          <label for="empresa">{{ $t('form.tellUs') }}</label>
           <textarea
             id
             v-model="descricao"
             name="Descrição"
             cols="10"
             rows="4"
-            placeholder="fale sobre seu projeto"
           />
           <button type="button" class="btn" @click="nextStep">
-            Próximo
+            {{ $t('form.next') }}
           </button>
         </div>
 

@@ -9,13 +9,10 @@
       />
       <div class="col-md-7">
         <h3 tabindex="0">
-          O Ateliê pelo mundo
+          {{ $t('world.message') }}
         </h3>
         <p tabindex="0">
-          Nossos serviços diferenciados também são oferecidos em Portugal
-          através da parceira com a SCOPPHU, empresa que complementa nossa
-          proposta de valor oferecendo serviços de formação e consultoria em
-          gestão de projetos e agile para o mercado europeu.
+          {{ $t('world.description') }}
         </p>
       </div>
       <div class="col-md-5">

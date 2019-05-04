@@ -4,8 +4,7 @@
       <div class="row">
         <div class="col-md-12">
           <address>
-            Av. João Pinheiro, 341 - Sala 3 - Centro, Poços de Caldas - MG,
-            37701-880 | (35) 3722-3776
+            {{ $t('footer.address') }}
           </address>
         </div>
       </div>
@@ -21,9 +20,9 @@
             />
           </div>
           <div class="col-md-6">
-            <span tabindex="0"
-              >Todos os direitos reservados Ateliê de Software {{ year }}©</span
-            >
+            <span tabindex="0">
+              {{ $t('footer.copyright') }}
+            </span>
           </div>
           <div class="col-md-3 vertical">
             <SocialLinks />

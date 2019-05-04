@@ -3,12 +3,10 @@
     <div class="row">
       <div class="col-md-4 content">
         <h3 tabindex="0">
-          METODOLOGIA
+          {{ $t('methodology.message') }}
         </h3>
         <p tabindex="0">
-          Composto pelas etapas de Concepção, Preparação, Execução e Transição,
-          nosso processo engloba os principais momentos e desafios de um projeto
-          de desenvolvimento de software de primeira linha.
+          {{ $t('methodology.description') }}
         </p>
       </div>
       <div class="col-md-8">

@@ -3,19 +3,15 @@
     <div class="row">
       <div class="col-md-6 content">
         <h3 tabindex="0">
-          Nossa Cultura
+          {{ $t('culture.message') }}
         </h3>
         <div class="blockquote">
           <p tabindex="0">
-            Somos uma empresa com estilo de Gestão Horizontal. Cultura é o
-            resultado de tudo que fazemos aqui dentro. Valorizamos a autonomia e
-            a colaboração entre as pessoas e gostamos de compartilhar
-            conhecimentos com todos os integrantes do nosso time e também da
-            comunidade ao nosso redor.
+            {{ $t('culture.description') }}
           </p>
         </div>
         <nuxt-link to="/cultura" class="btn">
-          saiba mais
+          {{ $t('culture.more') }}
         </nuxt-link>
       </div>
       <div class="col-md-6">
