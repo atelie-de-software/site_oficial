@@ -74,6 +74,10 @@ const pt = {
     description: 'A VAGAS.com é líder no mercado de e-recruitment no Brasil e oferece soluções para facilitar a conexão dos melhores talentos às empresas.',
     descriptionII: 'A parceria Vagas - Ateliê de Software é responsável por criar novas soluções e otimizar processos já existentes, prezando pela eficiência, praticidade e pela experiência do usuário.',
   },
+  synergia: {
+    description: 'A Synergia, através de suas pesquisas socioambientais, muda a vida de milhares de pessoas e trás uma melhora na qualidade de vida e nos impactos ambientais que nos rodeiam, gerando relatórios e informações que embasam projetos e estudos na área.',
+    descriptionII: 'O time da Synergia do Ateliê de Software é responsável por sistematizar todas as etapas da pesquisa e criar inteligência para que elas possam trazer bons resultados.',
+  },
 }
 
 module.exports = pt

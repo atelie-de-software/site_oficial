@@ -74,6 +74,10 @@ const en = {
     description: 'VAGAS.com is the leader in the e-recruitment market in Brazil and offers solutions to make easier the connection between the companies and the best of talents.',
     descriptionII: 'Our partnership is responsible for creating new solutions and optimizing existing processes, focusing on efficiency, practicality and user experience.',
   },
+  synergia: {
+    description: 'Synergia, through its socio-environmental research, changes the lives of thousands of people and brings about an improvement in the quality of life and the environmental impacts that surround us, generating reports and information that support projects and studies in the area.',
+    descriptionII: 'Our team is responsible for systematizing all stages of the research and creating intelligence so that they can bring good results.',
+  },
 }
 
 module.exports = en
