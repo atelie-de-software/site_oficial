@@ -61,7 +61,11 @@ const pt = {
     message: 'O granatum',
     description: ' é um sistema online de controle financeiro para micro e pequenas empresas, sendo um produto criado, desenvolvido e mantido pela Webgoal.',
     descriptionII: 'Hoje o Granatum é utilizado em todo o Brasil, possui mais de 1.200 clientes ativos, controla milhares de registros financeiros de diversas empresas, transações de pagamento e emissão de notas fiscais eletrônicas.',
-  }
+  },
+  dsop: {
+    description: 'Diagnosticar, Sonhar, Orçar e Poupar. A DSOP promove educação financeira ajudando seus parceiros a construir hábitos saudáveis e fazer escolhas conscientes para a realização dos seus sonhos.',
+    descriptionII: 'O time DSOP do Ateliê de Software é responsável pela plataforma que auxilia os colaboradores DSOP a promoverem educação financeira em escolas, empresas e para trabalhadores brasil afora.',
+  },
 }
 
 module.exports = pt

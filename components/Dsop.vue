@@ -13,17 +13,9 @@
     <div class="row">
       <div class="col-md-6 offset-md-3">
         <div>
-          <p>
-            Diagnosticar, Sonhar, Orçar e Poupar. A DSOP promove educação
-            financeira ajudando seus parceiros a construir hábitos saudáveis e
-            fazer escolhas conscientes para a realização dos seus sonhos.
-          </p>
+          <p>{{ $t('dsop.description') }}</p>
 
-          <p>
-            O time DSOP do Ateliê de Software é responsável pela plataforma que
-            auxilia os colaboradores DSOP a promoverem educação financeira em
-            escolas, empresas e para trabalhadores brasil afora.
-          </p>
+          <p>{{ $t('dsop.descriptionII') }}</p>
         </div>
       </div>
     </div>

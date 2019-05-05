@@ -61,7 +61,11 @@ const en = {
     message: 'Granatum',
     description: ' is an online financial control system for micro and small businesses, being a product created, developed and maintained by Webgoal.',
     descriptionII: 'Today, Granatum is used all over Brazil, has more than 1.200 active customers, controls thousands of financial records of several companies, payment transactions and issuance of electronic invoices.',
-  }
+  },
+  dsop: {
+    description: 'Diagnose, Dream, Budget and Save. DSOP promotes financial education by helping its partners build healthy habits and make conscious choices for the fulfillment of their dreams.',
+    descriptionII: 'The DSOP team at Ateliê de Software is responsible for the platform that assists DSOP employees to promote financial education in schools, companies and for Brazilian workers.',
+  },
 }
 
 module.exports = en
