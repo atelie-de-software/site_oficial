@@ -68,7 +68,7 @@ const pt = {
   },
   lumiar: {
     description: 'A Lumiar proporciona através de exclusiva prática pedagógica um ambiente diferenciado para os estudantes se desenvolverem de forma ativa e autônoma na sociedade.',
-    description: 'O Ateliê de Software é responsável por tornar a metodologia Lumiar uma solução digital utilizada pelas escolas no Brasil e exterior.',
+    descriptionII: 'O Ateliê de Software é responsável por tornar a metodologia Lumiar uma solução digital utilizada pelas escolas no Brasil e exterior.',
   },
 }
 
