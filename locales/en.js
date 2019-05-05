@@ -70,6 +70,10 @@ const en = {
     description: 'Through exclusive pedagogic practice, Lumiar provides a differentiated environment for students to develop in an active and autonomous way in society.',
     descriptionII: 'We are responsible for making the Lumiar methodology a digital solution used by schools in Brazil and abroad.',
   },
+  vagas: {
+    description: 'VAGAS.com is the leader in the e-recruitment market in Brazil and offers solutions to make easier the connection between the companies and the best of talents.',
+    descriptionII: 'Our partnership is responsible for creating new solutions and optimizing existing processes, focusing on efficiency, practicality and user experience.',
+  },
 }
 
 module.exports = en

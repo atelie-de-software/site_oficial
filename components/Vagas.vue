@@ -5,16 +5,8 @@
         <img src="~/assets/images/vagas-logo.png" class="logo" alt />
         <Mobile :background="granatumPrint" class="mobile-frame show-mobile" />
         <div>
-          <p>
-            A VAGAS.com é líder no mercado de e-recruitment no Brasil e oferece
-            soluções para facilitar a conexão dos melhores talentos às empresas.
-          </p>
-
-          <p>
-            A parceria Vagas - Ateliê de Software é responsável por criar novas
-            soluções e otimizar processos já existentes, prezando pela
-            eficiência, praticidade e pela experiência do usuário.
-          </p>
+          <p>{{ $t('vagas.description') }}</p>
+          <p>{{ $t('vagas.descriptionII') }}</p>
         </div>
       </div>
       <div class="col-md-5 align-mobile-frame">

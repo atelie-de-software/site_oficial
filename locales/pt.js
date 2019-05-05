@@ -70,6 +70,10 @@ const pt = {
     description: 'A Lumiar proporciona através de exclusiva prática pedagógica um ambiente diferenciado para os estudantes se desenvolverem de forma ativa e autônoma na sociedade.',
     descriptionII: 'O Ateliê de Software é responsável por tornar a metodologia Lumiar uma solução digital utilizada pelas escolas no Brasil e exterior.',
   },
+  vagas: {
+    description: 'A VAGAS.com é líder no mercado de e-recruitment no Brasil e oferece soluções para facilitar a conexão dos melhores talentos às empresas.',
+    descriptionII: 'A parceria Vagas - Ateliê de Software é responsável por criar novas soluções e otimizar processos já existentes, prezando pela eficiência, praticidade e pela experiência do usuário.',
+  },
 }
 
 module.exports = pt
