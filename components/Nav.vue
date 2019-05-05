@@ -7,19 +7,19 @@
     </button>
     <nav :class="menuClass" @click="closeMenu">
       <nuxt-link :to="localePath('cultura')" href="/#cultura">
-        Cultura
+        {{ $t('nav.culture') }}
       </nuxt-link>
       <nuxt-link :to="localePath('cases')">
-        Cases
+        {{ $t('nav.cases') }}
       </nuxt-link>
       <nuxt-link :to="{ path: localePath('index'), hash: '#mundo' }">
-        No Mundo
+        {{ $t('nav.world') }}
       </nuxt-link>
       <nuxt-link :to="{ path: localePath('index'), hash: '#share' }">
-        share!
+        {{ $t('nav.share') }}
       </nuxt-link>
       <nuxt-link :to="{ path: localePath('index'), hash: '#contato' }">
-        Fale Conosco
+        {{ $t('nav.tellUs') }}
       </nuxt-link>
       <toggle-button
         :value="false"

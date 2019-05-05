@@ -89,6 +89,13 @@ const en = {
     description: 'is the radio of the Bandeirantes Television Group with leading audience in Campinas and the region. In 2013 we started the project of creating a new content manager and the radio website, which at its launch hit the mark of 1 million hits.',
     descriptionII: '',
   },
+  nav: {
+    culture: 'Culture',
+    cases: 'Cases',
+    world: 'In World',
+    share: 'share!',
+    tellUs: 'Contact us',
+  },
 }
 
 module.exports = en
