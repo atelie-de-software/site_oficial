@@ -66,6 +66,10 @@ const pt = {
     description: 'Diagnosticar, Sonhar, Orçar e Poupar. A DSOP promove educação financeira ajudando seus parceiros a construir hábitos saudáveis e fazer escolhas conscientes para a realização dos seus sonhos.',
     descriptionII: 'O time DSOP do Ateliê de Software é responsável pela plataforma que auxilia os colaboradores DSOP a promoverem educação financeira em escolas, empresas e para trabalhadores brasil afora.',
   },
+  lumiar: {
+    description: 'A Lumiar proporciona através de exclusiva prática pedagógica um ambiente diferenciado para os estudantes se desenvolverem de forma ativa e autônoma na sociedade.',
+    description: 'O Ateliê de Software é responsável por tornar a metodologia Lumiar uma solução digital utilizada pelas escolas no Brasil e exterior.',
+  },
 }
 
 module.exports = pt

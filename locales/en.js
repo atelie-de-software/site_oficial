@@ -66,6 +66,10 @@ const en = {
     description: 'Diagnose, Dream, Budget and Save. DSOP promotes financial education by helping its partners build healthy habits and make conscious choices for the fulfillment of their dreams.',
     descriptionII: 'The DSOP team at Ateliê de Software is responsible for the platform that assists DSOP employees to promote financial education in schools, companies and for Brazilian workers.',
   },
+  lumiar: {
+    description: 'Through exclusive pedagogic practice, Lumiar provides a differentiated environment for students to develop in an active and autonomous way in society.',
+    descriptionII: 'We are responsible for making the Lumiar methodology a digital solution used by schools in Brazil and abroad.',
+  },
 }
 
 module.exports = en

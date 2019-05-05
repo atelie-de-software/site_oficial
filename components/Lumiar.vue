@@ -4,15 +4,8 @@
       <div class="col-md-4">
         <img src="~/assets/images/lumiar-logo.png" alt class="logo" />
         <div class="content">
-          <p>
-            A Lumiar proporciona através de exclusiva prática pedagógica um
-            ambiente diferenciado para os estudantes se desenvolverem de forma
-            ativa e autônoma na sociedade.
-          </p>
-          <p>
-            O Ateliê de Software é responsável por tornar a metodologia Lumiar
-            uma solução digital utilizada pelas escolas no Brasil e exterior.
-          </p>
+          <p>{{ $t('lumiar.description') }}</p>
+          <p>{{ $t('lumiar.descriptionII') }}</p>
         </div>
       </div>
       <div class="col-md-8">
