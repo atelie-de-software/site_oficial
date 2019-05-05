@@ -78,6 +78,11 @@ const en = {
     description: 'Synergia, through its socio-environmental research, changes the lives of thousands of people and brings about an improvement in the quality of life and the environmental impacts that surround us, generating reports and information that support projects and studies in the area.',
     descriptionII: 'Our team is responsible for systematizing all stages of the research and creating intelligence so that they can bring good results.',
   },
+  educadora: {
+    message: 'Educadora FM',
+    description: 'is the radio of the Bandeirantes Television Group with leading audience in Campinas and the region. In 2013 we started the project of creating a new content manager and the radio website, which at its launch hit the mark of 1 million hits.',
+    descriptionII: '',
+  },
 }
 
 module.exports = en

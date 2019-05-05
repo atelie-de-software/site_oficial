@@ -78,6 +78,11 @@ const pt = {
     description: 'A Synergia, através de suas pesquisas socioambientais, muda a vida de milhares de pessoas e trás uma melhora na qualidade de vida e nos impactos ambientais que nos rodeiam, gerando relatórios e informações que embasam projetos e estudos na área.',
     descriptionII: 'O time da Synergia do Ateliê de Software é responsável por sistematizar todas as etapas da pesquisa e criar inteligência para que elas possam trazer bons resultados.',
   },
+  educadora: {
+    message: 'A Educadora FM',
+    description: ' é a rádio do Grupo Bandeirantes de Televisão líder de audiência em Campinas e região. Em 2013 começamos o projeto de criação de um novo gerenciador de conteúdo e do site da rádio, que no seu lançamento bateu a marca de 1 milhão de acessos.',
+    descriptionII: 'Atualmente, estamos desenvolvendo a segunda fase do projeto para aumentar ainda mais a audiência da rádio a partir da gamificação da interação dos usuários com o site e da criação dos aplicativos para Android e iOS.',
+  },
 }
 
 module.exports = pt
