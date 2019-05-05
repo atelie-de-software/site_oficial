@@ -52,6 +52,12 @@ const pt = {
     Excellency: 'Excelência',
     ExcellencyDescription: 'Ter excelência é a realização de uma virtude, é o resultado de se ter o domínio pleno do que fazemos e das competências necessárias para executar o nosso trabalho. A busca pela excelência é o que nos afasta da mediocridade, proporcionando serviços e produtos de primeira linha e a melhor experiência de consumo para os clientes. É a realização profissional que torna as pessoas mais felizes no trabalho.',
   },
+  cases: {
+    message: 'CONHEÇA',
+    messageII: ' OS NOSSOS',
+    messageIII: ' CASES',
+    description: 'Abaixo você encontrará alguns dos trabalhos realizados pelo Ateliê. Se quiser saber mais ou falar do seu projeto é só entrar em contato.',
+  },
   conlicitacao: {
     description: 'O ConLicitação é uma empresa que possui o maior banco de dados de avisos de licitações, leilões, editais e resultados de processos de compras governamentais do país.',
     descriptionII:'Em 2008, iniciamos o projeto de reestruturação e reimplementação dos seus sistemas internos e a criação de novos softwares.',

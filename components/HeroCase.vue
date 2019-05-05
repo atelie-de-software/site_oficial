@@ -3,16 +3,13 @@
     <div class="row">
       <div class="col-md-6">
         <h1>
-          Conheça
-          <br />os nossos <br />cases
+          {{ $t('cases.message') }}
+          <br />{{ $t('cases.messageII') }}<br />{{ $t('cases.messageIII') }}
         </h1>
       </div>
 
       <div class="col-md-4 offset-md-1">
-        <p>
-          Abaixo você encontrará alguns dos trabalhos realizados pelo Ateliê. Se
-          quiser saber mais ou falar do seu projeto é só entrar em contato.
-        </p>
+        <p>{{ $t('cases.description') }}</p>
       </div>
     </div>
   </div>
