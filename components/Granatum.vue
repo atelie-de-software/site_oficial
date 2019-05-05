@@ -9,18 +9,12 @@
       </div>
       <div class="col-md-4">
         <p>
-          O Granatum (
-          <a href="https://www.granatum.com.br">www.granatum.com.br</a>) é um
-          sistema online de controle financeiro para micro e pequenas empresas,
-          sendo um produto criado, desenvolvido e mantido pela Webgoal.
+          {{ $t('granatum.message') }} (
+          <a href="https://www.granatum.com.br">www.granatum.com.br</a>)
+          {{ $t('granatum.description') }}
         </p>
 
-        <p>
-          Hoje o Granatum é utilizado em todo o Brasil, possui mais de 1.200
-          clientes ativos, controla milhares de registros financeiros de
-          diversas empresas, transações de pagamento e emissão de notas fiscais
-          eletrônicas.
-        </p>
+        <p>{{ $t('granatum.descriptionII') }}</p>
       </div>
     </div>
   </div>
