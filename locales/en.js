@@ -52,6 +52,11 @@ const en = {
     Excellency: 'Excellency',
     ExcellencyDescription: 'Having excellence is the achievement of a virtue, it is the result of having full control of what we do and the necessary skills to perform our work. The journey for excellence is what drives us away from mediocrity, providing first-rate services and products and the best experience for customers. It is the professional achievement that makes people happier at work.',
   },
+  conlicitacao: {
+    description: 'ConLicitação is a company that has the greatest database of bidding notice, auctions and results of government procurement processes in the country.',
+    descriptionII: 'In 2008, we started this project of restructuring and reimplementation of its internal systems and the creation of new software.',
+    descriptionIII: 'After 10 years, our team continues to make constant enhancements in the systems, as well as collaborate in the creation of new products and businesses, helping ConLicitação to triple its customer base.',
+  },
 }
 
 module.exports = en

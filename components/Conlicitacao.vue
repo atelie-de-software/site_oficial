@@ -7,22 +7,9 @@
     </div>
     <div class="row">
       <div class="col-md-4">
-        <p>
-          O ConLicitação é uma empresa que possui o maior banco de dados de
-          avisos de licitações, leilões, editais e resultados de processos de
-          compras governamentais do país.
-        </p>
-        <p>
-          Em 2008, iniciamos o projeto de reestruturação e reimplementação dos
-          seus sistemas internos e a criação de novos softwares.
-        </p>
-
-        <p>
-          Depois de 10 anos, uma equipe dedicada do Ateliê de Software faz
-          melhorias constantes e incrementais nos sistemas, além de colaborar na
-          criação de novos produtos e negócios, ajudando o ConLicitação a
-          triplicar sua base de clientes.
-        </p>
+        <p>{{ $t('conlicitacao.description') }}</p>
+        <p>{{ $t('conlicitacao.descriptionII') }}</p>
+        <p>{{ $t('conlicitacao.descriptionIII') }}</p>
       </div>
       <div class="col-md-8">
         <Tablet :background="print" class="show-desktop" />
