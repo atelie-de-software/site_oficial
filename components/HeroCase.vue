@@ -3,13 +3,14 @@
     <div class="row">
       <div class="col-md-6">
         <h1>
-          {{ $t('cases.message') }}
-          <br />{{ $t('cases.messageII') }}<br />{{ $t('cases.messageIII') }}
+          {{ $t('heroCases.message') }}
+          <br />{{ $t('heroCases.messageII') }}<br />
+          {{ $t('heroCases.messageIII') }}
         </h1>
       </div>
 
       <div class="col-md-4 offset-md-1">
-        <p>{{ $t('cases.description') }}</p>
+        <p>{{ $t('heroCases.description') }}</p>
       </div>
     </div>
   </div>

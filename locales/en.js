@@ -52,7 +52,7 @@ const en = {
     Excellency: 'Excellency',
     ExcellencyDescription: 'Having excellence is the achievement of a virtue, it is the result of having full control of what we do and the necessary skills to perform our work. The journey for excellence is what drives us away from mediocrity, providing first-rate services and products and the best experience for customers. It is the professional achievement that makes people happier at work.',
   },
-  cases: {
+  heroCases: {
     message: 'OUR ',
     messageII: 'CASES',
     messageIII: '',
