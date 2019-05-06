@@ -16,7 +16,7 @@ export default {
   head() {
     return {
       title: this.$t('seo.cultureTitle'),
-      meta: [{ name: 'og:title', content: 'Home - Ateliê de Software' }]
+      meta: [{ name: 'og:title', content: this.$t('seo.cultureTitle') }]
     }
   },
   components: {

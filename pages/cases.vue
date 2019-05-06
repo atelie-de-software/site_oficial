@@ -28,7 +28,7 @@ export default {
   head() {
     return {
       title: this.$t('seo.casesTitle'),
-      meta: [{ name: 'og:title', content: 'Home - Ateliê de Software' }]
+      meta: [{ name: 'og:title', content: this.$t('seo.casesTitle') }]
     }
   },
   components: {
