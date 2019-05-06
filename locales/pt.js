@@ -1,4 +1,9 @@
 const pt = {
+  seo: {
+    indexTitle: 'Home - Ateliê de Software',
+    casesTitle: 'Cases - Ateliê de Software',
+    cultureTitle: 'Cultura - Ateliê de Software'
+  },
   hero: {
     message: 'NÓS CRIAMOS SOLUÇÕES DIGITAIS.',
     description:

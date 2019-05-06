@@ -12,17 +12,19 @@ import Header from '../components/Header.vue'
 
 export default {
   name: 'Default',
-  metaInfo: {
-    htmlAttrs: {
-      lang: 'pt-BR'
-    },
-    meta: [
-      { charset: 'utf-8' },
-      { name: 'description', content: 'Nós criamos soluções digitais' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { name: 'og:description', content: 'Nós criamos soluções digitais' },
-      { name: 'og:url', content: 'http://atelie.software' }
-    ]
+  head() {
+    const i18nSeo = this.$nuxtI18nSeo()
+    return {
+      htmlAttrs: {
+        ...i18nSeo.htmlAttrs
+      },
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { name: 'og:url', content: 'http://atelie.software' },
+        ...i18nSeo.meta
+      ]
+    }
   },
   components: {
     Header

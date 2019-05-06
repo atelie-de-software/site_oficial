@@ -1,6 +1,5 @@
 const en = require('./locales/en')
 const pt = require('./locales/pt')
-const pkg = require('./package')
 
 module.exports = {
   mode: 'spa',
@@ -9,11 +8,26 @@ module.exports = {
    ** Headers of the page
    */
   head: {
-    title: pkg.name,
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: pkg.description }
+      {
+        rel: 'apple-touch-icon',
+        sizes: '120x120',
+        href: '/apple-touch-icon.png'
+      },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '32x32',
+        href: '/favicon-32x32.png'
+      },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '16x16',
+        href: '/favicon-16x16.png'
+      }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
@@ -87,6 +101,7 @@ module.exports = {
       {
         locales: [{ code: 'en', iso: 'en-US' }, { code: 'pt', iso: 'pt-BR' }],
         defaultLocale: 'pt',
+        seo: true,
         detectBrowserLanguage: {
           useCookie: true
         },

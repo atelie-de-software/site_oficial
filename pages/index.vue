@@ -24,9 +24,11 @@ import FooterSection from '@/components/Footer'
 
 export default {
   name: 'Home',
-  head: {
-    title: 'Home',
-    meta: [{ name: 'og:title', content: 'Home - Ateliê de Software' }]
+  head() {
+    return {
+      title: this.$t('seo.indexTitle'),
+      meta: [{ name: 'og:title', content: 'Home - Ateliê de Software' }]
+    }
   },
   components: {
     Hero,

@@ -25,9 +25,11 @@ import Synergia from '@/components/Synergia'
 
 export default {
   name: 'Cases',
-  head: {
-    title: 'Cases',
-    meta: [{ name: 'og:title', content: 'Cases - Ateliê de Software' }]
+  head() {
+    return {
+      title: this.$t('seo.casesTitle'),
+      meta: [{ name: 'og:title', content: 'Home - Ateliê de Software' }]
+    }
   },
   components: {
     HeroCase,

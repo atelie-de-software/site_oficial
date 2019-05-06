@@ -13,9 +13,11 @@ import FooterSection from '@/components/Footer'
 
 export default {
   name: 'Cultura',
-  head: {
-    title: 'Cultura',
-    meta: [{ name: 'og:title', content: 'Cultura - Ateliê de Software' }]
+  head() {
+    return {
+      title: this.$t('seo.cultureTitle'),
+      meta: [{ name: 'og:title', content: 'Home - Ateliê de Software' }]
+    }
   },
   components: {
     HeroCulture,

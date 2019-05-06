@@ -1,4 +1,9 @@
 const en = {
+  seo: {
+    indexTitle: 'Home - Ateliê de Software',
+    casesTitle: 'Cases - Ateliê de Software',
+    cultureTitle: 'Culture - Ateliê de Software'
+  },
   hero: {
     message: 'HANDMADE SOFTWARE FOR YOUR BUSINESS',
     description:
