@@ -22,7 +22,7 @@
         {{ $t('nav.tellUs') }}
       </nuxt-link>
       <toggle-button
-        :value="false"
+        :value="language"
         :labels="{ checked: 'en', unchecked: 'pt' }"
         @change="changeLanguage"
       />
@@ -127,6 +127,9 @@ export default {
   computed: {
     menuClass: function() {
       return this.menuOpened ? 'open' : ''
+    },
+    language() {
+      return this.$i18n.locale === 'en'
     }
   },
   mounted() {
