@@ -10,40 +10,56 @@
         class="form"
         method="post"
         data-netlify="true"
-        action="https://formspree.io/daniel.oshiro@webgoal.com.br"
+        action="https://formspree.io/contato@webgoal.com.br"
       >
         <div v-show="stepOne" class="form-content">
-          <label for="nome">{{ $t('form.name') }}</label>
           <input
+            id="nome"
             v-model="nome"
             required
             type="text"
-            name="Nome"
-            placeholder=""
+            name="nome"
+            :aria-label="$t('form.name')"
+            :placeholder="$t('form.name')"
           />
-          <label for="email">{{ $t('form.email') }}</label>
+          <div v-if="submited && !$v.nome.required" class="error">
+            Campo Obrigatório
+          </div>
           <input
+            id="email"
             v-model="email"
             required
             type="email"
-            name="Email"
-            placeholder=""
+            name="email"
+            :aria-label="$t('form.email')"
+            :placeholder="$t('form.email')"
           />
-          <label for="empresa">{{ $t('form.company') }}</label>
+          <div v-if="submited && !$v.email.required" class="error">
+            Campo Obrigatório
+          </div>
+          <div v-if="submited && !$v.email.email" class="error">
+            Email inválido
+          </div>
           <input
+            id="empresa"
             v-model="empresa"
             required
             type="text"
-            name="Empresa"
-            placeholder=""
+            name="empresa"
+            :aria-label="$t('form.company')"
+            :placeholder="$t('form.company')"
           />
-          <label for="empresa">{{ $t('form.tellUs') }}</label>
+          <div v-if="submited && !$v.empresa.required" class="error">
+            Campo Obrigatório
+          </div>
           <textarea
-            id
+            id="description"
             v-model="descricao"
-            name="Descrição"
+            name="description"
             cols="10"
             rows="4"
+            :aria-label="$t('form.tellUs')"
+            :placeholder="$t('form.tellUs')"
           />
           <button type="button" class="btn" @click="nextStep">
             {{ $t('form.next') }}
@@ -161,10 +177,16 @@ h1 {
   font-size: 22px;
   font-weight: 300;
   line-height: 24.58px;
-  label {
-    width: 100%;
-    white-space: nowrap;
-  }
+}
+label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
 .divider {
   display: none;
@@ -181,7 +203,7 @@ h1 {
 </style>
 
 <script>
-import { required, email } from 'vuelidate/lib/validators'
+import { required, email, minLength } from 'vuelidate/lib/validators'
 
 export default {
   name: 'FormContato',
@@ -200,12 +222,14 @@ export default {
       nome: '',
       email: '',
       empresa: '',
-      descricao: ''
+      descricao: '',
+      submited: false
     }
   },
   validations: {
     nome: {
-      required
+      required,
+      minLength: minLength(2)
     },
     email: {
       required,
@@ -217,7 +241,7 @@ export default {
   },
   methods: {
     nextStep() {
-      this.$v.$touch()
+      this.submited = true
       if (!this.$v.$invalid) {
         this.stepOne = false
         this.submitStatus = 'ERROR'

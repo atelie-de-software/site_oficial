@@ -15,7 +15,7 @@
 
 <style lang="scss" scoped>
 span {
-  color: #878f99;
+  color: #62686f;
   font-size: 16px;
   line-height: 27px;
   font-weight: 300;

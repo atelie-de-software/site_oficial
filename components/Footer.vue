@@ -62,7 +62,7 @@ footer {
     }
   }
   span {
-    color: #878f99;
+    color: #62686f;
     font-size: 15px;
     font-weight: 300;
     letter-spacing: 2.31px;

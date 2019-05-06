@@ -73,7 +73,7 @@
     }
     .date {
       text-align: left;
-      color: #878f99;
+      color: #62686f;
       font-size: 16px;
       font-weight: 300;
       line-height: 27px;
@@ -89,7 +89,7 @@
       line-height: 20px;
     }
     p {
-      color: #878f99;
+      color: #62686f;
       font-size: 14px;
       font-weight: 300;
       line-height: 20px;

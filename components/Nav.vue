@@ -1,6 +1,6 @@
 <template>
   <div class="nav-container">
-    <button class="menu" @click="toggleMenu">
+    <button class="menu" aria-label="Menu" @click="toggleMenu">
       <span />
       <span />
       <span />

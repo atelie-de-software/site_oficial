@@ -37,7 +37,9 @@ module.exports = {
    */
   plugins: [
     { src: '~/plugins/carousel.js', ssr: false },
-    { src: '~/plugins/toggle.js', ssr: false }
+    { src: '~/plugins/toggle.js', ssr: false },
+    { src: '~/plugins/vuelidate.js', ssr: false },
+    { src: '@/plugins/hotjar.js', ssr: false }
   ],
 
   router: {
