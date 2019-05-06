@@ -16,6 +16,8 @@
           <input
             id="nome"
             v-model="nome"
+            data-aos="fade-right"
+            data-aos-once="true"
             required
             type="text"
             name="nome"
@@ -28,6 +30,9 @@
           <input
             id="email"
             v-model="email"
+            data-aos="fade-right"
+            data-aos-delay="200"
+            data-aos-once="true"
             required
             type="email"
             name="email"
@@ -43,6 +48,9 @@
           <input
             id="empresa"
             v-model="empresa"
+            data-aos="fade-right"
+            data-aos-delay="400"
+            data-aos-once="true"
             required
             type="text"
             name="empresa"
@@ -55,6 +63,9 @@
           <textarea
             id="description"
             v-model="descricao"
+            data-aos="fade-right"
+            data-aos-delay="600"
+            data-aos-once="true"
             name="description"
             cols="10"
             rows="4"

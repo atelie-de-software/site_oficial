@@ -6,18 +6,29 @@
         alt
         aria-hidden="true"
         class="line-logo"
+        data-aos="zoom-index"
+        data-aos-delay="1000"
+        data-aos-once="true"
       />
       <div class="col-md-7">
-        <h3 tabindex="0">
+        <h3 tabindex="0" data-aos="fade-right" data-aos-once="true">
           {{ $t('world.message') }}
         </h3>
-        <p tabindex="0">
+        <p
+          tabindex="0"
+          data-aos="fade-right"
+          data-aos-delay="300"
+          data-aos-once="true"
+        >
           {{ $t('world.description') }}
         </p>
       </div>
       <div class="col-md-5">
         <img
           tabindex="0"
+          data-aos="fade-left"
+          data-aos-delay="500"
+          data-aos-once="true"
           src="/scopphu.png"
           alt="scopphu: the agile transition company"
         />

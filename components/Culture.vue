@@ -2,19 +2,36 @@
   <div id="cultura" class="culture container">
     <div class="row">
       <div class="col-md-6 content">
-        <h3 tabindex="0">
+        <h3 tabindex="0" data-aos="fade-right" data-aos-once="true">
           {{ $t('culture.message') }}
         </h3>
-        <div class="blockquote">
+
+        <div
+          class="blockquote"
+          data-aos="fade-right"
+          data-aos-delay="200"
+          data-aos-once="true"
+        >
           <p tabindex="0">
             {{ $t('culture.description') }}
           </p>
         </div>
-        <nuxt-link to="/cultura" class="btn">
+        <nuxt-link
+          data-aos="fade-right"
+          data-aos-delay="400"
+          data-aos-once="true"
+          to="/cultura"
+          class="btn"
+        >
           {{ $t('culture.more') }}
         </nuxt-link>
       </div>
-      <div class="col-md-6">
+      <div
+        class="col-md-6"
+        data-aos="fade-left"
+        data-aos-delay="600"
+        data-aos-once="true"
+      >
         <Person />
       </div>
     </div>

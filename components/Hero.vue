@@ -2,16 +2,27 @@
   <div class="container hero">
     <div class="row">
       <div class="col-md-9">
-        <h1 tabindex="0">
+        <h1 tabindex="0" data-aos="fade-right" data-aos-once="true">
           {{ $t('hero.message') }}
         </h1>
-        <p tabindex="0">
+        <p
+          tabindex="0"
+          data-aos="fade-right"
+          data-aos-delay="300"
+          data-aos-once="true"
+        >
           {{ $t('hero.description') }}
         </p>
       </div>
 
       <div class="col-md-3 logo">
-        <img src="/logo_element.png" alt />
+        <img
+          src="/logo_element.png"
+          data-aos="fade-left"
+          data-aos-delay="500"
+          data-aos-once="true"
+          alt
+        />
       </div>
     </div>
   </div>

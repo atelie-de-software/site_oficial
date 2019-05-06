@@ -132,11 +132,6 @@ export default {
       return this.$i18n.locale === 'en'
     }
   },
-  mounted() {
-    if (this.$route.hash) {
-      // this.scrollToHash()
-    }
-  },
   methods: {
     toggleMenu: function() {
       this.menuOpened = !this.menuOpened
