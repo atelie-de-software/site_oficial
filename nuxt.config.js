@@ -8,6 +8,8 @@ module.exports = {
    ** Headers of the page
    */
   head: {
+    title: 'Ateliê de Software',
+    titleTemplate: '%s',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -53,7 +55,7 @@ module.exports = {
     { src: '~/plugins/carousel.js', ssr: false },
     { src: '~/plugins/toggle.js', ssr: false },
     { src: '~/plugins/vuelidate.js', ssr: false },
-    { src: '@/plugins/hotjar.js', ssr: false }
+    { src: '~/plugins/hotjar.js', ssr: false }
   ],
 
   router: {
