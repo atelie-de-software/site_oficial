@@ -24,14 +24,16 @@
         </p>
       </div>
       <div class="col-md-5">
-        <img
-          tabindex="0"
-          data-aos="fade-left"
-          data-aos-delay="500"
-          data-aos-once="true"
-          src="/scopphu.png"
-          alt="scopphu: the agile transition company"
-        />
+        <a href=" https://scopphu.com/">
+          <img
+            tabindex="0"
+            data-aos="fade-left"
+            data-aos-delay="500"
+            data-aos-once="true"
+            src="/scopphu.png"
+            alt="scopphu: the agile transition company"
+          />
+        </a>
       </div>
     </div>
   </div>
