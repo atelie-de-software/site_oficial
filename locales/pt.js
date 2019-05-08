@@ -5,7 +5,7 @@ const pt = {
     cultureTitle: 'Cultura - Ateliê de Software'
   },
   hero: {
-    message: 'NÓS CRIAMOS SOLUÇÕES DIGITAIS.',
+    message: 'SOFTWARE SOB MEDIDA PARA SUA EMPRESA.',
     description:
       'O nosso propósito é desenvolver software com alta qualidade e rápido retorno para os nossos clientes.'
   },
@@ -36,7 +36,7 @@ const pt = {
   },
   footer: {
     address:
-      'Av. João Pinheiro, 341 - Sala 3 - Centro, Poços de Caldas - MG, 37701-880',
+      'Av. João Pinheiro, 341 - Sala 3 - Centro, Poços de Caldas - MG, 37701-880 | (35) 3722-3776',
     copyright: 'Todos os direitos reservados Ateliê de Software 2019 ©'
   },
   heroCulture: {
