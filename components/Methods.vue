@@ -20,7 +20,7 @@
           data-aos-delay="600"
           data-aos-once="true"
           tabindex="0"
-          src="/method.png"
+          src="@/assets/images/metodologia.svg"
           alt="representação da concepção dos valores: inception, lean ux, agile dev"
         />
       </div>
