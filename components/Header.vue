@@ -1,12 +1,12 @@
 <template>
   <header class="container">
     <div class="row header-nav">
-      <div class="col-lg-4 col-md-3 col-6">
+      <div class="col-lg-4 col-md-12 col-5 logo">
         <nuxt-link :to="localePath('index')">
           <Logo />
         </nuxt-link>
       </div>
-      <div class="col-md-8 col-6 nav">
+      <div class="col-md-12 col-lg-8 col-7 nav">
         <Navbar />
       </div>
     </div>
@@ -35,6 +35,13 @@ header {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+}
+@media screen and (max-width: 990px) {
+  .logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
 }
 @media screen and (max-width: 786px) {
   .header-nav {

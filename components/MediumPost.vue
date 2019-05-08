@@ -35,7 +35,6 @@ h6 {
   text-align: right;
 }
 a {
-  color: #00f993;
   font-size: 16px;
   font-weight: 700;
   line-height: 27px;

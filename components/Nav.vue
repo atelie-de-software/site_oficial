@@ -21,12 +21,13 @@
       <nuxt-link :to="{ path: localePath('index'), hash: '#contato' }">
         {{ $t('nav.tellUs') }}
       </nuxt-link>
-      <toggle-button
-        :value="language"
-        :labels="{ checked: 'en', unchecked: 'pt' }"
-        @change="changeLanguage"
-      />
     </nav>
+    <toggle-button
+      class="toggle-button"
+      :value="language"
+      :labels="{ checked: 'en', unchecked: 'pt' }"
+      @change="changeLanguage"
+    />
   </div>
 </template>
 
@@ -86,9 +87,16 @@ nav {
 .nav-container {
   width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-wrap: nowrap;
   align-items: flex-end;
   justify-content: center;
+  @media screen and (max-width: 786px) {
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+  }
+}
+.toggle-button {
+  margin: 0 10px;
 }
 .menu {
   width: 27px;
