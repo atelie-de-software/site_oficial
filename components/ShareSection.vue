@@ -18,7 +18,7 @@
             data-aos-delay="200"
             data-aos-once="true"
           >
-            compartilhando os desafios diários do ateliê de software
+            {{ $t('share.description') }}
           </p>
         </div>
         <div class="col-md-4">

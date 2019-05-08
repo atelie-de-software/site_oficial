@@ -3,10 +3,22 @@
     <div class="row">
       <div class="col-md-12 center">
         <h1>{{ $t('heroCulture.message') }}</h1>
-        <img tabindex="0" src="@/assets/images/team.png" alt="Time Ateliê" />
+        <img
+          tabindex="0"
+          data-aos="fade-in"
+          data-aos-once="true"
+          data-aos-delay="300"
+          src="@/assets/images/team.png"
+          alt="Time Ateliê"
+        />
       </div>
     </div>
-    <div class="row">
+    <div
+      class="row"
+      data-aos-delay="600"
+      data-aos="fade-in"
+      data-aos-once="true"
+    >
       <div class="col-md-6">
         <p>
           {{ $t('heroCulture.description') }}

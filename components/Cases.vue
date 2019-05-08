@@ -63,44 +63,37 @@ export default {
       slides: [
         {
           key: 0,
-          content:
-            'A Educadora FM é a rádio do Grupo Bandeirantes de Televisão líder de audiência em Campinas e região.',
+          content: this.$t('cases.educadora'),
           screen: require('@/assets/images/educadora.png')
         },
         {
           key: 1,
-          content:
-            'O ConLicitação possui o maior banco de dados de avisos de licitações do país. Reestruturamos seus sistemas internos e a criamos novos softwares. Estão conosco há 11 anos.',
+          content: this.$t('cases.conlicita'),
           screen: require('@/assets/images/conlicitacao.png')
         },
         {
           key: 2,
-          content:
-            'O Granatum é um sistema online de controle financeiro para micro e pequenas empresas, sendo um produto criado, desenvolvido e mantido pela Webgoal.',
+          content: this.$t('cases.granatum'),
           screen: require('@/assets/images/granatum.png')
         },
         {
           key: 3,
-          content:
-            'A Lumiar proporciona um ambiente diferenciado para os estudantes. Somos responsáveis por tornar a metodologia Lumiar uma solução digital utilizada pelas escolas no Brasil e exterior.',
+          content: this.$t('cases.lumiar'),
           screen: require('@/assets/images/lumiar.png')
         },
         {
           key: 4,
-          content:
-            'A DSOP promove educação financeira ajudando seus parceiros a construir hábitos saudáveis. Nosso time é responsável pela plataforma que promove educação financeira em escolas, empresas e para trabalhadores Brasil afora.',
+          content: this.$t('cases.dsop'),
           screen: require('@/assets/images/dsop.png')
         },
         {
           key: 5,
-          content:
-            'A VAGAS.com é líder no mercado de e-recruitment no Brasil e oferece soluções para facilitar a conexão dos melhores talentos às empresas. Criamos novas soluções e otimizar processos já existentes.',
+          content: this.$t('cases.vagas'),
           screen: require('@/assets/images/vagas.png')
         },
         {
           key: 6,
-          content:
-            'A Synergia, através de suas pesquisas socioambientais, muda a vida de milhares de pessoas. Nosso time é responsável por sistematizar todas as etapas da pesquisa e criar inteligência para que elas possam trazer bons resultados.',
+          content: this.$t('cases.synergia'),
           screen: require('@/assets/images/synergia.png')
         }
       ]

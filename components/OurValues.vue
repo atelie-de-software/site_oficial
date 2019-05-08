@@ -6,29 +6,21 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-6">
-        <h3>{{ $t('ourValues.Autonomy') }}</h3>
-        <p>{{ $t('ourValues.AutonomyDescription') }}</p>
-      </div>
-      <div class="col-md-6">
-        <h3>{{ $t('ourValues.Collaboration') }}</h3>
-        <p>{{ $t('ourValues.CollaborationDescription') }}</p>
-      </div>
-      <div class="col-md-6">
-        <h3>{{ $t('ourValues.Learning') }}</h3>
-        <p>{{ $t('ourValues.LearningDescription') }}</p>
-      </div>
-      <div class="col-md-6">
-        <h3>{{ $t('ourValues.SelfOrganization') }}</h3>
-        <p>{{ $t('ourValues.SelfOrganizationDescription') }}</p>
-      </div>
-      <div class="col-md-6">
-        <h3>{{ $t('ourValues.Transparency') }}</h3>
-        <p>{{ $t('ourValues.TransparencyDescription') }}</p>
-      </div>
-      <div class="col-md-6">
-        <h3>{{ $t('ourValues.Excellency') }}</h3>
-        <p>{{ $t('ourValues.ExcellencyDescription') }}</p>
+      <div v-for="(value, index) in values" :key="index" class="col-md-6">
+        <h3
+          :data-aos="index % 2 !== 0 ? 'fade-left' : 'fade-right'"
+          data-aos-once="true"
+          :data-aos-delay="100 * index"
+        >
+          {{ value.title }}
+        </h3>
+        <p
+          :data-aos="index % 2 !== 0 ? 'fade-left' : 'fade-right'"
+          data-aos-once="true"
+          :data-aos-delay="110 * index"
+        >
+          {{ value.content }}
+        </p>
       </div>
     </div>
     <div class="row">
@@ -77,6 +69,36 @@ export default {
   name: 'OurValue',
   components: {
     Person
+  },
+  data() {
+    return {
+      values: [
+        {
+          title: this.$t('ourValues.Autonomy'),
+          content: this.$t('ourValues.AutonomyDescription')
+        },
+        {
+          title: this.$t('ourValues.Collaboration'),
+          content: this.$t('ourValues.CollaborationDescription')
+        },
+        {
+          title: this.$t('ourValues.Learning'),
+          content: this.$t('ourValues.LearningDescription')
+        },
+        {
+          title: this.$t('ourValues.SelfOrganization'),
+          content: this.$t('ourValues.SelfOrganizationDescription')
+        },
+        {
+          title: this.$t('ourValues.Transparency'),
+          content: this.$t('ourValues.TransparencyDescription')
+        },
+        {
+          title: this.$t('ourValues.Excellency'),
+          content: this.$t('ourValues.ExcellencyDescription')
+        }
+      ]
+    }
   }
 }
 </script>

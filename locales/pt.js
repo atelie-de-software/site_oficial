@@ -20,10 +20,29 @@ const pt = {
     description:
       'Composto pelas etapas de Concepção, Preparação, Execução e Transição, nosso processo engloba os principais momentos e desafios de um projeto de desenvolvimento de software de primeira linha.'
   },
+  share: {
+    description: 'compartilhando os desafios diários do ateliê de software'
+  },
   world: {
     message: 'O Ateliê pelo mundo',
     description:
       'Nossos serviços diferenciados também são oferecidos em Portugal através da parceria com a SCOPPHU, empresa que complementa nossa proposta de valor oferecendo serviços de formação e consultoria em gestão de projetos e agile para o mercado europeu.'
+  },
+  cases: {
+    educadora:
+      'A Educadora FM é a rádio do Grupo Bandeirantes de Televisão líder de audiência em Campinas e região.',
+    conlicita:
+      'O ConLicitação possui o maior banco de dados de avisos de licitações do país. Reestruturamos seus sistemas internos e a criamos novos softwares. Estão conosco há 11 anos.',
+    granatum:
+      'O Granatum é um sistema online de controle financeiro para micro e pequenas empresas, sendo um produto criado, desenvolvido e mantido pela Webgoal.',
+    lumiar:
+      'A Lumiar proporciona um ambiente diferenciado para os estudantes. Somos responsáveis por tornar a metodologia Lumiar uma solução digital utilizada pelas escolas no Brasil e exterior.',
+    dsop:
+      'A DSOP promove educação financeira ajudando seus parceiros a construir hábitos saudáveis. Nosso time é responsável pela plataforma que promove educação financeira em escolas, empresas e para trabalhadores Brasil afora.',
+    vagas:
+      'A VAGAS.com é líder no mercado de e-recruitment no Brasil e oferece soluções para facilitar a conexão dos melhores talentos às empresas. Criamos novas soluções e otimizar processos já existentes.',
+    synergia:
+      'A Synergia, através de suas pesquisas socioambientais, muda a vida de milhares de pessoas. Nosso time é responsável por sistematizar todas as etapas da pesquisa e criar inteligência para que elas possam trazer bons resultados.'
   },
   form: {
     messageI: 'fale',

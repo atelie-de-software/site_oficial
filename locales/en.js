@@ -25,6 +25,24 @@ const en = {
     description:
       'Our services are also provided in Portugal through the partnership with SCOPPHU, a company which complements our value proposal/proposition by providing courses and consulting services on agile and project management for the European market.'
   },
+  cases: {
+    educadora:
+      'Educadora FM is the radio of the Bandeirantes Television Group, the leading audience is in Campinas and the region.',
+    conlicita: `ConLicitação has the largest database of procurement notices in the country. We restructure your internal systems and create new software. They've been with us for 11 years.`,
+    granatum:
+      'Granatum is an online financial control system for micro and small businesses, a product created, developed and maintained by Webgoal.',
+    lumiar:
+      'Lumiar provides a differentiated environment for students. We are responsible for making the Lumiar methodology a digital solution used by schools in Brazil and abroad.',
+    dsop:
+      'DSOP promotes financial education by helping its partners build healthy habits. Our team is responsible for the platform that promotes financial education in schools, companies and workers in Brazil.',
+    vagas:
+      'VAGAS.com is a leader in the e-recruitment market in Brazil and offers solutions to facilitate the connection of the best talent to the companies. We create new solutions and optimize existing processes.',
+    synergia:
+      'Synergia, through its socio-environmental research, changes the lives of thousands of people. Our team is responsible for systematizing all stages of the research and creating intelligence so that they can bring good results'
+  },
+  share: {
+    description: 'sharing our daily challenges'
+  },
   form: {
     messageI: 'contact us',
     messageII: '',
@@ -123,7 +141,8 @@ const en = {
     message: 'Educadora FM',
     description:
       'is the radio of the Bandeirantes Television Group with leading audience in Campinas and the region. In 2013 we started the project of creating a new content manager and the radio website, which at its launch hit the mark of 1 million hits.',
-    descriptionII: ''
+    descriptionII:
+      'We are currently developing the second phase of the project to increase the radio audience by gamifying user interaction with the site and building apps for Android and iOS.'
   },
   nav: {
     culture: 'Culture',
