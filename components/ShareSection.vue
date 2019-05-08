@@ -2,7 +2,7 @@
   <div v-if="postsLoaded" id="share" class="share-section">
     <div class="container">
       <div class="row">
-        <div class="col-md-4 title">
+        <div class="col-lg-4 col-md-6 title">
           <h2
             tabindex="0"
             class="share"
@@ -21,7 +21,7 @@
             {{ $t('share.description') }}
           </p>
         </div>
-        <div class="col-md-4">
+        <div class="col-lg-4 col-md-6">
           <MediumCard
             data-aos="fade-up"
             data-aos-delay="400"
@@ -34,7 +34,7 @@
             :link="firstPost.link"
           />
         </div>
-        <div class="col-md-4 posts">
+        <div class="col-lg-4 col-md-6 posts">
           <MediumPost
             v-for="(post, index) in latestPosts"
             :key="index"
@@ -87,7 +87,7 @@
   display: flex;
   justify-content: space-around;
   flex-direction: column;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 991px) {
     display: none;
   }
 }

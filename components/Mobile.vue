@@ -1,7 +1,7 @@
 <template>
   <div class="mobile">
     <div class="mobile-container">
-      <img :src="this.background" class="mobile-image" alt="" />
+      <img :src="background" class="mobile-image" alt="" />
     </div>
     <img src="@/assets/images/mobile.png" class="frame" alt="" />
   </div>
