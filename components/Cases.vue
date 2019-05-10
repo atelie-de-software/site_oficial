@@ -18,7 +18,7 @@
       navigation-next-label="›"
       navigation-prev-label="‹"
     >
-      <Slide v-for="slide in slides" :key="slide.key" class="swiper-wrapper">
+      <Slide v-for="slide in slides" :key="slide.key" class="wrapper">
         <div class="container">
           <div class="row">
             <div class="col-md-5 content">
@@ -132,6 +132,11 @@ p {
   a {
     margin-bottom: 50px;
   }
+}
+.wrapper {
+  height: auto;
+  display: flex;
+  align-items: center;
 }
 .header-cases {
   @media screen and (min-width: 787px) {
