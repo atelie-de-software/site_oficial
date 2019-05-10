@@ -11,7 +11,7 @@
 .frame {
   position: absolute;
   top: 0;
-  bottom: 0;
+  bottom: -8px;
   z-index: 10;
   margin: auto;
   height: 100%;
@@ -19,11 +19,11 @@
   // box-shadow: -52px 47px 80px 0px rgba(0, 0, 0, 0.15);
 }
 .mobile-container {
-  width: 95%;
+  width: 86%;
   margin: 10px auto 0;
   overflow: hidden;
   background-color: transparent;
-  border-radius: 30px;
+  border-radius: 40px;
 }
 .mobile {
   position: relative;

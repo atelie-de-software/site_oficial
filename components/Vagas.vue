@@ -3,14 +3,14 @@
     <div class="row">
       <div class="col-md-7 content">
         <img src="~/assets/images/vagas-logo.png" class="logo" alt />
-        <Mobile :background="granatumPrint" class="mobile-frame show-mobile" />
+        <Mobile :background="vagasPrint" class="mobile-frame show-mobile" />
         <div>
           <p>{{ $t('vagas.description') }}</p>
           <p>{{ $t('vagas.descriptionII') }}</p>
         </div>
       </div>
       <div class="col-md-5 align-mobile-frame">
-        <Mobile :background="granatumPrint" class="mobile-frame show-desktop" />
+        <Mobile :background="vagasPrint" class="mobile-frame show-desktop" />
       </div>
     </div>
   </div>
@@ -48,14 +48,14 @@
 
 <script>
 import Mobile from '@/components/Mobile'
-import Print from '@/assets/images/mindica-print.png'
+import Print from '@/assets/images/mindica-print.jpg'
 export default {
   name: 'VagasCase',
   components: {
     Mobile
   },
   computed: {
-    granatumPrint() {
+    vagasPrint() {
       return Print
     }
   }
