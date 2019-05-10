@@ -88,7 +88,7 @@ nav {
   width: 100%;
   display: flex;
   flex-wrap: nowrap;
-  align-items: flex-end;
+  align-items: center;
   justify-content: center;
   @media screen and (max-width: 786px) {
     justify-content: flex-start;
