@@ -54,7 +54,7 @@ const en = {
   },
   footer: {
     address:
-      'Av. João Pinheiro, 341 - Sala 3 - Centro, Poços de Caldas - MG, 37701-880 | (35) 3722-3776',
+      'R. Paraíba, 49 - Vila Nossa Sra. de Fatima, Poços de Caldas - MG, 37701-726 | (35) 3722-3776',
     copyright: 'Ateliê de Software 2019 © all rights reserved'
   },
   heroCulture: {
