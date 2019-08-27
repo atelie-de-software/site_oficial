@@ -4,7 +4,7 @@
       v-for="(person, index) in persons"
       v-show="selectedPerson === index"
       :key="index"
-      :src="person"
+      v-lazy="person"
       aria-hidden="true"
     />
   </span>
