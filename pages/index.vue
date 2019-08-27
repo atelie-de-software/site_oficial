@@ -4,7 +4,6 @@
     <Culture />
     <Methods />
     <Cases />
-    <World />
     <Share />
     <Contact />
     <Form />
@@ -17,7 +16,6 @@ import Hero from '@/components/Hero'
 import Culture from '@/components/Culture'
 import Methods from '@/components/Methods'
 import Cases from '@/components/Cases'
-import World from '@/components/World'
 import Share from '@/components/ShareSection'
 import Contact from '@/components/Contact'
 import FooterSection from '@/components/Footer'
