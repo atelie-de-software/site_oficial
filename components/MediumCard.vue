@@ -5,9 +5,6 @@
       <div class="date">
         <time tabindex="0" :datetime="date">{{ datetime }}</time>
       </div>
-      <div class="photo author">
-        <img tabindex="-1" src="//placehold.it/135x135" alt />
-      </div>
       <div class="name">
         <h6 tabindex="0">
           {{ author }}
