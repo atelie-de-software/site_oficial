@@ -33,7 +33,6 @@ export default {
     Culture,
     Methods,
     Cases,
-    World,
     Share,
     Contact,
     FooterSection
