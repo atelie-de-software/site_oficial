@@ -1,6 +1,6 @@
 <template>
   <div class="card" aria-label="Blog">
-    <img tabindex="0" class="featured-image" :src="thumb" alt />
+    <img v-lazy="thumb" tabindex="0" class="featured-image" alt />
     <div class="infos">
       <div class="date">
         <time tabindex="0" :datetime="date">{{ datetime }}</time>

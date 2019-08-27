@@ -37,7 +37,7 @@ module.exports = {
   /*
    ** Customize the progress-bar color
    */
-  loading: { color: '#fff' },
+  loading: { color: '#3ee6a1' },
 
   /*
    ** Global CSS
@@ -57,7 +57,8 @@ module.exports = {
     { src: '~/plugins/vuelidate.js', ssr: false },
     { src: '~/plugins/hotjar.js', ssr: false },
     { src: '~/plugins/aos.js', ssr: false },
-    { src: '~/plugins/ga.js', ssr: false }
+    { src: '~/plugins/ga.js', ssr: false },
+    { src: '~/plugins/lazyload', ssr: false }
   ],
 
   router: {
@@ -133,6 +134,8 @@ module.exports = {
     /*
      ** You can extend webpack config here
      */
+    analyze: true,
+
     extend(config, ctx) {
       // Run ESLint on save
       if (ctx.isDev && ctx.isClient) {
