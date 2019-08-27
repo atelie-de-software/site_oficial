@@ -100,7 +100,8 @@ module.exports = {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
-    '@nuxtjs/pwa',
+    // '@nuxtjs/pwa',
+    'nuxt-webfontloader',
     [
       'nuxt-i18n',
       {
@@ -126,7 +127,11 @@ module.exports = {
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
   },
-
+  webfontloader: {
+    google: {
+      families: ['Montserrat:300,400,800']
+    }
+  },
   /*
    ** Build configuration
    */
@@ -134,8 +139,6 @@ module.exports = {
     /*
      ** You can extend webpack config here
      */
-    analyze: true,
-
     extend(config, ctx) {
       // Run ESLint on save
       if (ctx.isDev && ctx.isClient) {
