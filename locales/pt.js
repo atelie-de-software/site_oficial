@@ -148,7 +148,6 @@ const pt = {
   nav: {
     culture: 'Cultura',
     cases: 'Cases',
-    world: 'No Mundo',
     share: 'share!',
     tellUs: 'Fale Conosco'
   }

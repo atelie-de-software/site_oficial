@@ -6,14 +6,11 @@
       <span />
     </button>
     <nav :class="menuClass" @click="closeMenu">
-      <nuxt-link :to="localePath('cultura')" href="/#cultura">
+      <nuxt-link :to="localePath('cultura')">
         {{ $t('nav.culture') }}
       </nuxt-link>
       <nuxt-link :to="localePath('cases')">
         {{ $t('nav.cases') }}
-      </nuxt-link>
-      <nuxt-link :to="{ path: localePath('index'), hash: '#mundo' }">
-        {{ $t('nav.world') }}
       </nuxt-link>
       <nuxt-link :to="{ path: localePath('index'), hash: '#share' }">
         {{ $t('nav.share') }}
@@ -148,8 +145,8 @@ export default {
       this.menuOpened = false
     },
     changeLanguage(value) {
-      const language = value.value ? 'en' : 'pt'
-      this.$router.push(this.switchLocalePath(language))
+      const language = value.value ? 'en' : '/'
+      this.$router.push(language)
     }
   }
 }

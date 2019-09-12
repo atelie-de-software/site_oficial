@@ -147,7 +147,6 @@ const en = {
   nav: {
     culture: 'Culture',
     cases: 'Cases',
-    world: 'In World',
     share: 'share!',
     tellUs: 'Contact us'
   }
