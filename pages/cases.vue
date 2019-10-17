@@ -5,7 +5,6 @@
     <Granatum />
     <Dsop />
     <Lumiar />
-    <Vagas />
     <Synergia />
     <Educadora />
     <FooterSection />
@@ -20,7 +19,6 @@ import Conlicitacao from '@/components/Conlicitacao'
 import Granatum from '@/components/Granatum'
 import Lumiar from '@/components/Lumiar'
 import Dsop from '@/components/Dsop'
-import Vagas from '@/components/Vagas'
 import Synergia from '@/components/Synergia'
 
 export default {
@@ -38,7 +36,6 @@ export default {
     Conlicitacao,
     Lumiar,
     Granatum,
-    Vagas,
     Synergia,
     Dsop
   }
