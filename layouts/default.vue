@@ -1,6 +1,9 @@
 <template>
   <transition name="page" appear>
     <main>
+      <img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=476265769626154&ev=PageView&noscript=1"
+      /><
       <Header />
       <Nuxt />
     </main>
