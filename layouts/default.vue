@@ -1,11 +1,12 @@
 <template>
   <transition name="page" appear>
     <main>
-      <img height="1" width="1" style="display:none"
+      <img
+        height="1"
+        width="1"
+        style="display:none"
         src="https://www.facebook.com/tr?id=476265769626154&ev=PageView&noscript=1"
       />
-      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TPD74WQ"
-        height="0" width="0" style="display:none;visibility:hidden"></iframe>
       <Header />
       <Nuxt />
     </main>
