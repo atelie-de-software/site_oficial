@@ -54,7 +54,7 @@ const en = {
   },
   footer: {
     address:
-      'R. Paraíba, 49 - Vila Nossa Sra. de Fatima, Poços de Caldas - MG, 37701-726 | (35) 3722-3776',
+      'R. Paraíba, 49 - Vila Nossa Sra. de Fatima, Poços de Caldas - MG, 37701-726 | (35) 3722-3776 | (35) 99999-8914',
     copyright: 'Ateliê de Software 2019 © all rights reserved'
   },
   heroCulture: {
