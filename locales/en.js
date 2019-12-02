@@ -48,12 +48,12 @@ const en = {
     messageII: 'us'
   },
   contactFormQuestions: {
-    name: 'Qual é o seu nome?',
-    phone: 'Em qual telefone podemos te retornar?',
-    bestEmail: 'Qual o seu melhor e-mail?',
-    contactType: 'Qual é a melhor forma de te retornarmos?',
-    contactPeriod: 'Qual o melhor momento para entrarmos em contato?',
-    budget: 'Qual o seu orçamento para este projeto?'
+    name: 'What is your name?',
+    phone: 'Which phone number we can find you?',
+    bestEmail: 'What is your best e-mail?',
+    contactType: 'What is the best way to call you back?',
+    contactPeriod: 'When is the best moment to contact us?',
+    budget: 'What is your budget to your project?'
   },
   footer: {
     address:
