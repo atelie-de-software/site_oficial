@@ -45,12 +45,15 @@ const en = {
   },
   form: {
     messageI: 'contact us',
-    messageII: '',
-    name: 'name',
-    email: 'email',
-    company: 'company',
-    tellUs: 'tell us about your project',
-    next: 'Next'
+    messageII: ''
+  },
+  contactFormQuestions: {
+    name: 'Qual é o seu nome?',
+    phone: 'Em qual telefone podemos te retornar?',
+    bestEmail: 'Qual o seu melhor e-mail?',
+    contactType: 'Qual é a melhor forma de te retornarmos?',
+    contactPeriod: 'Qual o melhor momento para entrarmos em contato?',
+    budget: 'Qual o seu orçamento para este projeto?'
   },
   footer: {
     address:

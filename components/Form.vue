@@ -1,204 +1,125 @@
 <template>
-  <div>
-    <div class="form-container">
-      <h1 tabindex="0">
-        {{ $t('form.messageI') }}
-        <br />{{ $t('form.messageII') }}
-      </h1>
+  <div :class="socorro">
+    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+    <link
+      rel="stylesheet"
+      href="https://s.pageclip.co/v1/pageclip.css"
+      media="screen"
+    />
+    <form
+      action="https://send.pageclip.co/UJN10AWTdqnphMMuTYOl1YYav1Gz70FA/atelie-form"
+      class="pageclip-form"
+      method="post"
+    >
+      <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
+      <label htmlFor="name">
+        {{ $t('contactFormQuestions.name') }}
+      </label>
+      <input id="name" type="text" name="name" required />
 
-      <form
-        class="form"
-        method="post"
-        data-netlify="true"
-        action="https://formspree.io/contato@webgoal.com.br"
-      >
-        <div v-show="stepOne" class="form-content">
-          <input
-            id="nome"
-            v-model="nome"
-            data-aos="fade-right"
-            data-aos-once="true"
-            required
-            type="text"
-            name="nome"
-            :aria-label="$t('form.name')"
-            :placeholder="$t('form.name')"
-          />
-          <div v-if="submited && !$v.nome.required" class="error">
-            Campo Obrigatório
-          </div>
-          <input
-            id="email"
-            v-model="email"
-            data-aos="fade-right"
-            data-aos-delay="200"
-            data-aos-once="true"
-            required
-            type="email"
-            name="email"
-            :aria-label="$t('form.email')"
-            :placeholder="$t('form.email')"
-          />
-          <div v-if="submited && !$v.email.required" class="error">
-            Campo Obrigatório
-          </div>
-          <div v-if="submited && !$v.email.email" class="error">
-            Email inválido
-          </div>
-          <input
-            id="empresa"
-            v-model="empresa"
-            data-aos="fade-right"
-            data-aos-delay="400"
-            data-aos-once="true"
-            required
-            type="text"
-            name="empresa"
-            :aria-label="$t('form.company')"
-            :placeholder="$t('form.company')"
-          />
-          <div v-if="submited && !$v.empresa.required" class="error">
-            Campo Obrigatório
-          </div>
-          <textarea
-            id="description"
-            v-model="descricao"
-            data-aos="fade-right"
-            data-aos-delay="600"
-            data-aos-once="true"
-            name="description"
-            cols="10"
-            rows="4"
-            :aria-label="$t('form.tellUs')"
-            :placeholder="$t('form.tellUs')"
-          />
-          <button type="button" class="btn" @click="nextStep">
-            {{ $t('form.next') }}
-          </button>
-        </div>
+      <label htmlFor="phone">
+        {{ $t('contactFormQuestions.phone') }}
+      </label>
+      <input id="phone" type="text" name="phone" required />
 
-        <div v-show="!stepOne" class="form-content">
-          <p tabindex="0">
-            <strong>{{ nome }}</strong
-            >, agora nos fale um pouco sobre o seu projeto.
-          </p>
-          <p>
-            <strong tabindex="0">Valor estimado em reais:</strong>
-          </p>
-          <div class="row">
-            <div
-              v-for="(price, index) in prices"
-              :key="index"
-              class="col-md-4 item"
-            >
-              <input
-                :id="price"
-                v-model="projectPrice"
-                name="Valor Estimado"
-                type="radio"
-                :value="price"
-              />
-              <label :for="price" tabindex="0">{{ price }}</label>
-            </div>
-          </div>
-          <div class="row divider">
-            <div class="col-md-5">
-              <hr />
-            </div>
-            <div class="col-md-2">
-              <strong>ou</strong>
-            </div>
-            <div class="col-md-5">
-              <hr />
-            </div>
-          </div>
-          <input
-            type="submit"
-            value="Enviar"
-            class="btn"
-            :disabled="!projectPrice"
-          />
+      <label htmlFor="phone">
+        {{ $t('contactFormQuestions.bestEmail') }}
+      </label>
+      <input id="email" type="email" name="email" required />
+
+      <div class="select-box">
+        <label>
+          {{ $t('contactFormQuestions.contactType') }}
+        </label>
+
+        <div class="select-field">
+          <select name="contactType" required>
+            <option value="" selected></option>
+            <option value="phone">Telefone</option>
+            <option value="email">E-mail</option>
+            <option value="skype">Skype</option>
+            <option value="whatsapp">Whatsapp</option>
+            <option value="video">Vídeo Conferência</option>
+          </select>
         </div>
-      </form>
-    </div>
+      </div>
+
+      <div class="select-box">
+        <label>
+          {{ $t('contactFormQuestions.contactPeriod') }}
+        </label>
+
+        <div class="select-field">
+          <select name="contactPeriod" required>
+            <option value="" selected></option>
+            <option value="morning">Manhã</option>
+            <option value="afternoon">Tarde</option>
+            <option value="evening">Noite</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="select-box">
+        <label>
+          {{ $t('contactFormQuestions.budget') }}
+        </label>
+
+        <div class="select-field">
+          <select name="budget" required>
+            <option value="" selected></option>
+            <option value="0">180 Mil Reais (contrato mínimo).</option>
+            <option value="1">De 180 Mil Reais até 360 Mil Reais.</option>
+            <option value="2">De 360 Mil até 600 Mil Reais.</option>
+            <option value="3">Mais de 600 Mil Reais.</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- This button will have a loading spinner. Keep the inner span for best results. -->
+      <button type="submit" class="pageclip-form__submit btn">
+        <span>Enviar</span>
+      </button>
+    </form>
   </div>
 </template>
 
 <style lang="scss" scoped>
-.form-container {
-  width: 100%;
-  padding-top: 145px;
-  padding-bottom: 92px;
-  max-width: 461px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.form {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  width: 100%;
-  height: 595px;
-  box-shadow: 0 0 68px rgba(86, 99, 108, 0.22);
-  border-radius: 10px;
-  background-color: #ffffff;
-  padding: 82px 22px;
-  @media screen and (max-width: 786px) {
-    padding: 82px 22px 30px;
-    height: auto;
-  }
-}
-.form-content {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 100%;
-  .btn {
-    align-self: flex-end;
-  }
-}
-h1 {
-  opacity: 0.7;
-  color: #000000;
-  font-size: 87px;
-  font-weight: 700;
-  line-height: 64.32px;
-  letter-spacing: 0.26px;
-  margin-bottom: -40px;
-  @media screen and (max-width: 786px) {
-    font-size: 15.4vw;
-    line-height: 1;
-  }
-}
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
-}
-.item {
-  display: flex;
-  font-size: 22px;
-  font-weight: 300;
-  line-height: 24.58px;
-}
-.divider {
+select::-ms-expand {
   display: none;
-  > div {
-    display: flex;
-    align-items: center;
-    hr {
-      width: 100%;
-      height: 1px;
-      border: 1px solid #000;
-    }
+}
+
+.contact {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+.block-scroller__Root-sc-23jz1-0 .tSSlS {
+  overflow-y: hidden !important;
+}
+
+.overflow-form {
+  overflow: hidden !important;
+}
+
+.typeform-widget {
+  height: auto;
+}
+.pageclip-form__success {
+  display: none;
+}
+
+.select-box {
+  margin: 0 0 20px 0;
+}
+
+.select-field {
+  margin: 7px 0 0 0;
+
+  select {
+    border: 1px solid;
+    font-size: 18px;
+    font-weight: bold;
+    height: 3.5em;
+    width: 100%;
   }
 }
 </style>
@@ -221,10 +142,12 @@ export default {
       projectPrice: undefined,
       stepOne: true,
       nome: '',
+      telefone: '',
       email: '',
       empresa: '',
       descricao: '',
-      submited: false
+      submited: false,
+      socorro: ''
     }
   },
   validations: {

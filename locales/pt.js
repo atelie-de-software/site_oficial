@@ -46,12 +46,15 @@ const pt = {
   },
   form: {
     messageI: 'fale',
-    messageII: 'conosco',
-    name: 'nome',
-    email: 'email',
-    company: 'empresa',
-    tellUs: 'fale sobre seu projeto',
-    next: 'Próximo'
+    messageII: 'conosco'
+  },
+  contactFormQuestions: {
+    name: 'Qual é o seu nome?',
+    phone: 'Em qual telefone podemos te retornar?',
+    bestEmail: 'Qual o seu melhor e-mail?',
+    contactType: 'Qual é a melhor forma de te retornarmos?',
+    contactPeriod: 'Qual o melhor momento para entrarmos em contato?',
+    budget: 'Qual o seu orçamento para este projeto?'
   },
   footer: {
     address:
