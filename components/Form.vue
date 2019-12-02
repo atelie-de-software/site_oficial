@@ -41,11 +41,11 @@
         <div class="select-field">
           <select name="contactType" required>
             <option value="" selected></option>
-            <option value="phone">Telefone</option>
-            <option value="email">E-mail</option>
-            <option value="skype">Skype</option>
-            <option value="whatsapp">Whatsapp</option>
-            <option value="video">Vídeo Conferência</option>
+            <option value="Telefone">Telefone</option>
+            <option value="Email">E-mail</option>
+            <option value="Skype">Skype</option>
+            <option value="WhatsApp">Whatsapp</option>
+            <option value="Video">Vídeo Conferência</option>
           </select>
         </div>
       </div>
@@ -58,9 +58,9 @@
         <div class="select-field">
           <select name="contactPeriod" required>
             <option value="" selected></option>
-            <option value="morning">Manhã</option>
-            <option value="afternoon">Tarde</option>
-            <option value="evening">Noite</option>
+            <option value="Manhã">Manhã</option>
+            <option value="Tarde">Tarde</option>
+            <option value="Noite">Noite</option>
           </select>
         </div>
       </div>
@@ -73,10 +73,12 @@
         <div class="select-field">
           <select name="budget" required>
             <option value="" selected></option>
-            <option value="0">180 Mil Reais (contrato mínimo).</option>
-            <option value="1">De 180 Mil Reais até 360 Mil Reais.</option>
-            <option value="2">De 360 Mil até 600 Mil Reais.</option>
-            <option value="3">Mais de 600 Mil Reais.</option>
+            <option value="0 a 180mil">180 Mil Reais (contrato mínimo).</option>
+            <option value="180 a 360mil">
+              De 180 Mil Reais até 360 Mil Reais.
+            </option>
+            <option value="360 a 600mil">De 360 Mil até 600 Mil Reais.</option>
+            <option value="acima de 600mil">Mais de 600 Mil Reais.</option>
           </select>
         </div>
       </div>
