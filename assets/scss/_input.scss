@@ -2,14 +2,14 @@
   &::-webkit-input-placeholder {@content}
   &:-moz-placeholder           {@content}
   &::-moz-placeholder          {@content}
-  &:-ms-input-placeholder      {@content}  
+  &:-ms-input-placeholder      {@content}
 }
 
 input,
 textarea {
   border-radius: 4px;
   border: 1px solid #000000;
-  background-color: #ffffff;
+  background-color: #f8f8f8;
   margin-bottom: 20px;
   padding: 20px 9px;
   width: 100%;
@@ -25,4 +25,3 @@ textarea {
       opacity: 1;
   }
 }
-

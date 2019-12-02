@@ -44,8 +44,8 @@ const en = {
     description: 'sharing our daily challenges'
   },
   form: {
-    messageI: 'contact us',
-    messageII: ''
+    messageI: 'contact',
+    messageII: 'us'
   },
   contactFormQuestions: {
     name: 'Qual é o seu nome?',

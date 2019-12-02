@@ -13,6 +13,9 @@
 <style lang="scss" scoped>
 .contact {
   background-image: url('../assets/images/map.png');
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding-bottom: 50px;
 }
 </style>
 
