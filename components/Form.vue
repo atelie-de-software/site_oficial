@@ -8,10 +8,9 @@
     />
     <form
       action="https://send.pageclip.co/UJN10AWTdqnphMMuTYOl1YYav1Gz70FA/atelie-form"
-      class="pageclip-for"
+      class="pageclip-form"
       method="post"
       novalidate="true"
-      @submit="checkForm"
     >
       <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
       <div
@@ -193,7 +192,11 @@
         </div>
       </div>
       <!-- This button will have a loading spinner. Keep the inner span for best results. -->
-      <button type="submit" class="pageclip-form__submit btn">
+      <button
+        type="submit"
+        class="pageclip-form__submit btn"
+        @click="submitForm"
+      >
         <span>{{ $t('contactFormQuestions.sendButton') }}</span>
       </button>
     </form>
@@ -292,13 +295,14 @@ export default {
     projectDescription: { required }
   },
   methods: {
-    checkForm: function(event) {
+    submitForm: function(event) {
       this.submited = true
       if (this.$v.$invalid) {
         event.preventDefault()
+        event.stopPropagation()
         return false
       }
-      return true
+      return false
     }
   }
 }
