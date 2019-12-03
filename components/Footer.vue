@@ -3,7 +3,7 @@
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-md-3">
+          <div class="col-md-6">
             <img
               src="/logo_atelie_footer.png"
               alt="Logo ateliê de software"
@@ -14,9 +14,6 @@
             <span tabindex="0">
               {{ $t('footer.copyright') }}
             </span>
-          </div>
-          <div class="col-md-3 vertical">
-            <SocialLinks />
           </div>
         </div>
       </div>
@@ -75,12 +72,8 @@ footer {
 </style>
 
 <script>
-import SocialLinks from '@/components/SocialIcons'
 export default {
   name: 'SiteFooter',
-  components: {
-    SocialLinks
-  },
   computed: {
     year: function() {
       return new Date().getFullYear()

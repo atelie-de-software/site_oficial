@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="social-container">
     <a
       aria-label="Facebook"
       target="_blank"
@@ -63,13 +63,17 @@
   </div>
 </template>
 
-<style scoped>
-a {
-  color: rgba(0, 0, 0, 0.5);
-  margin: 0 10px;
-}
-a > svg {
-  width: 16px;
-  fill: rgba(0, 0, 0, 0.5);
+<style lang="scss" scoped>
+.social-container {
+  text-align: right;
+
+  a {
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0 0 0 20px;
+  }
+  a > svg {
+    width: 16px;
+    fill: rgba(0, 0, 0, 0.5);
+  }
 }
 </style>

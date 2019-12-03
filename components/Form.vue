@@ -205,11 +205,6 @@ select::-ms-expand {
   display: none;
 }
 
-.form-container {
-  background-color: #ffffff;
-  padding: 25px;
-}
-
 .block-scroller__Root-sc-23jz1-0 .tSSlS {
   overflow-y: hidden !important;
 }
@@ -231,14 +226,6 @@ select::-ms-expand {
 
 .select-field {
   margin: 7px 0 0 0;
-
-  select {
-    border: 1px solid;
-    font-size: 18px;
-    font-weight: bold;
-    height: 3.5em;
-    width: 100%;
-  }
 }
 
 #alternative-channel {
