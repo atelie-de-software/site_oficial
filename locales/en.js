@@ -62,6 +62,10 @@ const en = {
     error: {
       required: 'Required field',
       email: 'Invalid email'
+    },
+    hint: {
+      contactPeriod: 'Date, time or period',
+      phone: 'Inform country and state code'
     }
   },
   contact: {

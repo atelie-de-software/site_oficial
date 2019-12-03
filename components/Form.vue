@@ -23,9 +23,9 @@
           {{ $t('contactFormQuestions.name') }}
         </label>
         <input id="name" v-model="name" type="text" name="name" />
-        <div v-if="submited && !$v.name.required" class="error">
+        <span v-if="submited && !$v.name.required" class="error">
           {{ $t('contactFormQuestions.error.required') }}
-        </div>
+        </span>
       </div>
 
       <div
@@ -45,9 +45,10 @@
           mask="FFFFFFFFFFFFFFFFFFFF"
           :tokens="phoneTokens"
         />
-        <div v-if="submited && !$v.phone.required" class="error">
+        <span class="hint">{{ $t('contactFormQuestions.hint.phone') }}</span>
+        <span v-if="submited && !$v.phone.required" class="error">
           {{ $t('contactFormQuestions.error.required') }}
-        </div>
+        </span>
       </div>
 
       <div
@@ -60,12 +61,12 @@
           {{ $t('contactFormQuestions.bestEmail') }}
         </label>
         <input id="email" v-model="email" type="email" name="email" />
-        <div v-if="submited && !$v.email.required" class="error">
+        <span v-if="submited && !$v.email.required" class="error">
           {{ $t('contactFormQuestions.error.required') }}
-        </div>
-        <div v-if="submited && !$v.email.email" class="error">
+        </span>
+        <span v-if="submited && !$v.email.email" class="error">
           {{ $t('contactFormQuestions.error.email') }}
-        </div>
+        </span>
       </div>
 
       <div
@@ -89,9 +90,9 @@
               <option value="Video">Vídeo Conferência</option>
             </select>
           </div>
-          <div v-if="submited && !$v.contactType.required" class="error">
+          <span v-if="submited && !$v.contactType.required" class="error">
             {{ $t('contactFormQuestions.error.required') }}
-          </div>
+          </span>
 
           <div
             v-if="['Skype', 'Video'].includes(contactType)"
@@ -131,9 +132,12 @@
           type="text"
           name="contactPeriod"
         />
-        <div v-if="submited && !$v.contactPeriod.required" class="error">
+        <span class="hint">
+          {{ $t('contactFormQuestions.hint.contactPeriod') }}
+        </span>
+        <span v-if="submited && !$v.contactPeriod.required" class="error">
           {{ $t('contactFormQuestions.error.required') }}
-        </div>
+        </span>
       </div>
 
       <div
@@ -164,9 +168,9 @@
               </option>
             </select>
           </div>
-          <div v-if="submited && !$v.budget.required" class="error">
+          <span v-if="submited && !$v.budget.required" class="error">
             {{ $t('contactFormQuestions.error.required') }}
-          </div>
+          </span>
         </div>
       </div>
 
@@ -185,9 +189,9 @@
           name="project-description"
           rows="5"
         ></textarea>
-        <div v-if="submited && !$v.projectDescription.required" class="error">
+        <span v-if="submited && !$v.projectDescription.required" class="error">
           {{ $t('contactFormQuestions.error.required') }}
-        </div>
+        </span>
       </div>
       <!-- This button will have a loading spinner. Keep the inner span for best results. -->
       <button

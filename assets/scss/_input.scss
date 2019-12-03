@@ -6,7 +6,7 @@
 }
 
 .form-input {
-  margin-bottom: 20px;
+  margin-bottom: 26px;
 }
 
 input,
@@ -39,7 +39,14 @@ select {
 }
 
 .error {
-  color: red;
+  color: rgb(197, 16, 16);
   font-size: 12px;
-  text-align: right;
+  float: right;
+}
+
+.hint {
+  color: #505050;
+  font-style: italic;
+  font-size: 12px;
+  float: left;
 }

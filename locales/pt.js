@@ -63,6 +63,10 @@ const pt = {
     error: {
       required: 'Campo obrigatório',
       email: 'Email inválido'
+    },
+    hint: {
+      contactPeriod: 'Data, hora e/ou período',
+      phone: 'Informe o DDD'
     }
   },
   contact: {
