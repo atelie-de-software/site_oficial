@@ -66,7 +66,7 @@ const en = {
   },
   contact: {
     addressTitle: 'Address',
-    address: 'Rua Paraíba, 49 - Vila Nossa Sra. de Fatima',
+    address: 'Rua Paraíba, 49 - Vila Nossa Sra. de Fátima',
     cityState: 'Poços de Caldas - MG',
     postalCode: 'Zip Code: 37701-726',
     phoneTitle: 'Phones',
