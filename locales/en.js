@@ -55,7 +55,7 @@ const en = {
     bestEmail: 'What is your best e-mail?',
     contactType: 'What is the best way to call you back?',
     contactAlternativeChannel: 'Username or URL:',
-    contactPeriod: 'When is the best moment to contact us?',
+    contactPeriod: 'When is the best moment to contact you?',
     budget: 'What is your budget to your project?',
     projectDescription: 'Tell me more about your project:',
     sendButton: 'Send',
