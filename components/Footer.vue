@@ -1,14 +1,5 @@
 <template>
   <div>
-    <div class="container address">
-      <div class="row">
-        <div class="col-md-12">
-          <address>
-            {{ $t('footer.address') }}
-          </address>
-        </div>
-      </div>
-    </div>
     <footer>
       <div class="container">
         <div class="row">

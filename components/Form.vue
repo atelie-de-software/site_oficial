@@ -6,12 +6,6 @@
       href="https://s.pageclip.co/v1/pageclip.css"
       media="screen"
     />
-
-    <h1 tabindex="0">
-      {{ $t('form.messageI') }}
-      <br />
-      {{ $t('form.messageII') }}
-    </h1>
     <form
       action="https://send.pageclip.co/UJN10AWTdqnphMMuTYOl1YYav1Gz70FA/atelie-form"
       class="pageclip-form"
@@ -99,15 +93,6 @@ select::-ms-expand {
 .form-container {
   background-color: #ffffff;
   padding: 25px;
-}
-
-h1 {
-  opacity: 0.7;
-  color: #000000;
-  font-size: 87px;
-  font-weight: 700;
-  line-height: 100px;
-  letter-spacing: 0.26px;
 }
 
 .block-scroller__Root-sc-23jz1-0 .tSSlS {

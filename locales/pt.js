@@ -57,9 +57,12 @@ const pt = {
     budget: 'Qual o seu orçamento para este projeto?'
   },
   footer: {
-    address:
-      'R. Paraíba, 49 - Vila Nossa Sra. de Fatima, Poços de Caldas - MG, 37701-726 | (35) 3722-3776 | (35) 99999-8914',
-    copyright: 'Todos os direitos reservados Ateliê de Software 2019 ©'
+    address: 'Rua Paraíba, 49 - Vila Nossa Sra. de Fatima',
+    city_state: 'Poços de Caldas - MG',
+    postal_code: '37701-726',
+    phone_1: '(35) 3722-3776',
+    phone_2: '(35) 99999-8914',
+    copyright: 'Ateliê de Software 2019 © all rights reserved'
   },
   heroCulture: {
     message: 'NOSSA CULTURA',
