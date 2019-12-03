@@ -10,10 +10,8 @@
               @click="scrolltop"
             />
           </div>
-          <div class="col-md-6">
-            <span tabindex="0">
-              {{ $t('footer.copyright') }}
-            </span>
+          <div class="col-md-6 copyright">
+            {{ $t('footer.copyright') }}
           </div>
         </div>
       </div>
@@ -49,17 +47,6 @@ footer {
       }
     }
   }
-  span {
-    color: #62686f;
-    font-size: 15px;
-    font-weight: 300;
-    letter-spacing: 2.31px;
-    line-height: 16px;
-  }
-  span {
-    font-size: 12px;
-    line-height: 12px;
-  }
   .vertical {
     display: flex;
     flex-direction: column;
@@ -67,6 +54,14 @@ footer {
     address {
       margin-bottom: 10px;
     }
+  }
+  .copyright {
+    justify-content: flex-end;
+    color: #62686f;
+    font-weight: 300;
+    letter-spacing: 2.31px;
+    font-size: 12px;
+    line-height: 12px;
   }
 }
 </style>
