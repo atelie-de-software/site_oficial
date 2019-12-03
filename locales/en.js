@@ -50,14 +50,14 @@ const en = {
     messageII: 'us'
   },
   contactFormQuestions: {
-    name: 'What is your name?',
-    phone: 'Which phone number we can find you?',
-    bestEmail: 'What is your best e-mail?',
-    contactType: 'What is the best way to call you back?',
-    contactAlternativeChannel: 'Username or URL:',
-    contactPeriod: 'When is the best moment to contact you?',
-    budget: 'What is your budget to your project?',
-    projectDescription: 'Tell us more about your project:',
+    name: 'What is your name? *',
+    phone: 'Which phone number we can find you? *',
+    bestEmail: 'What is your best e-mail? *',
+    contactType: 'What is the best way to call you back? *',
+    contactAlternativeChannel: 'Username or URL: *',
+    contactPeriod: 'When is the best moment to contact you? *',
+    budget: 'What is your budget to your project? *',
+    projectDescription: 'Tell us more about your project: *',
     sendButton: 'Send',
     error: {
       required: 'Required field',

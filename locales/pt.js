@@ -51,14 +51,14 @@ const pt = {
     messageII: 'conosco'
   },
   contactFormQuestions: {
-    name: 'Qual é o seu nome?',
-    phone: 'Em qual telefone podemos te retornar?',
-    bestEmail: 'Qual o seu melhor e-mail?',
-    contactType: 'Qual é a melhor forma de te retornarmos?',
-    contactAlternativeChannel: 'Usuário ou URL:',
-    contactPeriod: 'Qual o melhor momento para entrarmos em contato?',
-    budget: 'Qual o seu orçamento para este projeto?',
-    projectDescription: 'Fale um pouco sobre o seu projeto:',
+    name: 'Qual é o seu nome? *',
+    phone: 'Em qual telefone podemos te retornar? *',
+    bestEmail: 'Qual o seu melhor e-mail? *',
+    contactType: 'Qual é a melhor forma de te retornarmos? *',
+    contactAlternativeChannel: 'Usuário ou URL: *',
+    contactPeriod: 'Qual o melhor momento para entrarmos em contato? *',
+    budget: 'Qual o seu orçamento para este projeto? *',
+    projectDescription: 'Fale um pouco sobre o seu projeto: *',
     sendButton: 'Enviar',
     error: {
       required: 'Campo obrigatório',
