@@ -77,8 +77,8 @@ const en = {
     phoneOffice: '+55 35 3722-3776',
     phoneWhatsApp: '+55 35 99999-8914',
     socialMediaTitle: 'Social',
-    whatsappPhoneTitle: 'Projects and business contact',
-    officePhoneTitle: 'Office and other subjects'
+    whatsappPhoneTitle: 'For new projects and business subjects',
+    officePhoneTitle: 'Fot other subjects'
   },
   footer: {
     copyright: 'Ateliê de Software 2019 © all rights reserved'
