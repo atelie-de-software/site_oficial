@@ -53,8 +53,14 @@ const pt = {
     phone: 'Em qual telefone podemos te retornar?',
     bestEmail: 'Qual o seu melhor e-mail?',
     contactType: 'Qual é a melhor forma de te retornarmos?',
+    contactAlternativeChannel: 'Usuário ou URL:',
     contactPeriod: 'Qual o melhor momento para entrarmos em contato?',
-    budget: 'Qual o seu orçamento para este projeto?'
+    budget: 'Qual o seu orçamento para este projeto?',
+    projectDescription: 'Fale um pouco sobre o seu projeto:',
+    error: {
+      required: 'Campo obrigatório',
+      email: 'Email inválido'
+    }
   },
   footer: {
     address: 'Rua Paraíba, 49 - Vila Nossa Sra. de Fatima',
