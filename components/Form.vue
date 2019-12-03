@@ -1,5 +1,5 @@
 <template>
-  <div class="form-container">
+  <div v-show="stepOne" class="form-container">
     <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
     <link
       rel="stylesheet"
@@ -15,17 +15,41 @@
       <label htmlFor="name">
         {{ $t('contactFormQuestions.name') }}
       </label>
-      <input id="name" type="text" name="name" required />
+      <input
+        id="name"
+        type="text"
+        name="name"
+        required
+        data-aos="fade-right"
+        data-aos-delay="400"
+        data-aos-once="true"
+      />
 
       <label htmlFor="phone">
         {{ $t('contactFormQuestions.phone') }}
       </label>
-      <input id="phone" type="text" name="phone" required />
+      <input
+        id="phone"
+        type="text"
+        name="phone"
+        required
+        data-aos="fade-right"
+        data-aos-delay="500"
+        data-aos-once="true"
+      />
 
       <label htmlFor="phone">
         {{ $t('contactFormQuestions.bestEmail') }}
       </label>
-      <input id="email" type="email" name="email" required />
+      <input
+        id="email"
+        type="email"
+        name="email"
+        required
+        data-aos="fade-right"
+        data-aos-delay="600"
+        data-aos-once="true"
+      />
 
       <div class="select-box">
         <label>
@@ -33,7 +57,13 @@
         </label>
 
         <div class="select-field">
-          <select name="contactType" required>
+          <select
+            name="contactType"
+            required
+            data-aos="fade-right"
+            data-aos-delay="700"
+            data-aos-once="true"
+          >
             <option value="" selected></option>
             <option value="Telefone">Telefone</option>
             <option value="Email">E-mail</option>
@@ -50,7 +80,13 @@
         </label>
 
         <div class="select-field">
-          <select name="contactPeriod" required>
+          <select
+            name="contactPeriod"
+            required
+            data-aos="fade-right"
+            data-aos-delay="800"
+            data-aos-once="true"
+          >
             <option value="" selected></option>
             <option value="Manhã">Manhã</option>
             <option value="Tarde">Tarde</option>
@@ -65,7 +101,13 @@
         </label>
 
         <div class="select-field">
-          <select name="budget" required>
+          <select
+            name="budget"
+            required
+            data-aos="fade-right"
+            data-aos-delay="900"
+            data-aos-once="true"
+          >
             <option value="" selected></option>
             <option value="0 a 180mil">180 Mil Reais (contrato mínimo).</option>
             <option value="180 a 360mil">
