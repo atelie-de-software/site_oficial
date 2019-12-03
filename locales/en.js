@@ -70,8 +70,8 @@ const en = {
     cityState: 'Poços de Caldas - MG',
     postalCode: 'Zip Code: 37701-726',
     phoneTitle: 'Phones',
-    phoneOffice: '(35) 3722-3776',
-    phoneWhatsApp: '(35) 99999-8914',
+    phoneOffice: '+55 35 3722-3776',
+    phoneWhatsApp: '+55 35 99999-8914',
     socialMediaTitle: 'Social',
     whatsappPhoneTitle: 'Projects and business contact',
     officePhoneTitle: 'Office and other subjects'
