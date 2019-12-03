@@ -194,7 +194,10 @@
       <!-- This button will have a loading spinner. Keep the inner span for best results. -->
       <button
         type="submit"
-        class="pageclip-form__submit btn"
+        class="pageclip-form__submit btn btn-submit"
+        data-aos="fade-right"
+        data-aos-delay="1100"
+        data-aos-once="true"
         @click="submitForm"
       >
         <span>{{ $t('contactFormQuestions.sendButton') }}</span>
@@ -207,38 +210,33 @@
 .form-container {
   margin-bottom: 50px;
 }
-
 select::-ms-expand {
   display: none;
 }
-
 .block-scroller__Root-sc-23jz1-0 .tSSlS {
   overflow-y: hidden !important;
 }
-
 .overflow-form {
   overflow: hidden !important;
 }
-
 .typeform-widget {
   height: auto;
 }
 .pageclip-form__success {
   display: none;
 }
-
+.pageclip-form__submit {
+  z-index: 1;
+}
 .select-box {
   margin: 0 0 20px 0;
 }
-
 .select-field {
   margin: 7px 0 0 0;
 }
-
 textarea {
   resize: none;
 }
-
 #alternative-channel {
   margin-top: 1em;
   text-align: right;
