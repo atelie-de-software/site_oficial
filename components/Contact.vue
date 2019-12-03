@@ -52,9 +52,9 @@
 
   .contacts-info {
     address {
-      margin-top: 40px;
+      margin-top: 17px;
       p {
-        text-align: right;
+        text-align: left;
       }
       .address,
       .phone {
@@ -66,7 +66,7 @@
       text-transform: uppercase;
       letter-spacing: 0;
       font-style: normal;
-      text-align: right;
+      text-align: left;
       line-height: initial;
       margin-bottom: 25px;
     }

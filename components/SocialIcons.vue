@@ -65,11 +65,9 @@
 
 <style lang="scss" scoped>
 .social-container {
-  text-align: right;
-
   a {
     color: rgba(0, 0, 0, 0.5);
-    margin: 0 0 0 20px;
+    margin: 0 20px 0 0;
   }
   a > svg {
     width: 16px;
