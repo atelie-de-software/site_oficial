@@ -13,20 +13,48 @@
         <div class="col-md-6 contacts-info">
           <address>
             <div class="address">
-              <h3>{{ $t('contact.addressTitle') }}</h3>
-              <p>{{ $t('contact.address') }}</p>
-              <p>{{ $t('contact.cityState') }}</p>
-              <p>{{ $t('contact.postalCode') }}</p>
+              <h3
+                data-aos="fade-left"
+                data-aos-delay="300"
+                data-aos-once="true"
+              >
+                {{ $t('contact.addressTitle') }}
+              </h3>
+              <div
+                data-aos="fade-left"
+                data-aos-delay="400"
+                data-aos-once="true"
+              >
+                <p>{{ $t('contact.address') }}</p>
+                <p>{{ $t('contact.cityState') }}</p>
+                <p>{{ $t('contact.postalCode') }}</p>
+              </div>
             </div>
             <div class="phone">
-              <h3>{{ $t('contact.phoneTitle') }}</h3>
-              <p>{{ $t('contact.phone1') }}</p>
-              <p>{{ $t('contact.phone2') }}</p>
+              <h3
+                data-aos="fade-left"
+                data-aos-delay="500"
+                data-aos-once="true"
+              >
+                {{ $t('contact.phoneTitle') }}
+              </h3>
+              <div
+                data-aos="fade-left"
+                data-aos-delay="600"
+                data-aos-once="true"
+              >
+                <p>{{ $t('contact.phone1') }}</p>
+                <p>{{ $t('contact.phone2') }}</p>
+              </div>
             </div>
           </address>
           <div class="social-media">
-            <h3>{{ $t('contact.socialMediaTitle') }}</h3>
-            <SocialLinks />
+            <h3 data-aos="fade-left" data-aos-delay="700" data-aos-once="true">
+              {{ $t('contact.socialMediaTitle') }}
+            </h3>
+            <div data-aos="fade-left" data-aos-delay="800" data-aos-once="true">
+              <SocialLinks />
+            </div>
           </div>
         </div>
       </div>
