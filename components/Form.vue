@@ -156,7 +156,7 @@
                 180 mil reais (contrato mínimo)
               </option>
               <option value="180 a 360mil">
-                De 180 mil Reais até 360 mil reais
+                De 180 mil reais até 360 mil reais
               </option>
               <option value="360 a 600mil">
                 De 360 mil até 600 mil reais
