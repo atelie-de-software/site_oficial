@@ -57,7 +57,7 @@ const en = {
     contactAlternativeChannel: 'Username or URL:',
     contactPeriod: 'When is the best moment to contact you?',
     budget: 'What is your budget to your project?',
-    projectDescription: 'Tell me more about your project:',
+    projectDescription: 'Tell us more about your project:',
     sendButton: 'Send',
     error: {
       required: 'Required field',
