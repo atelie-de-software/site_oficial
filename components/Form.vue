@@ -122,26 +122,17 @@
         data-aos-delay="800"
         data-aos-once="true"
       >
-        <div class="select-box">
-          <label>
-            {{ $t('contactFormQuestions.contactPeriod') }}
-          </label>
-
-          <div class="select-field">
-            <select
-              id="contact-period"
-              v-model="contactPeriod"
-              name="contactPeriod"
-            >
-              <option value="" selected></option>
-              <option value="Manhã">Manhã</option>
-              <option value="Tarde">Tarde</option>
-              <option value="Noite">Noite</option>
-            </select>
-          </div>
-          <div v-if="submited && !$v.contactPeriod.required" class="error">
-            {{ $t('contactFormQuestions.error.required') }}
-          </div>
+        <label>
+          {{ $t('contactFormQuestions.contactPeriod') }}
+        </label>
+        <input
+          id="contact-period"
+          v-model="contactPeriod"
+          type="text"
+          name="contactPeriod"
+        />
+        <div v-if="submited && !$v.contactPeriod.required" class="error">
+          {{ $t('contactFormQuestions.error.required') }}
         </div>
       </div>
 
