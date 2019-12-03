@@ -37,7 +37,14 @@
         <label htmlFor="phone">
           {{ $t('contactFormQuestions.phone') }}
         </label>
-        <input id="phone" v-model="phone" type="text" name="phone" />
+        <the-mask
+          id="phone"
+          v-model="phone"
+          type="text"
+          name="phone"
+          mask="FFFFFFFFFFFFFFFFFFFF"
+          :tokens="phoneTokens"
+        />
         <div v-if="submited && !$v.phone.required" class="error">
           {{ $t('contactFormQuestions.error.required') }}
         </div>
@@ -259,9 +266,13 @@ import {
   email,
   minLength
 } from 'vuelidate/lib/validators'
+import { TheMask } from 'vue-the-mask'
 
 export default {
   name: 'FormContato',
+  components: {
+    TheMask
+  },
   data() {
     return {
       submited: false,
@@ -272,7 +283,12 @@ export default {
       contactAlternativeChannel: '',
       contactPeriod: '',
       budget: '',
-      projectDescription: ''
+      projectDescription: '',
+      phoneTokens: {
+        F: {
+          pattern: /[\d\s+\-())]/
+        }
+      }
     }
   },
   computed: {
