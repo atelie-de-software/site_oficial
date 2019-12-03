@@ -21,7 +21,8 @@ const pt = {
       'Composto pelas etapas de Concepção, Preparação, Execução e Transição, nosso processo engloba os principais momentos e desafios de um projeto de desenvolvimento de software de primeira linha.'
   },
   share: {
-    description: 'compartilhando os desafios diários do ateliê de software'
+    description: 'compartilhando os desafios diários do ateliê de software',
+    readMore: 'Leia mais'
   },
   world: {
     message: 'O Ateliê pelo mundo',
@@ -29,6 +30,7 @@ const pt = {
       'Nossos serviços diferenciados também são oferecidos em Portugal através da parceria com a SCOPPHU, empresa que complementa nossa proposta de valor oferecendo serviços de formação e consultoria em gestão de projetos e agile para o mercado europeu.'
   },
   cases: {
+    know: 'Conheça nossos cases',
     educadora:
       'A Educadora FM é a rádio do Grupo Bandeirantes de Televisão líder de audiência em Campinas e região.',
     conlicita:
@@ -57,6 +59,7 @@ const pt = {
     contactPeriod: 'Qual o melhor momento para entrarmos em contato?',
     budget: 'Qual o seu orçamento para este projeto?',
     projectDescription: 'Fale um pouco sobre o seu projeto:',
+    sendButton: 'Enviar',
     error: {
       required: 'Campo obrigatório',
       email: 'Email inválido'

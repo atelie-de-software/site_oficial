@@ -13,12 +13,16 @@ const en = {
     message: 'Our Culture',
     description:
       'We are a company with people-centered management. Culture is the result of everything that we do here. We value autonomy and collaboration and we also like to share knowledge not only between our team but also with the community around us.',
-    more: 'more'
+    more: 'More'
   },
   methodology: {
     message: 'Methodology',
     description:
       'Leaded by our steps of Conception, Preparation, Execution and Transition, our process contains the main moments and challenges of a first-rate software development project.'
+  },
+  share: {
+    description: 'sharing our daily challenges',
+    readMore: 'Read more'
   },
   world: {
     message: 'Ateliê around the world',
@@ -26,6 +30,7 @@ const en = {
       'Our services are also provided in Portugal through the partnership with SCOPPHU, a company which complements our value proposal/proposition by providing courses and consulting services on agile and project management for the European market.'
   },
   cases: {
+    know: 'Know our cases',
     educadora:
       'Educadora FM is the radio of the Bandeirantes Television Group, the leading audience is in Campinas and the region.',
     conlicita: `ConLicitação has the largest database of procurement notices in the country. We restructure your internal systems and create new software. They've been with us for 11 years.`,
@@ -40,9 +45,6 @@ const en = {
     synergia:
       'Synergia, through its socio-environmental research, changes the lives of thousands of people. Our team is responsible for systematizing all stages of the research and creating intelligence so that they can bring good results'
   },
-  share: {
-    description: 'sharing our daily challenges'
-  },
   form: {
     messageI: 'contact',
     messageII: 'us'
@@ -56,6 +58,7 @@ const en = {
     contactPeriod: 'When is the best moment to contact us?',
     budget: 'What is your budget to your project?',
     projectDescription: 'Tell me more about your project:',
+    sendButton: 'Send',
     error: {
       required: 'Required field',
       email: 'Invalid email'

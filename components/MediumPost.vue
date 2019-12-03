@@ -8,7 +8,7 @@
       {{ title }}
     </h6>
     <div class="read-more">
-      <a :href="link" target="_blank">Leia mais</a>
+      <a :href="link" target="_blank">{{ $t('share.readMore') }}</a>
     </div>
   </div>
 </template>

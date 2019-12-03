@@ -30,7 +30,7 @@
                   {{ slide.content }}
                 </p>
                 <nuxt-link to="/cases" class="btn">
-                  conheça nossos cases
+                  {{ $t('cases.know') }}
                 </nuxt-link>
               </div>
             </div>

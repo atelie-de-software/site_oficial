@@ -194,7 +194,7 @@
       </div>
       <!-- This button will have a loading spinner. Keep the inner span for best results. -->
       <button type="submit" class="pageclip-form__submit btn">
-        <span>Enviar</span>
+        <span>{{ $t('contactFormQuestions.sendButton') }}</span>
       </button>
     </form>
   </div>
