@@ -43,8 +43,38 @@
                 data-aos-delay="600"
                 data-aos-once="true"
               >
-                <p>{{ $t('contact.phone1') }}</p>
-                <p>{{ $t('contact.phone2') }}</p>
+                <div class="phone-box">
+                  <label>{{ $t('contact.whatsappPhoneTitle') }}</label>
+                  <p>
+                    <img
+                      tabindex="0"
+                      class="phone-icon"
+                      src="@/assets/images/whatsapp.png"
+                      alt="WhatsApp contact"
+                    />
+                    <a
+                      aria-label="Whats App"
+                      class="whatsapp-link"
+                      target="_blank"
+                      href="https://api.whatsapp.com/send?phone=5535999998914"
+                    >
+                      {{ $t('contact.phoneWhatsApp') }}
+                    </a>
+                  </p>
+                </div>
+
+                <div class="phone-box">
+                  <label>{{ $t('contact.officePhoneTitle') }}</label>
+                  <p>
+                    <img
+                      tabindex="0"
+                      class="phone-icon"
+                      src="@/assets/images/office.png"
+                      alt="Office contact"
+                    />
+                    {{ $t('contact.phoneOffice') }}
+                  </p>
+                </div>
               </div>
             </div>
           </address>
@@ -101,6 +131,28 @@
       text-align: left;
       line-height: initial;
       margin-bottom: 25px;
+    }
+    .phone-box {
+      &:first-child {
+        margin-bottom: 30px;
+      }
+
+      label {
+        font-weight: bold;
+        display: inline-block;
+        margin-bottom: 5px;
+      }
+
+      .phone-icon {
+        width: 20px;
+        position: relative;
+        top: 5px;
+      }
+      .whatsapp-link {
+        &:hover {
+          text-decoration: underline;
+        }
+      }
     }
   }
 }

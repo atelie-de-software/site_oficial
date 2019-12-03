@@ -71,9 +71,11 @@ const pt = {
     cityState: 'Poços de Caldas - MG',
     postalCode: '37701-726',
     phoneTitle: 'Telefones',
-    phone1: '(35) 3722-3776',
-    phone2: '(35) 99999-8914',
-    socialMediaTitle: 'Social'
+    phoneOffice: '(35) 3722-3776',
+    phoneWhatsApp: '(35) 99999-8914',
+    socialMediaTitle: 'Social',
+    whatsappPhoneTitle: 'Contato do comercial e projetos',
+    officePhoneTitle: 'Escritório e outros assuntos'
   },
   footer: {
     copyright: 'Ateliê de Software 2019 © all rights reserved'
