@@ -201,6 +201,10 @@
 </template>
 
 <style lang="scss" scoped>
+.form-container {
+  margin-bottom: 50px;
+}
+
 select::-ms-expand {
   display: none;
 }

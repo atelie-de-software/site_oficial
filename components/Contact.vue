@@ -79,6 +79,10 @@
   }
 
   .contacts-info {
+    padding-left: 80px;
+    @media screen and (max-width: 1024px) {
+      padding-left: 15px;
+    }
     address {
       margin-top: 17px;
       p {
