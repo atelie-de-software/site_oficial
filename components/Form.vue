@@ -228,6 +228,10 @@ select::-ms-expand {
   margin: 7px 0 0 0;
 }
 
+textarea {
+  resize: none;
+}
+
 #alternative-channel {
   margin-top: 1em;
   text-align: right;
