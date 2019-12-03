@@ -5,7 +5,7 @@ const pt = {
     cultureTitle: 'Cultura - Ateliê de Software'
   },
   hero: {
-    message: 'SOFTWARE SOB MEDIDA PARA SUA EMPRESA.',
+    message: 'SOFTWARE SOB MEDIDA PARA SUA EMPRESA',
     description:
       'O nosso propósito é desenvolver software com alta qualidade e rápido retorno para os nossos clientes.'
   },
@@ -13,7 +13,7 @@ const pt = {
     message: 'Nossa Cultura',
     description:
       'Somos uma empresa com estilo de Gestão Horizontal. Cultura é o resultado de tudo que fazemos aqui dentro. Valorizamos a autonomia e a colaboração entre as pessoas e gostamos de compartilhar conhecimentos com todos os integrantes do nosso time e também da comunidade ao nosso redor.',
-    more: 'saiba mais'
+    more: 'Saiba mais'
   },
   methodology: {
     message: 'METODOLOGIA',
