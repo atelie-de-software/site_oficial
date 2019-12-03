@@ -6,7 +6,7 @@
 
 <style lang="scss" scoped>
 .notebook {
-  background-size: 77% auto;
+  background-size: 83% auto;
   background-repeat: no-repeat;
   background-position: center center;
   img {
