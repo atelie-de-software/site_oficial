@@ -15,7 +15,7 @@
       <nuxt-link :to="{ path: localePath('index'), hash: '#share' }">
         {{ $t('nav.share') }}
       </nuxt-link>
-      <nuxt-link :to="{ path: localePath('index'), hash: '#contato' }">
+      <nuxt-link :to="{ path: localePath('index'), hash: '#contact' }">
         {{ $t('nav.tellUs') }}
       </nuxt-link>
     </nav>

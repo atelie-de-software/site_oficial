@@ -1,5 +1,5 @@
 <template>
-  <div id="contato" class="contact">
+  <div id="contact" class="contact">
     <div class="container">
       <h1 tabindex="0">
         {{ $t('form.messageI') }}
