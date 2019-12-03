@@ -14,55 +14,46 @@
       @submit="checkForm"
     >
       <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
-      <div class="form-input">
+      <div
+        class="form-input"
+        data-aos="fade-right"
+        data-aos-delay="400"
+        data-aos-once="true"
+      >
         <label htmlFor="name">
           {{ $t('contactFormQuestions.name') }}
         </label>
-        <input
-          id="name"
-          v-model="name"
-          type="text"
-          name="name"
-          data-aos="fade-right"
-          data-aos-delay="400"
-          data-aos-once="true"
-        />
+        <input id="name" v-model="name" type="text" name="name" />
         <div v-if="submited && !$v.name.required" class="error">
           {{ $t('contactFormQuestions.error.required') }}
         </div>
       </div>
 
-      <div class="form-input">
+      <div
+        class="form-input"
+        data-aos="fade-right"
+        data-aos-delay="500"
+        data-aos-once="true"
+      >
         <label htmlFor="phone">
           {{ $t('contactFormQuestions.phone') }}
         </label>
-        <input
-          id="phone"
-          v-model="phone"
-          type="text"
-          name="phone"
-          data-aos="fade-right"
-          data-aos-delay="500"
-          data-aos-once="true"
-        />
+        <input id="phone" v-model="phone" type="text" name="phone" />
         <div v-if="submited && !$v.phone.required" class="error">
           {{ $t('contactFormQuestions.error.required') }}
         </div>
       </div>
 
-      <div class="form-input">
+      <div
+        class="form-input"
+        data-aos="fade-right"
+        data-aos-delay="600"
+        data-aos-once="true"
+      >
         <label htmlFor="phone">
           {{ $t('contactFormQuestions.bestEmail') }}
         </label>
-        <input
-          id="email"
-          v-model="email"
-          type="email"
-          name="email"
-          data-aos="fade-right"
-          data-aos-delay="600"
-          data-aos-once="true"
-        />
+        <input id="email" v-model="email" type="email" name="email" />
         <div v-if="submited && !$v.email.required" class="error">
           {{ $t('contactFormQuestions.error.required') }}
         </div>
@@ -71,20 +62,19 @@
         </div>
       </div>
 
-      <div class="form-input">
+      <div
+        class="form-input"
+        data-aos="fade-right"
+        data-aos-delay="700"
+        data-aos-once="true"
+      >
         <div class="select-box">
           <label>
             {{ $t('contactFormQuestions.contactType') }}
           </label>
 
           <div class="select-field">
-            <select
-              v-model="contactType"
-              name="contactType"
-              data-aos="fade-right"
-              data-aos-delay="700"
-              data-aos-once="true"
-            >
+            <select v-model="contactType" name="contactType">
               <option value="" selected></option>
               <option value="Telefone">Telefone</option>
               <option value="Email">E-mail</option>
@@ -120,7 +110,12 @@
         </div>
       </div>
 
-      <div class="form-input">
+      <div
+        class="form-input"
+        data-aos="fade-right"
+        data-aos-delay="800"
+        data-aos-once="true"
+      >
         <div class="select-box">
           <label>
             {{ $t('contactFormQuestions.contactPeriod') }}
@@ -131,9 +126,6 @@
               id="contact-period"
               v-model="contactPeriod"
               name="contactPeriod"
-              data-aos="fade-right"
-              data-aos-delay="800"
-              data-aos-once="true"
             >
               <option value="" selected></option>
               <option value="Manhã">Manhã</option>
@@ -147,21 +139,19 @@
         </div>
       </div>
 
-      <div class="form-input">
+      <div
+        class="form-input"
+        data-aos="fade-right"
+        data-aos-delay="900"
+        data-aos-once="true"
+      >
         <div class="select-box">
           <label>
             {{ $t('contactFormQuestions.budget') }}
           </label>
 
           <div class="select-field">
-            <select
-              id="budget"
-              v-model="budget"
-              name="budget"
-              data-aos="fade-right"
-              data-aos-delay="900"
-              data-aos-once="true"
-            >
+            <select id="budget" v-model="budget" name="budget">
               <option value="" selected></option>
               <option value="0 a 180mil">
                 180 mil reais (contrato mínimo)
@@ -183,7 +173,12 @@
         </div>
       </div>
 
-      <div class="form-input">
+      <div
+        class="form-input"
+        data-aos="fade-right"
+        data-aos-delay="1000"
+        data-aos-once="true"
+      >
         <label htmlFor="project-description">
           {{ $t('contactFormQuestions.projectDescription') }}
         </label>
@@ -192,9 +187,6 @@
           v-model="projectDescription"
           name="project-description"
           rows="5"
-          data-aos="fade-right"
-          data-aos-delay="1000"
-          data-aos-once="true"
         ></textarea>
         <div v-if="submited && !$v.projectDescription.required" class="error">
           {{ $t('contactFormQuestions.error.required') }}
