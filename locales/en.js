@@ -54,7 +54,7 @@ const en = {
     phone: 'Which phone number we can find you? *',
     bestEmail: 'What is your best e-mail? *',
     contactType: 'What is the best way to call you back? *',
-    contactAlternativeChannel: 'Username or URL: *',
+    contactAlternativeChannel: 'Skype username:',
     contactPeriod: 'When is the best moment to contact you? *',
     budget: {
       title: 'What is your budget to your project? *',

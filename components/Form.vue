@@ -94,10 +94,7 @@
             {{ $t('contactFormQuestions.error.required') }}
           </span>
 
-          <div
-            v-if="['Skype', 'Video'].includes(contactType)"
-            id="alternative-channel"
-          >
+          <div v-if="contactType === 'Skype'" id="alternative-channel">
             <label>
               {{ $t('contactFormQuestions.contactAlternativeChannel') }}
             </label>
@@ -107,12 +104,6 @@
               type="text"
               name="contactAlternativeChannel"
             />
-            <div
-              v-if="submited && !$v.contactAlternativeChannel.required"
-              class="error"
-            >
-              {{ $t('contactFormQuestions.error.required') }}
-            </div>
           </div>
         </div>
       </div>
@@ -255,12 +246,7 @@ textarea {
 </style>
 
 <script>
-import {
-  required,
-  requiredIf,
-  email,
-  minLength
-} from 'vuelidate/lib/validators'
+import { required, email, minLength } from 'vuelidate/lib/validators'
 import { TheMask } from 'vue-the-mask'
 
 export default {
@@ -286,19 +272,11 @@ export default {
       }
     }
   },
-  computed: {
-    isAlternativeChannelSelected() {
-      return ['Skype', 'Video'].includes(this.contactType)
-    }
-  },
   validations: {
     name: { required, minLength: minLength(2) },
     phone: { required },
     email: { required, email },
     contactType: { required },
-    contactAlternativeChannel: {
-      required: requiredIf('isAlternativeChannelSelected')
-    },
     contactPeriod: { required },
     budget: { required },
     projectDescription: { required }
