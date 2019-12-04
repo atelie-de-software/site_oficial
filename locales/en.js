@@ -58,10 +58,10 @@ const en = {
     contactPeriod: 'When is the best moment to contact you? *',
     budget: {
       title: 'What is your budget to your project? *',
-      option1: '180 mil reais (contrato mínimo)',
-      option2: 'De 180 mil reais até 360 mil reais',
-      option3: 'De 360 mil reais até 600 mil reais',
-      option4: 'Mais de 600 mil reais'
+      option1: '180 thousand BRL (minimum contract)',
+      option2: 'From 180 thousand BRL to 360 thousand BRL',
+      option3: 'From 360 thousand BRL to 600 thousand BRL',
+      option4: 'More than 600 thousand BRL'
     },
     projectDescription: 'Tell us more about your project: *',
     sendButton: 'Send',
