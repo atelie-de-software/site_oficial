@@ -57,7 +57,13 @@ const pt = {
     contactType: 'Qual é a melhor forma de te retornarmos? *',
     contactAlternativeChannel: 'Usuário ou URL: *',
     contactPeriod: 'Qual o melhor momento para entrarmos em contato? *',
-    budget: 'Qual o seu orçamento para este projeto? *',
+    budget: {
+      title: 'Qual o seu orçamento para este projeto? *',
+      option1: '180 mil reais (contrato mínimo)',
+      option2: 'De 180 mil reais até 360 mil reais',
+      option3: 'De 360 mil reais até 600 mil reais',
+      option4: 'Mais de 600 mil reais'
+    },
     projectDescription: 'Fale um pouco sobre o seu projeto: *',
     sendButton: 'Enviar',
     error: {
@@ -66,7 +72,7 @@ const pt = {
     },
     hint: {
       contactPeriod: 'Data, hora e/ou período',
-      phone: 'Informe o DDD'
+      phone: 'Informe o código do País e o DDD'
     }
   },
   contact: {

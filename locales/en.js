@@ -56,7 +56,13 @@ const en = {
     contactType: 'What is the best way to call you back? *',
     contactAlternativeChannel: 'Username or URL: *',
     contactPeriod: 'When is the best moment to contact you? *',
-    budget: 'What is your budget to your project? *',
+    budget: {
+      title: 'What is your budget to your project? *',
+      option1: '180 mil reais (contrato mínimo)',
+      option2: 'De 180 mil reais até 360 mil reais',
+      option3: 'De 360 mil reais até 600 mil reais',
+      option4: 'Mais de 600 mil reais'
+    },
     projectDescription: 'Tell us more about your project: *',
     sendButton: 'Send',
     error: {
@@ -78,7 +84,7 @@ const en = {
     phoneWhatsApp: '+55 35 99999-8914',
     socialMediaTitle: 'Social',
     whatsappPhoneTitle: 'For new projects and business subjects',
-    officePhoneTitle: 'Fot other subjects'
+    officePhoneTitle: 'For other subjects'
   },
   footer: {
     copyright: 'Ateliê de Software 2019 © all rights reserved'

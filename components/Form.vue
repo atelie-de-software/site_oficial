@@ -148,23 +148,23 @@
       >
         <div class="select-box">
           <label>
-            {{ $t('contactFormQuestions.budget') }}
+            {{ $t('contactFormQuestions.budget.title') }}
           </label>
 
           <div class="select-field">
             <select id="budget" v-model="budget" name="budget">
               <option value="" selected></option>
               <option value="0 a 180mil">
-                180 mil reais (contrato mínimo)
+                {{ $t('contactFormQuestions.budget.option1') }}
               </option>
               <option value="180 a 360mil">
-                De 180 mil reais até 360 mil reais
+                {{ $t('contactFormQuestions.budget.option2') }}
               </option>
               <option value="360 a 600mil">
-                De 360 mil até 600 mil reais
+                {{ $t('contactFormQuestions.budget.option3') }}
               </option>
               <option value="acima de 600mil">
-                Mais de 600 mil reais
+                {{ $t('contactFormQuestions.budget.option4') }}
               </option>
             </select>
           </div>
