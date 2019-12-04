@@ -20,13 +20,6 @@
 </template>
 
 <style lang="scss" scoped>
-.address {
-  text-align: center;
-  address {
-    line-height: 50px;
-    font-style: normal;
-  }
-}
 footer {
   height: 79px;
   background-color: #f2f2f2;
@@ -51,9 +44,6 @@ footer {
     display: flex;
     flex-direction: column;
     text-align: center;
-    address {
-      margin-bottom: 10px;
-    }
   }
   .copyright {
     justify-content: flex-end;

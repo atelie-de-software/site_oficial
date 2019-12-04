@@ -49,7 +49,7 @@
                     <img
                       tabindex="0"
                       class="phone-icon"
-                      src="@/assets/images/whatsapp.png"
+                      src="@/assets/images/whatsapp.svg"
                       alt="WhatsApp contact"
                     />
                     <a
@@ -69,7 +69,7 @@
                     <img
                       tabindex="0"
                       class="phone-icon"
-                      src="@/assets/images/office.png"
+                      src="@/assets/images/building.svg"
                       alt="Office contact"
                     />
                     {{ $t('contact.phoneOffice') }}
@@ -114,6 +114,7 @@
       padding-left: 15px;
     }
     address {
+      font-style: normal;
       margin-top: 17px;
       p {
         text-align: left;
@@ -146,7 +147,7 @@
       .phone-icon {
         width: 20px;
         position: relative;
-        top: 5px;
+        top: 4px;
       }
       .whatsapp-link {
         &:hover {
