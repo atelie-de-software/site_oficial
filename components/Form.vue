@@ -186,7 +186,7 @@
         <textarea
           id="project-description"
           v-model="projectDescription"
-          name="project-description"
+          name="projectDescription"
           rows="5"
         ></textarea>
         <span v-if="submited && !$v.projectDescription.required" class="error">
