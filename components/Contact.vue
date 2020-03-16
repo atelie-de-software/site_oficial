@@ -160,8 +160,8 @@
 </style>
 
 <script>
-import Form from './Form.vue'
 import SocialLinks from '@/components/SocialIcons'
+import Form from './Form.vue'
 
 export default {
   name: 'Contact',

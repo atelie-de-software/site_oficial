@@ -122,7 +122,8 @@ module.exports = {
           }
         }
       }
-    ]
+    ],
+    ['@nuxtjs/google-gtag', { id: 'UA-118597190-1' }]
   ],
   /*
    ** Axios module configuration
