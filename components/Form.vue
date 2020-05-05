@@ -40,10 +40,10 @@
         <the-mask
           id="phone"
           v-model="phone"
+          :tokens="phoneTokens"
           type="text"
           name="phone"
           mask="FFFFFFFFFFFFFFFFFFFF"
-          :tokens="phoneTokens"
         />
         <span class="hint">{{ $t('contactFormQuestions.hint.phone') }}</span>
         <span v-if="submited && !$v.phone.required" class="error">
@@ -94,7 +94,7 @@
             {{ $t('contactFormQuestions.error.required') }}
           </span>
 
-          <div v-if="contactType === 'Skype'" id="alternative-channel">
+          <div id="alternative-channel" v-if="contactType === 'Skype'">
             <label>
               {{ $t('contactFormQuestions.contactAlternativeChannel') }}
             </label>
@@ -186,12 +186,12 @@
       </div>
       <!-- This button will have a loading spinner. Keep the inner span for best results. -->
       <button
+        @click="submitForm"
         type="submit"
         class="pageclip-form__submit btn btn-submit"
         data-aos="fade-right"
         data-aos-delay="1100"
         data-aos-once="true"
-        @click="submitForm"
       >
         <span>{{ $t('contactFormQuestions.sendButton') }}</span>
       </button>

@@ -1,9 +1,10 @@
 <template>
   <div>
-    <span
-      ><time tabindex="0" :datetime="date">{{ datetime }}</time> -
-      <strong>{{ author }}</strong></span
-    >
+    <span>
+      <time :datetime="date" tabindex="0">{{ datetime }}</time>
+      -
+      <strong>{{ author }}</strong>
+    </span>
     <h6 tabindex="0">
       {{ title }}
     </h6>

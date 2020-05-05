@@ -5,9 +5,9 @@
         <div class="row">
           <div class="col-md-6">
             <img
+              @click="scrolltop"
               src="/logo_atelie_footer.png"
               alt="Logo ateliê de software"
-              @click="scrolltop"
             />
           </div>
           <div class="col-md-6 copyright">

@@ -1,5 +1,5 @@
 <template>
-  <div class="tablet" :style="style">
+  <div :style="style" class="tablet">
     <img src="@/assets/images/tablet.png" alt />
   </div>
 </template>

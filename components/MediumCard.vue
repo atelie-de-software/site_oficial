@@ -3,7 +3,7 @@
     <img v-lazy="thumb" tabindex="0" class="featured-image" alt />
     <div class="infos">
       <div class="date">
-        <time tabindex="0" :datetime="date">{{ datetime }}</time>
+        <time :datetime="date" tabindex="0">{{ datetime }}</time>
       </div>
       <div class="name">
         <h6 tabindex="0">

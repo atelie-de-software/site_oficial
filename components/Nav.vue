@@ -1,11 +1,11 @@
 <template>
   <div class="nav-container">
-    <button class="menu" aria-label="Menu" @click="toggleMenu">
+    <button @click="toggleMenu" class="menu" aria-label="Menu">
       <span />
       <span />
       <span />
     </button>
-    <nav :class="menuClass" @click="closeMenu">
+    <nav @click="closeMenu" :class="menuClass">
       <nuxt-link :to="localePath('cultura')">
         {{ $t('nav.culture') }}
       </nuxt-link>
@@ -20,10 +20,10 @@
       </nuxt-link>
     </nav>
     <toggle-button
-      class="toggle-button"
       :value="language"
       :labels="{ checked: 'en', unchecked: 'pt' }"
       @change="changeLanguage"
+      class="toggle-button"
     />
   </div>
 </template>

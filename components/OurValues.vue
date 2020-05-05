@@ -9,15 +9,15 @@
       <div v-for="(value, index) in values" :key="index" class="col-md-6">
         <h3
           :data-aos="index % 2 !== 0 ? 'fade-left' : 'fade-right'"
-          data-aos-once="true"
           :data-aos-delay="100 * index"
+          data-aos-once="true"
         >
           {{ value.title }}
         </h3>
         <p
           :data-aos="index % 2 !== 0 ? 'fade-left' : 'fade-right'"
-          data-aos-once="true"
           :data-aos-delay="110 * index"
+          data-aos-once="true"
         >
           {{ value.content }}
         </p>

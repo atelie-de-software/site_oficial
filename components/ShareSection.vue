@@ -1,5 +1,5 @@
 <template>
-  <div v-if="postsLoaded" id="share" class="share-section">
+  <div id="share" v-if="postsLoaded" class="share-section">
     <div class="container">
       <div class="row">
         <div class="col-lg-4 col-md-6 title">
@@ -23,15 +23,15 @@
         </div>
         <div class="col-lg-4 col-md-6">
           <MediumCard
-            data-aos="fade-up"
-            data-aos-delay="400"
-            data-aos-once="true"
             :title="firstPost.title"
             :date="firstPost.pubDate"
             :author="firstPost.author"
             :content="firstPost.description | removeHtml"
             :thumb="firstPost.thumbnail"
             :link="firstPost.link"
+            data-aos="fade-up"
+            data-aos-delay="400"
+            data-aos-once="true"
           />
         </div>
         <div class="col-lg-4 col-md-6 posts">
@@ -42,8 +42,8 @@
             :author="post.author"
             :title="post.title"
             :link="post.link"
-            data-aos="fade-up"
             :data-aos-delay="600 + index * 100"
+            data-aos="fade-up"
             data-aos-once="true"
           />
         </div>
