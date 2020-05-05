@@ -4,6 +4,9 @@ const pt = require('./locales/pt')
 
 module.exports = {
   mode: 'spa',
+  serverMiddleware: [
+    '~/servermiddleware/seo.js'
+  ],
 
   /*
    ** Headers of the page
