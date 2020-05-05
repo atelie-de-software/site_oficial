@@ -11,7 +11,7 @@ docker-compose build web
 * Rodar o Yarn no container
 
 ```bash
-docker-compose --rm web yarn install
+docker-compose run --rm web yarn install
 ```
 
 * Subir o container
