@@ -20,7 +20,7 @@ export default {
     }
   },
   created() {
-    this.selectedPerson = Math.floor(Math.random() * 3)
+    this.selectedPerson = Math.floor(Math.random() * 2)
   }
 }
 </script>
