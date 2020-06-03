@@ -40,7 +40,7 @@
                       aria-label="Whats App"
                       class="whatsapp-link"
                       target="_blank"
-                      href="https://api.whatsapp.com/send?phone=5535999998914"
+                      href="https://bit.ly/30azLxL"
                     >
                       {{ $t('contact.phoneWhatsApp') }}
                     </a>
