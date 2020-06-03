@@ -15,7 +15,7 @@ export default {
   name: 'Person',
   data() {
     return {
-      persons: ['/person1.png', '/person2.png', '/person3.png'],
+      persons: ['/person1.png', '/person2.png'],
       selectedPerson: undefined
     }
   },

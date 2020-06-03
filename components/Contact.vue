@@ -13,36 +13,20 @@
         <div class="col-md-6 contacts-info">
           <address>
             <div class="address">
-              <h3
-                data-aos="fade-left"
-                data-aos-delay="300"
-                data-aos-once="true"
-              >
+              <h3>
                 {{ $t('contact.addressTitle') }}
               </h3>
-              <div
-                data-aos="fade-left"
-                data-aos-delay="400"
-                data-aos-once="true"
-              >
+              <div>
                 <p>{{ $t('contact.address') }}</p>
                 <p>{{ $t('contact.cityState') }}</p>
                 <p>{{ $t('contact.postalCode') }}</p>
               </div>
             </div>
             <div class="phone">
-              <h3
-                data-aos="fade-left"
-                data-aos-delay="500"
-                data-aos-once="true"
-              >
+              <h3>
                 {{ $t('contact.phoneTitle') }}
               </h3>
-              <div
-                data-aos="fade-left"
-                data-aos-delay="600"
-                data-aos-once="true"
-              >
+              <div>
                 <div class="phone-box">
                   <label>{{ $t('contact.whatsappPhoneTitle') }}</label>
                   <p>
@@ -79,10 +63,10 @@
             </div>
           </address>
           <div class="social-media">
-            <h3 data-aos="fade-left" data-aos-delay="700" data-aos-once="true">
+            <h3>
               {{ $t('contact.socialMediaTitle') }}
             </h3>
-            <div data-aos="fade-left" data-aos-delay="800" data-aos-once="true">
+            <div>
               <SocialLinks />
             </div>
           </div>

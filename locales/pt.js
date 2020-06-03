@@ -7,7 +7,7 @@ const pt = {
   hero: {
     message: 'SOFTWARE SOB MEDIDA PARA SUA EMPRESA',
     description:
-      'O nosso propósito é desenvolver software com alta qualidade e rápido retorno para os nossos clientes.'
+      'O nosso propósito é desenvolver software para tornar empresas melhores e pessoas mais felizes.'
   },
   culture: {
     message: 'Nossa Cultura',

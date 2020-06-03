@@ -13,12 +13,7 @@
       novalidate="true"
     >
       <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
-      <div
-        class="form-input"
-        data-aos="fade-right"
-        data-aos-delay="400"
-        data-aos-once="true"
-      >
+      <div class="form-input">
         <label htmlFor="name">
           {{ $t('contactFormQuestions.name') }}
         </label>
@@ -28,12 +23,7 @@
         </span>
       </div>
 
-      <div
-        class="form-input"
-        data-aos="fade-right"
-        data-aos-delay="500"
-        data-aos-once="true"
-      >
+      <div class="form-input">
         <label htmlFor="phone">
           {{ $t('contactFormQuestions.phone') }}
         </label>
@@ -51,12 +41,7 @@
         </span>
       </div>
 
-      <div
-        class="form-input"
-        data-aos="fade-right"
-        data-aos-delay="600"
-        data-aos-once="true"
-      >
+      <div class="form-input">
         <label htmlFor="phone">
           {{ $t('contactFormQuestions.bestEmail') }}
         </label>
@@ -69,12 +54,7 @@
         </span>
       </div>
 
-      <div
-        class="form-input"
-        data-aos="fade-right"
-        data-aos-delay="700"
-        data-aos-once="true"
-      >
+      <div class="form-input">
         <div class="select-box">
           <label>
             {{ $t('contactFormQuestions.contactType') }}
@@ -108,12 +88,7 @@
         </div>
       </div>
 
-      <div
-        class="form-input"
-        data-aos="fade-right"
-        data-aos-delay="800"
-        data-aos-once="true"
-      >
+      <div class="form-input">
         <label>
           {{ $t('contactFormQuestions.contactPeriod') }}
         </label>
@@ -131,12 +106,7 @@
         </span>
       </div>
 
-      <div
-        class="form-input"
-        data-aos="fade-right"
-        data-aos-delay="900"
-        data-aos-once="true"
-      >
+      <div class="form-input">
         <div class="select-box">
           <label>
             {{ $t('contactFormQuestions.budget.title') }}
@@ -165,12 +135,7 @@
         </div>
       </div>
 
-      <div
-        class="form-input"
-        data-aos="fade-right"
-        data-aos-delay="1000"
-        data-aos-once="true"
-      >
+      <div class="form-input">
         <label htmlFor="project-description">
           {{ $t('contactFormQuestions.projectDescription') }}
         </label>
@@ -189,9 +154,6 @@
         @click="submitForm"
         type="submit"
         class="pageclip-form__submit btn btn-submit"
-        data-aos="fade-right"
-        data-aos-delay="1100"
-        data-aos-once="true"
       >
         <span>{{ $t('contactFormQuestions.sendButton') }}</span>
       </button>
