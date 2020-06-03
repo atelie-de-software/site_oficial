@@ -62,7 +62,6 @@
     .name {
       text-align: right;
       width: 100%;
-      max-width: 116px;
       padding: 25px 0;
       h6 {
         line-height: 1;
