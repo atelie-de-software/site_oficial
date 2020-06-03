@@ -33,13 +33,13 @@ h6 {
 }
 .read-more {
   width: 100%;
-  text-align: right;
 }
 a {
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 27px;
   letter-spacing: 2.72px;
+  color: #3ee6a0;
 }
 </style>
 
