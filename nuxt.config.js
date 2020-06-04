@@ -111,19 +111,14 @@ module.exports = {
     [
       'nuxt-i18n',
       {
-        locales: [{ code: 'en', iso: 'en-US' }, { code: 'pt', iso: 'pt-BR' }],
+        locales: [{ code: 'en', file: 'en.js' }, { code: 'pt', file: 'pt.js' }],
         defaultLocale: 'pt',
+        lazy: true,
+        langDir: 'locales/',
         seo: true,
         detectBrowserLanguage: {
           useCookie: true
         },
-        vueI18n: {
-          fallbackLocale: 'pt',
-          messages: {
-            en,
-            pt
-          }
-        }
       }
     ],
     ['@nuxtjs/google-gtag', { id: 'UA-118597190-1' }]
