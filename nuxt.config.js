@@ -156,15 +156,15 @@ module.exports = {
   render: { resourceHints: false },
   hooks: {
     // This hook is called before rendering the html to the browser
-    'render:route': (url, result) => {
-      this.$ = cheerio.load(html)
-      this.$('#__nuxt')
-        .removeAttr('data-server-rendered')
-        .removeAttr('id')
-      this.$(`body script[src="/_nuxt/app.js"]`).remove()
-      this.$(`head link[href="/_nuxt/app.js"]`).remove()
-      result.html = this.$.html()
-    }
+    // 'render:route': (url, result) => {
+    //   this.$ = cheerio.load(html)
+    //   this.$('#__nuxt')
+    //     .removeAttr('data-server-rendered')
+    //     .removeAttr('id')
+    //   this.$(`body script[src="/_nuxt/app.js"]`).remove()
+    //   this.$(`head link[href="/_nuxt/app.js"]`).remove()
+    //   result.html = this.$.html()
+    // }
   },
   generate: {
     fallback: true
