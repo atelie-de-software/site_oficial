@@ -31,6 +31,7 @@ const en = {
   },
   cases: {
     know: 'Know our cases',
+    button: 'More',
     educadora:
       'Educadora FM is the radio of the Bandeirantes Television Group, the leading audience is in Campinas and the region.',
     conlicita: `ConLicitação has the largest database of procurement notices in the country. We restructure your internal systems and create new software. They've been with us for 11 years.`,

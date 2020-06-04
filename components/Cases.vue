@@ -2,13 +2,16 @@
   <div id="cases">
     <div class="container">
       <div class="row">
-        <div class="col">
+        <div class="col-md-5">
           <h2 tabindex="0">
             Conheça os nossos cases
           </h2>
-          <p>Veja os nossos cases em detalhes</p>
+          <p>Veja como ajudamos de forma colaborativa os nossos clientes.</p>
+          <nuxt-link :to="localePath('cases')" class="btn">
+            {{ $t('cases.button') }}
+          </nuxt-link>
         </div>
-        <div class="col">
+        <div class="col-md-7">
           <img
             src="~/assets/images/atelie-de-software-cases.jpg"
             alt="Conheça nossos cases."
@@ -24,10 +27,10 @@
 #cases {
   margin-bottom: 50px;
   h2 {
-    font-size: 60px;
+    font-size: 50px;
     line-height: 60px;
     text-transform: uppercase;
-    margin-bottom: 40px;
+    margin: 100px 0 40px 0;
   }
   .casesImage {
     height: 100%;

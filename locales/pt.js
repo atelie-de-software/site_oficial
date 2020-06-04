@@ -31,6 +31,7 @@ const pt = {
   },
   cases: {
     know: 'Conheça nossos cases',
+    button: 'Saiba mais',
     educadora:
       'A Educadora FM é a rádio do Grupo Bandeirantes de Televisão líder de audiência em Campinas e região.',
     conlicita:
