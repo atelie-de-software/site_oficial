@@ -1,9 +1,8 @@
 <template>
   <section class="home">
     <Hero />
-    <Culture />
-    <Methods />
     <Cases />
+    <Methods />
     <Share />
     <Contact />
     <Form />
@@ -13,9 +12,8 @@
 
 <script>
 import Hero from '@/components/Hero'
-import Culture from '@/components/Culture'
-import Methods from '@/components/Methods'
 import Cases from '@/components/Cases'
+import Methods from '@/components/Methods'
 import Share from '@/components/ShareSection'
 import Contact from '@/components/Contact'
 import FooterSection from '@/components/Footer'
@@ -30,9 +28,8 @@ export default {
   },
   components: {
     Hero,
-    Culture,
-    Methods,
     Cases,
+    Methods,
     Share,
     Contact,
     FooterSection
