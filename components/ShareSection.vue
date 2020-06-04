@@ -3,21 +3,11 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-4 col-md-6 title">
-          <h2
-            tabindex="0"
-            class="share"
-            data-aos="fade-up"
-            data-aos-once="true"
-          >
+          <h2 tabindex="0" class="share">
             share
             <span>!</span>
           </h2>
-          <p
-            tabindex="0"
-            data-aos="fade-up"
-            data-aos-delay="200"
-            data-aos-once="true"
-          >
+          <p tabindex="0">
             {{ $t('share.description') }}
           </p>
         </div>
@@ -29,9 +19,6 @@
             :content="firstPost.description | removeHtml"
             :thumb="firstPost.thumbnail"
             :link="firstPost.link"
-            data-aos="fade-up"
-            data-aos-delay="400"
-            data-aos-once="true"
           />
         </div>
         <div class="col-lg-4 col-md-6 posts">
@@ -42,9 +29,6 @@
             :author="post.author"
             :title="post.title"
             :link="post.link"
-            :data-aos-delay="600 + index * 100"
-            data-aos="fade-up"
-            data-aos-once="true"
           />
         </div>
       </div>

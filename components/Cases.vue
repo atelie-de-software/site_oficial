@@ -1,12 +1,7 @@
 <template>
   <div id="cases">
     <div class="header-cases">
-      <h2
-        tabindex="0"
-        data-aos="zoom-in"
-        data-aos-delay="300"
-        data-aos-once="true"
-      >
+      <h2 tabindex="0">
         cases
       </h2>
     </div>
