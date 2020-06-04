@@ -87,7 +87,7 @@ const en = {
     officePhoneTitle: 'For other subjects'
   },
   footer: {
-    copyright: 'Ateliê de Software 2019 © all rights reserved'
+    copyright: 'Ateliê de Software 2020 © all rights reserved'
   },
   heroCulture: {
     message: 'OUR CULTURE',

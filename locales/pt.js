@@ -88,7 +88,7 @@ const pt = {
     officePhoneTitle: 'Para quaisquer outros assuntos'
   },
   footer: {
-    copyright: 'Ateliê de Software 2019 © all rights reserved'
+    copyright: 'Ateliê de Software 2020 © all rights reserved'
   },
   heroCulture: {
     message: 'NOSSA CULTURA',
