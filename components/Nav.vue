@@ -6,11 +6,11 @@
       <span />
     </button>
     <nav @click="closeMenu" :class="menuClass">
-      <nuxt-link :to="localePath('cultura')">
-        {{ $t('nav.culture') }}
-      </nuxt-link>
       <nuxt-link :to="localePath('cases')">
         {{ $t('nav.cases') }}
+      </nuxt-link>
+      <nuxt-link :to="localePath('cultura')">
+        {{ $t('nav.culture') }}
       </nuxt-link>
       <nuxt-link :to="{ path: localePath('index'), hash: '#share' }">
         {{ $t('nav.share') }}
