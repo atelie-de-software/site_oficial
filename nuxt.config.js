@@ -60,7 +60,6 @@ module.exports = {
     { src: '~/plugins/toggle.js', ssr: false },
     { src: '~/plugins/vuelidate.js', ssr: false },
     { src: '~/plugins/hotjar.js', ssr: false },
-    { src: '~/plugins/aos.js', ssr: false },
     { src: '~/plugins/ga.js', ssr: false },
     { src: '~/plugins/lazyload', ssr: false },
     { src: '~/plugins/facebook', ssr: false },
