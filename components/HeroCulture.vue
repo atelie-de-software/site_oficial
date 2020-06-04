@@ -3,22 +3,18 @@
     <div class="row">
       <div class="col-md-12 center">
         <h1>{{ $t('heroCulture.message') }}</h1>
-        <img
-          tabindex="0"
-          data-aos="fade-in"
-          data-aos-once="true"
-          data-aos-delay="300"
-          src="@/assets/images/team.png"
-          alt="Time Ateliê"
-        />
+        <iframe
+          class="cultureMovie"
+          width="90%"
+          height="515"
+          src="https://www.youtube.com/embed/unPQHIc0oW0"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
       </div>
     </div>
-    <div
-      class="row"
-      data-aos-delay="600"
-      data-aos="fade-in"
-      data-aos-once="true"
-    >
+    <div class="row">
       <div class="col-md-6">
         <p>
           {{ $t('heroCulture.description') }}
@@ -52,6 +48,9 @@
 }
 .center {
   text-align: center;
+}
+.cultureMovie {
+  margin-bottom: 40px;
 }
 h1 {
   color: #444140;
