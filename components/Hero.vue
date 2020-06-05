@@ -1,7 +1,7 @@
 <template>
   <div class="container hero">
     <div class="row">
-      <div class="col-md-9">
+      <div class="col-md-5">
         <h1 tabindex="0">
           {{ $t('hero.message') }}
         </h1>
@@ -10,8 +10,11 @@
         </p>
       </div>
 
-      <div class="col-md-3 logo">
-        <img src="/logo_element.png" alt="logo" />
+      <div class="col-md-7">
+        <img
+          src="~/assets/images/atelie-de-software-hero.jpg"
+          alt="Projeto EducadoraFM"
+        />
       </div>
     </div>
   </div>
@@ -31,12 +34,10 @@
 }
 h1 {
   color: #444140;
-  font-size: 81px;
+  font-size: 40px;
   font-weight: 800;
-  line-height: 86.12px;
-  text-transform: uppercase;
-  letter-spacing: 2.1px;
-  margin-bottom: 67px;
+  line-height: 40px;
+  margin: 120px 0 40px 0;
   @media screen and (max-width: 640px) {
     font-size: 38px;
     margin-bottom: 20px;
