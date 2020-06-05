@@ -4,9 +4,9 @@
       <div class="row">
         <div class="col-md-5">
           <h2 tabindex="0">
-            Conheça os nossos cases
+            {{ $t('cases.know') }}
           </h2>
-          <p>Veja como ajudamos de forma colaborativa os nossos clientes.</p>
+          <p>{{ $t('cases.description') }}</p>
           <nuxt-link :to="localePath('cases')" class="btn">
             {{ $t('cases.button') }}
           </nuxt-link>
@@ -27,8 +27,8 @@
 #cases {
   margin-bottom: 50px;
   h2 {
-    font-size: 50px;
-    line-height: 60px;
+    font-size: 40px;
+    line-height: 50px;
     text-transform: uppercase;
     margin: 100px 0 40px 0;
   }

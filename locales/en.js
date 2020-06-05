@@ -7,7 +7,7 @@ const en = {
   hero: {
     message: 'HANDMADE SOFTWARE FOR YOUR BUSINESS',
     description:
-      'Our purpose is to develop high quality software with fast return on the investment for our customers.'
+      'Our purpose is to develop software to make companies better and people happier.'
   },
   culture: {
     message: 'Our Culture',
@@ -31,6 +31,7 @@ const en = {
   },
   cases: {
     know: 'Know our cases',
+    description: 'See how we collaboratively help our customers.',
     button: 'More',
     educadora:
       'Educadora FM is the radio of the Bandeirantes Television Group, the leading audience is in Campinas and the region.',

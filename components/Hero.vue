@@ -23,7 +23,6 @@
 <style lang="scss" scoped>
 .hero {
   padding-top: 50px;
-  padding-bottom: 50px;
   position: relative;
 }
 .logo {
@@ -36,7 +35,7 @@ h1 {
   color: #444140;
   font-size: 40px;
   font-weight: 800;
-  line-height: 40px;
+  line-height: 50px;
   margin: 120px 0 40px 0;
   @media screen and (max-width: 640px) {
     font-size: 38px;
