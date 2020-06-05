@@ -25,12 +25,6 @@
   padding-top: 50px;
   position: relative;
 }
-.logo {
-  display: flex;
-  justify-content: center;
-  align-items: baseline;
-  padding-top: 45px;
-}
 h1 {
   color: #444140;
   font-size: 40px;
@@ -38,6 +32,7 @@ h1 {
   line-height: 50px;
   margin: 120px 0 40px 0;
   @media screen and (max-width: 640px) {
+    margin: 0 0 40px 0;
     font-size: 38px;
     margin-bottom: 20px;
     line-height: 1;

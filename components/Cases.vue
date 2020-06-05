@@ -31,9 +31,9 @@
     line-height: 50px;
     text-transform: uppercase;
     margin: 100px 0 40px 0;
-  }
-  .casesImage {
-    height: 100%;
+    @media screen and (max-width: 640px) {
+      margin-top: 0;
+    }
   }
 }
 p {
