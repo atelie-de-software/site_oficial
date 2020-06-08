@@ -1,28 +1,38 @@
 <template>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 logo">
-        <img src="@/assets/images/conlicitacao-logo.png" alt />
+  <section class="sectionsCases">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img
+            src="@/assets/images/atelie-de-software-conlicitacao.png"
+            alt="Telas do sistema."
+          />
+        </div>
+        <div class="col-md-6">
+          <img
+            src="@/assets/images/conlicitacao-logo.png"
+            alt="Conlicitação"
+            width="200"
+            class="logo"
+          />
+          <p>
+            Possui um dos sistemas de organização e leilão de licitações
+            públicas do país. Digitalizamos a plataforma e aumentamos a base de
+            clientes.
+          </p>
+
+          <p>
+            Otimizamos o tempo de processamento de licitações de dias para
+            apenas alguns minutos e a base de clientes quintuplicou. Depois de
+            12 anos, uma equipe dedicada faz melhorias constantes no sistema.
+          </p>
+        </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-4">
-        <p>{{ $t('conlicitacao.description') }}</p>
-        <p>{{ $t('conlicitacao.descriptionII') }}</p>
-        <p>{{ $t('conlicitacao.descriptionIII') }}</p>
-      </div>
-      <div class="col-md-8">
-        <Tablet :background="print" class="show-desktop" />
-      </div>
-    </div>
-  </div>
+  </section>
 </template>
 
 <style scoped>
-.container {
-  text-align: center;
-  margin-bottom: 180px;
-}
 .logo {
   margin-top: 120px;
   margin-bottom: 40px;
@@ -30,14 +40,9 @@
 </style>
 
 <script>
-import Tablet from '@/components/Tablet'
 import ConlicitaPrint from '@/assets/images/conlicitacao-print.jpg'
 
 export default {
-  name: 'ConlicitacaoCase',
-  components: {
-    Tablet
-  },
   computed: {
     print() {
       return ConlicitaPrint
