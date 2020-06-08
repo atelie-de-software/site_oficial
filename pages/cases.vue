@@ -1,25 +1,25 @@
 <template>
   <section class="home">
     <HeroCase />
-    <Conlicitacao />
     <Granatum />
-    <Dsop />
-    <Lumiar />
-    <Synergia />
+    <Conlicitacao />
     <Educadora />
+    <Access />
+    <Lumiar />
+    <Virou />
     <FooterSection />
   </section>
 </template>
 
 <script>
 import HeroCase from '@/components/HeroCase'
-import FooterSection from '@/components/Footer'
-import Educadora from '@/components/Educadora'
-import Conlicitacao from '@/components/Conlicitacao'
 import Granatum from '@/components/Granatum'
+import Conlicitacao from '@/components/Conlicitacao'
+import Educadora from '@/components/Educadora'
+import Access from '@/components/Access'
 import Lumiar from '@/components/Lumiar'
-import Dsop from '@/components/Dsop'
-import Synergia from '@/components/Synergia'
+import Virou from '@/components/Virou'
+import FooterSection from '@/components/Footer'
 
 export default {
   name: 'Cases',
@@ -31,13 +31,13 @@ export default {
   },
   components: {
     HeroCase,
-    FooterSection,
-    Educadora,
-    Conlicitacao,
-    Lumiar,
     Granatum,
-    Synergia,
-    Dsop
+    Conlicitacao,
+    Educadora,
+    Access,
+    Lumiar,
+    Virou,
+    FooterSection
   }
 }
 </script>
