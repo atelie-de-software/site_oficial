@@ -3,10 +3,10 @@
     <HeroCase />
     <Granatum />
     <Conlicitacao />
+    <Virou />
     <Educadora />
     <Access />
     <Lumiar />
-    <Virou />
     <FooterSection />
   </section>
 </template>
@@ -15,10 +15,10 @@
 import HeroCase from '@/components/HeroCase'
 import Granatum from '@/components/Granatum'
 import Conlicitacao from '@/components/Conlicitacao'
+import Virou from '@/components/Virou'
 import Educadora from '@/components/Educadora'
 import Access from '@/components/Access'
 import Lumiar from '@/components/Lumiar'
-import Virou from '@/components/Virou'
 import FooterSection from '@/components/Footer'
 
 export default {
@@ -33,10 +33,10 @@ export default {
     HeroCase,
     Granatum,
     Conlicitacao,
+    Virou,
     Educadora,
     Access,
     Lumiar,
-    Virou,
     FooterSection
   }
 }
