@@ -4,9 +4,9 @@
     <Granatum />
     <Conlicitacao />
     <Virou />
-    <Educadora />
     <Access />
     <Lumiar />
+    <Educadora />
     <Buttomcontact />
     <FooterSection />
   </section>
@@ -17,9 +17,9 @@ import HeroCase from '@/components/HeroCase'
 import Granatum from '@/components/Granatum'
 import Conlicitacao from '@/components/Conlicitacao'
 import Virou from '@/components/Virou'
-import Educadora from '@/components/Educadora'
 import Access from '@/components/Access'
 import Lumiar from '@/components/Lumiar'
+import Educadora from '@/components/Educadora'
 import Buttomcontact from '@/components/Buttomcontact'
 import FooterSection from '@/components/Footer'
 
@@ -36,9 +36,9 @@ export default {
     Granatum,
     Conlicitacao,
     Virou,
-    Educadora,
     Access,
     Lumiar,
+    Educadora,
     Buttomcontact,
     FooterSection
   }
