@@ -20,7 +20,7 @@
             significativo de novos assinantes.
           </p>
         </div>
-        <div class="col-md-7">
+        <div class="col-md-6 offset-md-1">
           <img
             src="~/assets/images/atelie-de-software-cases.jpg"
             alt="Conheça nossos cases."
