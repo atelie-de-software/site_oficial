@@ -6,7 +6,6 @@
           <img
             src="~/assets/images/atelie-de-software-virou-logo.png"
             alt="Synergia Logo"
-            width="120"
             class="logo-virou_delirevy"
           />
           <p>

@@ -7,7 +7,6 @@
             src="~/assets/images/granatum logotipo.svg"
             alt="Granatum Controle Financeiro Online"
             class="logo-granatum"
-            width="200"
           />
           <p>
             Startup brasileira que oferece um SaaS de Gestão Financeira para
@@ -24,7 +23,6 @@
           <img
             src="~/assets/images/atelie-de-software-cases.jpg"
             alt="Conheça nossos cases."
-            class="casesImage"
           />
         </div>
       </div>

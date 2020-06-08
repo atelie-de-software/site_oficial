@@ -6,7 +6,6 @@
           <img
             src="~/assets/images/atelie-de-software-educadora-logo.png"
             alt="Educadorafm"
-            width="120"
             class="logo-educadorafm"
           />
           <p>Estação de Rádio do grupo Bandeirantes de comunicação.</p>

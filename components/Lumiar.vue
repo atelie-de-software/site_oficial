@@ -6,7 +6,6 @@
           <img
             src="~/assets/images/atelie-de-software-lumiar-logo.svg"
             alt="Plataforma Lumiar"
-            width="140"
             class="logo-lumiar"
           />
           <p>

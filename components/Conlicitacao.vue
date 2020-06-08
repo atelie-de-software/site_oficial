@@ -12,7 +12,6 @@
           <img
             src="@/assets/images/conlicitacao-logo.png"
             alt="Conlicitação"
-            width="200"
             class="logo-conlicitacao"
           />
           <p>

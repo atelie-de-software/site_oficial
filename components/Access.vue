@@ -12,7 +12,6 @@
           <img
             src="~/assets/images/atelie-de-software-access-logo.png"
             alt="Dsop"
-            width="160"
             class="logo-accessloans"
           />
           <p>
