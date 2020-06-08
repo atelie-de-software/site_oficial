@@ -24,7 +24,7 @@
             plataforma.
           </p>
         </div>
-        <div class="col-md-7">
+        <div class="col-md-6 offset-md-1">
           <img src="~/assets/images/atelie-de-software-tela-Lumiar.png" alt />
         </div>
       </div>
