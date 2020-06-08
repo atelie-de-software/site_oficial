@@ -7,6 +7,7 @@
     <Educadora />
     <Access />
     <Lumiar />
+    <Buttomcontact />
     <FooterSection />
   </section>
 </template>
@@ -19,6 +20,7 @@ import Virou from '@/components/Virou'
 import Educadora from '@/components/Educadora'
 import Access from '@/components/Access'
 import Lumiar from '@/components/Lumiar'
+import Buttomcontact from '@/components/Buttomcontact'
 import FooterSection from '@/components/Footer'
 
 export default {
@@ -37,6 +39,7 @@ export default {
     Educadora,
     Access,
     Lumiar,
+    Buttomcontact,
     FooterSection
   }
 }

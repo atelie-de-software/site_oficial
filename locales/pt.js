@@ -131,7 +131,7 @@ const pt = {
     messageII: ' OS NOSSOS',
     messageIII: ' CASES',
     description:
-      'Abaixo você encontrará alguns dos trabalhos realizados pelo Ateliê. Se quiser saber mais ou falar do seu projeto é só entrar em contato.'
+      'Abaixo você encontrará alguns dos trabalhos realizados pelo Ateliê.'
   },
   conlicitacao: {
     description:
