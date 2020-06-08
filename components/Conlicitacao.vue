@@ -2,13 +2,13 @@
   <section class="sectionsCases">
     <div class="container">
       <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-7">
           <img
             src="@/assets/images/atelie-de-software-conlicitacao.png"
             alt="Telas do sistema."
           />
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 offset-md-1">
           <img
             src="@/assets/images/conlicitacao-logo.png"
             alt="Conlicitação"
