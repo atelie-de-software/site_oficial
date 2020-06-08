@@ -13,7 +13,7 @@
             src="@/assets/images/conlicitacao-logo.png"
             alt="Conlicitação"
             width="200"
-            class="logo"
+            class="logo-conlicitacao"
           />
           <p>
             Possui um dos sistemas de organização e leilão de licitações

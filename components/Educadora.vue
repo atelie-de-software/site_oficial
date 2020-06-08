@@ -7,7 +7,7 @@
             src="~/assets/images/atelie-de-software-educadora-logo.png"
             alt="Educadorafm"
             width="120"
-            class="logo"
+            class="logo-educadorafm"
           />
           <p>Estação de Rádio do grupo Bandeirantes de comunicação.</p>
           <p>
@@ -19,7 +19,7 @@
             Android e IOS.
           </p>
         </div>
-        <div class="col-md-8">
+        <div class="col-md-7 offset-md-1">
           <img
             src="~/assets/images/atelie-de-software-educadorafm.png"
             class="show-desktop"

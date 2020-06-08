@@ -7,7 +7,7 @@
             src="~/assets/images/atelie-de-software-virou-logo.png"
             alt="Synergia Logo"
             width="120"
-            class="logo"
+            class="logo-virou_delirevy"
           />
           <p>
             Parceria entre com o Grupo Bandeirantes que tem como objetivo ajudar

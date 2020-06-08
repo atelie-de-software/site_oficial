@@ -1,6 +1,26 @@
 .sectionsCases {
   padding: 40px 0;
-  .logo {
-    margin: 120px 0 20px 0;
+  &lumiar{
+    padding: 200px 0;
+  }
+  .logo- {
+    &granatum{
+      margin: 120px 0 20px 0;
+    }
+    &conlicitacao{
+      margin: 120px 0 20px 0;
+    }
+    &virou_delirevy{
+      margin: 160px 0 20px 0;
+    }
+    &educadorafm{
+      margin: 160px 0 20px 0;
+    }
+    &accessloans{
+      margin: 70px 0 20px 0;
+    }
+    &lumiar{
+      margin: 80px 0 20px 0;
+    }
   }
 }

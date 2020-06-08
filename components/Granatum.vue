@@ -6,7 +6,7 @@
           <img
             src="~/assets/images/granatum logotipo.svg"
             alt="Granatum Controle Financeiro Online"
-            class="logo"
+            class="logo-granatum"
             width="200"
           />
           <p>

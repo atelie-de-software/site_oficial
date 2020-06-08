@@ -13,7 +13,7 @@
             src="~/assets/images/atelie-de-software-access-logo.png"
             alt="Dsop"
             width="160"
-            class="logo"
+            class="logo-accessloans"
           />
           <p>
             Startup norte-americana, situada em Miami, que realiza empréstimos

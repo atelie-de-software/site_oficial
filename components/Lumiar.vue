@@ -1,5 +1,5 @@
 <template>
-  <section class="sectionsCases">
+  <section class="sectionsCases sectionsCaseslumiar">
     <div class="container">
       <div class="row">
         <div class="col-md-5">
@@ -7,7 +7,7 @@
             src="~/assets/images/atelie-de-software-lumiar-logo.svg"
             alt="Plataforma Lumiar"
             width="140"
-            class="logo"
+            class="logo-lumiar"
           />
           <p>
             Rede de Escolas Lumiar que possui uma metodologia de ensino
