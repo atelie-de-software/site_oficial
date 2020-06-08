@@ -14,8 +14,9 @@
             pandemia da COVID-19.
           </p>
           <p>
-            Desenvolver e lançamos o aplicativo móvel e ele utiliza os meios de
-            comunicação do Grupo Bandeirantes para prover propaganda acessível.
+            Desenvolvemos e lançamos o aplicativo móvel e ele utiliza os meios
+            de comunicação do Grupo Bandeirantes para prover propaganda
+            acessível.
           </p>
           <p>
             A aplicação já possui empresas e usuários cadastrados e uma projeção
