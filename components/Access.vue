@@ -2,7 +2,13 @@
   <section class="sectionsCases">
     <div class="container">
       <div class="row">
-        <div class="col-md-5">
+        <div class="col-md-7">
+          <img
+            src="~/assets/images/atelie-de-software-acess-loans.png"
+            alt="Access Loans"
+          />
+        </div>
+        <div class="col-md-4 offset-md-1">
           <img
             src="~/assets/images/atelie-de-software-access-logo.png"
             alt="Dsop"
@@ -21,12 +27,6 @@
             Concebemos, desenvolvemos e lançamos o produto digital que bateu sua
             meta no primeiro mês de funcionamento.
           </p>
-        </div>
-        <div class="col-md-7">
-          <img
-            src="~/assets/images/atelie-de-software-acess-loans.png"
-            alt="Access Loans"
-          />
         </div>
       </div>
     </div>
