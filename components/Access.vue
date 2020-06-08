@@ -1,38 +1,39 @@
 <template>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <img src="~/assets/images/dsop-logo.png" alt />
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <img src="~/assets/images/dsop-print.png" alt aria-hidden="true" />
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6 offset-md-3">
-        <div>
-          <p>{{ $t('dsop.description') }}</p>
-
-          <p>{{ $t('dsop.descriptionII') }}</p>
+  <section class="sectionsCases">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <img
+            src="~/assets/images/atelie-de-software-access-logo.png"
+            alt="Dsop"
+            width="160"
+            class="logo"
+          />
+          <p>
+            Startup norte-americana, situada em Miami, que realiza empréstimos
+            para agentes federais.
+          </p>
+          <p>
+            Criamos campanhas de Landing Page e Email Marketing para atrair
+            novos clientes.
+          </p>
+          <p>
+            Concebemos, desenvolvemos e lançamos o produto digital que bateu sua
+            meta no primeiro mês de funcionamento.
+          </p>
+        </div>
+        <div class="col-md-7">
+          <img
+            src="~/assets/images/atelie-de-software-acess-loans.png"
+            alt="Access Loans"
+          />
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <style scoped lang="scss">
-.container {
-  margin-top: 150px;
-  margin-bottom: 125px;
-}
-.text-center {
-  text-align: center;
-}
-.content {
-  margin: 60px 0;
-}
 .relative {
   position: relative;
   @media screen and (max-width: 786px) {
@@ -44,11 +45,5 @@
       margin-bottom: 40px;
     }
   }
-}
-.logo {
-  position: absolute;
-  right: 0;
-  bottom: 0px;
-  z-index: -1;
 }
 </style>

@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-md-4">
           <img
-            src="~/assets/images/educadora-logo.png"
+            src="~/assets/images/atelie-de-software-educadora-logo.png"
             alt="Educadorafm"
             width="120"
             class="logo"

@@ -1,61 +1,36 @@
 <template>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 center">
-        <img
-          src="~/assets/images/synergia-logo.png"
-          alt="Synergia Logo"
-          class="show-mobile logo"
-        />
-        <Notebook :background="SynergiaPrint" />
-      </div>
-      <div class="col-md-6 center">
-        <img
-          src="~/assets/images/synergia-logo.png"
-          alt="Synergia Logo"
-          class="show-desktop"
-        />
-        <div class="content">
-          <p>{{ $t('synergia.description') }}</p>
-          <p>{{ $t('synergia.descriptionII') }}</p>
+  <section class="sectionsCases">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img
+            src="~/assets/images/atelie-de-software-telas-virou.png"
+            alt="Synergia Logo"
+            class="show-desktop"
+          />
+        </div>
+        <div class="col-md-6">
+          <img
+            src="~/assets/images/atelie-de-software-virou-logo.png"
+            alt="Synergia Logo"
+            width="120"
+            class="logo"
+          />
+          <p>
+            Parceria entre com o Grupo Bandeirantes que tem como objetivo ajudar
+            as micros e pequenas empresas na venda dos seus produtos durante a
+            pandemia da COVID-19.
+          </p>
+          <p>
+            Desenvolver e lançamos o aplicativo móvel e ele utiliza os meios de
+            comunicação do Grupo Bandeirantes para prover propaganda acessível.
+          </p>
+          <p>
+            A aplicação já possui empresas e usuários cadastrados e uma projeção
+            de potencial de 700 mil pessoas impactadas.
+          </p>
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
-
-<style scoped>
-.container {
-  padding-bottom: 50px;
-  padding-top: 50px;
-}
-.content {
-  margin: 40px 0;
-}
-.center {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-direction: column;
-}
-.logo {
-  margin-bottom: 40px;
-}
-</style>
-
-<script>
-import Notebook from '@/components/Notebook'
-import Print from '@/assets/images/synergia-print.jpg'
-
-export default {
-  name: 'SynergiaCase',
-  components: {
-    Notebook
-  },
-  computed: {
-    SynergiaPrint() {
-      return Print
-    }
-  }
-}
-</script>
