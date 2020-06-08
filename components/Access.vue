@@ -14,18 +14,9 @@
             alt="Dsop"
             class="logo-accessloans"
           />
-          <p>
-            Startup norte-americana, situada em Miami, que realiza empréstimos
-            para agentes federais.
-          </p>
-          <p>
-            Criamos campanhas de Landing Page e Email Marketing para atrair
-            novos clientes.
-          </p>
-          <p>
-            Concebemos, desenvolvemos e lançamos o produto digital que bateu sua
-            meta no primeiro mês de funcionamento.
-          </p>
+          <p>{{ $t('accessloans.description') }}</p>
+          <p>{{ $t('accessloans.descriptionII') }}</p>
+          <p>{{ $t('accessloans.descriptionIII') }}</p>
         </div>
       </div>
     </div>

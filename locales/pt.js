@@ -133,49 +133,50 @@ const pt = {
   },
   conlicitacao: {
     description:
-      'O ConLicitação é uma empresa que possui o maior banco de dados de avisos de licitações, leilões, editais e resultados de processos de compras governamentais do país.',
+      'Possui um dos maiores sistemas de organização e leilão de licitações públicas do país. Digitalizamos a plataforma e aumentamos a base de clientes.',
     descriptionII:
-      'Em 2008, iniciamos o projeto de reestruturação e reimplementação dos seus sistemas internos e a criação de novos softwares.',
-    descriptionIII:
-      'Depois de 10 anos, uma equipe dedicada do Ateliê de Software faz melhorias constantes e incrementais nos sistemas, além de colaborar na criação de novos produtos e negócios, ajudando o ConLicitação a triplicar sua base de clientes.'
+      'Otimizamos o tempo de processamento de licitações de dias para apenas alguns minutos e a base de clientes quintuplicou. Depois de 12 anos, uma equipe dedicada faz melhorias constantes no sistema.'
   },
   granatum: {
     message: 'O granatum',
     description:
-      ' é um sistema online de controle financeiro para micro e pequenas empresas, sendo um produto criado, desenvolvido e mantido pela Webgoal.',
+      'Startup brasileira que oferece um SaaS de Gestão Financeira para empresas. Desenvolvemos o aplicativo do Granatum para aumentar a retenção de clientes.',
     descriptionII:
-      'Hoje o Granatum é utilizado em todo o Brasil, possui mais de 1.200 clientes ativos, controla milhares de registros financeiros de diversas empresas, transações de pagamento e emissão de notas fiscais eletrônicas.'
-  },
-  dsop: {
-    description:
-      'Diagnosticar, Sonhar, Orçar e Poupar. A DSOP promove educação financeira ajudando seus parceiros a construir hábitos saudáveis e fazer escolhas conscientes para a realização dos seus sonhos.',
-    descriptionII:
-      'O time DSOP do Ateliê de Software é responsável pela plataforma que auxilia os colaboradores DSOP a promoverem educação financeira em escolas, empresas e para trabalhadores brasil afora.'
+      'Foi desenvolvido em 1 ano. Após o lançamento, os usuários do Granatum começaram a utilizar a solução mobile e houve um aumento significativo de novos assinantes.'
   },
   lumiar: {
     description:
-      'A Lumiar proporciona através de exclusiva prática pedagógica um ambiente diferenciado para os estudantes se desenvolverem de forma ativa e autônoma na sociedade.',
+      'Rede de Escolas Lumiar que possui uma metodologia de ensino inovadora. Desenvolvemos uma plataforma educacional digital que implementa sua metodologia.',
     descriptionII:
-      'O Ateliê de Software é responsável por tornar a metodologia Lumiar uma solução digital utilizada pelas escolas no Brasil e exterior.'
-  },
-  vagas: {
-    description:
-      'A VAGAS.com é líder no mercado de e-recruitment no Brasil e oferece soluções para facilitar a conexão dos melhores talentos às empresas.',
-    descriptionII:
-      'A parceria Vagas - Ateliê de Software é responsável por criar novas soluções e otimizar processos já existentes, prezando pela eficiência, praticidade e pela experiência do usuário.'
-  },
-  synergia: {
-    description:
-      'A Synergia, através de suas pesquisas socioambientais, muda a vida de milhares de pessoas e trás uma melhora na qualidade de vida e nos impactos ambientais que nos rodeiam, gerando relatórios e informações que embasam projetos e estudos na área.',
-    descriptionII:
-      'O time da Synergia do Ateliê de Software é responsável por sistematizar todas as etapas da pesquisa e criar inteligência para que elas possam trazer bons resultados.'
+      'Criamos ferramentas, como o mosaico digital e chamadas por vídeo, para suportar o processo de ensino-aprendizagem dos estudantes das escolas da rede.',
+    descriptionIII:
+      'Hoje um time do Ateliê trabalha em constantes aprimoramentos da plataforma.'
   },
   educadora: {
     message: 'A Educadora FM',
-    description:
-      ' é a rádio do Grupo Bandeirantes de Televisão líder de audiência em Campinas e região. Em 2013 começamos o projeto de criação de um novo gerenciador de conteúdo e do site da rádio, que no seu lançamento bateu a marca de 1 milhão de acessos.',
+    description: 'Estação de Rádio do grupo Bandeirantes de comunicação.',
     descriptionII:
-      'Atualmente, estamos desenvolvendo a segunda fase do projeto para aumentar ainda mais a audiência da rádio a partir da gamificação da interação dos usuários com o site e da criação dos aplicativos para Android e iOS.'
+      'Criamos o novo site com gerenciamento de conteúdo totalmente dinâmico e com todos os jogos da rádio.',
+    descriptionIII:
+      'Criamos o aplicativo da rádio gamificado nas plataforma nas lojas Android e IOS.'
+  },
+  accessloans: {
+    message: 'Access loans',
+    description:
+      'Startup norte-americana, situada em Miami, que realiza empréstimos para agentes federais.',
+    descriptionII:
+      'Criamos campanhas de Landing Page e Email Marketing para atrair novos clientes.',
+    descriptionIII:
+      'Concebemos, desenvolvemos e lançamos o produto digital que bateu sua meta no primeiro mês de funcionamento.'
+  },
+  viroudelivery: {
+    message: 'Virou Delivery',
+    description:
+      'Parceria entre com o Grupo Bandeirantes que tem como objetivo ajudar as micros e pequenas empresas na venda dos seus produtos durante a pandemia da COVID-19.',
+    descriptionII:
+      'Desenvolver e lançamos o aplicativo móvel e ele utiliza os meios de comunicação do Grupo Bandeirantes para prover propaganda acessível.',
+    descriptionIII:
+      'A aplicação já possui empresas e usuários cadastrados e uma projeção de potencial de 700 mil pessoas impactadas.'
   },
   nav: {
     culture: 'Cultura',

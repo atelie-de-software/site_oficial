@@ -132,49 +132,52 @@ const en = {
   },
   conlicitacao: {
     description:
-      'ConLicitação is a company that has the greatest database of bidding notice, auctions and results of government procurement processes in the country.',
+      'It has one of the biggest public bidding organization and auction systems in the country. We digitized the platform and increased the customer base.',
     descriptionII:
-      'In 2008, we started this project of restructuring and reimplementation of its internal systems and the creation of new software.',
+      'We optimized the bidding processing time of days to just a few minutes and the customer base quintupled. After 12 years, a dedicated team makes constant improvements to the system.',
     descriptionIII:
       'After 10 years, our team continues to make constant enhancements in the systems, as well as collaborate in the creation of new products and businesses, helping ConLicitação to triple its customer base.'
   },
   granatum: {
     message: 'Granatum',
     description:
-      ' is an online financial control system for micro and small businesses, being a product created, developed and maintained by Webgoal.',
+      'Brazilian startup that offers a Financial Management SaaS for companies. We developed the Granatum application to increase customer retention.',
     descriptionII:
-      'Today, Granatum is used all over Brazil, has more than 1.200 active customers, controls thousands of financial records of several companies, payment transactions and issuance of electronic invoices.'
-  },
-  dsop: {
-    description:
-      'Diagnose, Dream, Budget and Save. DSOP promotes financial education by helping its partners build healthy habits and make conscious choices for the fulfillment of their dreams.',
-    descriptionII:
-      'The DSOP team at Ateliê de Software is responsible for the platform that assists DSOP employees to promote financial education in schools, companies and for Brazilian workers.'
+      'It was developed in one year. After launching, Granatum users started using the mobile solution and there was a significant increase in new subscribers.'
   },
   lumiar: {
     description:
-      'Through exclusive pedagogic practice, Lumiar provides a differentiated environment for students to develop in an active and autonomous way in society.',
+      'Lumiar Schools Network that has an innovative teaching methodology. We developed a digital educational platform that implements its methodology.',
     descriptionII:
-      'We are responsible for making the Lumiar methodology a digital solution used by schools in Brazil and abroad.'
-  },
-  vagas: {
-    description:
-      'VAGAS.com is the leader in the e-recruitment market in Brazil and offers solutions to make easier the connection between the companies and the best of talents.',
-    descriptionII:
-      'Our partnership is responsible for creating new solutions and optimizing existing processes, focusing on efficiency, practicality and user experience.'
-  },
-  synergia: {
-    description:
-      'Synergia, through its socio-environmental research, changes the lives of thousands of people and brings about an improvement in the quality of life and the environmental impacts that surround us, generating reports and information that support projects and studies in the area.',
-    descriptionII:
-      'Our team is responsible for systematizing all stages of the research and creating intelligence so that they can bring good results.'
+      'We created tools, such as the digital mosaic and video calls, to support the teaching-learning process of students in schools in the network.',
+    descriptionIII:
+      'Today a team from Ateliê works on constant improvements to the platform.'
   },
   educadora: {
     message: 'Educadora FM',
-    description:
-      'is the radio of the Bandeirantes Television Group with leading audience in Campinas and the region. In 2013 we started the project of creating a new content manager and the radio website, which at its launch hit the mark of 1 million hits.',
+    description: 'Radio station of the Bandeirantes group of communication.',
     descriptionII:
-      'We are currently developing the second phase of the project to increase the radio audience by gamifying user interaction with the site and building apps for Android and iOS.'
+      'We created the new website with fully dynamic content management and with all radio games.',
+    descriptionIII:
+      'We created the gamified radio application on platforms in Android and IOS stores.'
+  },
+  accessloans: {
+    message: 'Access loans',
+    description:
+      'North American startup located in Miami that lends money to federal agents.',
+    descriptionII:
+      'We create  Landing Page and Email Marketing campaigns to attract new customers.',
+    descriptionIII:
+      'We conceived, developed and launched the digital product that hit its target in the first month of operation.'
+  },
+  viroudelivery: {
+    message: 'Virou Delivery',
+    description:
+      'Partnership with Bandeirantes Group that aims to help micro and small companies sell their products during the COVID-19 pandemic.',
+    descriptionII:
+      'We developed and launched the mobile application and it uses Bandeirantes Group means of communication to provide accessible advertising.',
+    descriptionIII:
+      'The application already has registered companies and users and a potential projection of 700 thousand people impacted.'
   },
   nav: {
     culture: 'Culture',

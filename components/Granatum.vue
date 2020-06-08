@@ -8,16 +8,8 @@
             alt="Granatum Controle Financeiro Online"
             class="logo-granatum"
           />
-          <p>
-            Startup brasileira que oferece um SaaS de Gestão Financeira para
-            empresas. Desenvolvemos o aplicativo do Granatum para aumentar a
-            retenção de clientes.
-          </p>
-          <p>
-            Foi desenvolvido em 1 ano. Após o lançamento, os usuários do
-            Granatum começaram a utilizar a solução mobile e houve um aumento
-            significativo de novos assinantes.
-          </p>
+          <p>{{ $t('granatum.description') }}</p>
+          <p>{{ $t('granatum.descriptionII') }}</p>
         </div>
         <div class="col-md-6 offset-md-1">
           <img
