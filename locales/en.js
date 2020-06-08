@@ -126,9 +126,7 @@ const en = {
       'Having excellence is the achievement of a virtue, it is the result of having full control of what we do and the necessary skills to perform our work. The journey for excellence is what drives us away from mediocrity, providing first-rate services and products and the best experience for customers. It is the professional achievement that makes people happier at work.'
   },
   heroCases: {
-    message: 'OUR ',
-    messageII: 'CASES',
-    messageIII: '',
+    message: 'OUR CASES',
     description:
       'Here you can find some of our projects. If you want to know more or tell us about your project, contact us.'
   },

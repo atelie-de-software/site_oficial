@@ -127,9 +127,7 @@ const pt = {
       'Ter excelência é a realização de uma virtude, é o resultado de se ter o domínio pleno do que fazemos e das competências necessárias para executar o nosso trabalho. A busca pela excelência é o que nos afasta da mediocridade, proporcionando serviços e produtos de primeira linha e a melhor experiência de consumo para os clientes. É a realização profissional que torna as pessoas mais felizes no trabalho.'
   },
   heroCases: {
-    message: 'CONHEÇA',
-    messageII: ' OS NOSSOS',
-    messageIII: ' CASES',
+    message: 'CONHEÇA OS NOSSOS CASES',
     description:
       'Abaixo você encontrará alguns dos trabalhos realizados pelo Ateliê.'
   },
