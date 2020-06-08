@@ -2,7 +2,14 @@
   <section class="sectionsCases">
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-6">
+          <img
+            src="~/assets/images/atelie-de-software-educadorafm.png"
+            class="show-desktop"
+            alt="EducadoraFM"
+          />
+        </div>
+        <div class="col-md-5 offset-md-1">
           <img
             src="~/assets/images/atelie-de-software-educadora-logo.png"
             alt="Educadorafm"
@@ -17,13 +24,6 @@
             Criamos o aplicativo da rádio gamificado nas plataforma nas lojas
             Android e IOS.
           </p>
-        </div>
-        <div class="col-md-7 offset-md-1">
-          <img
-            src="~/assets/images/atelie-de-software-educadorafm.png"
-            class="show-desktop"
-            alt
-          />
         </div>
       </div>
     </div>
