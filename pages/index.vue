@@ -2,6 +2,7 @@
   <section class="home">
     <Hero />
     <Cases />
+    <Thewaywework />
     <Share />
     <Contact />
     <Form />
@@ -12,6 +13,7 @@
 <script>
 import Hero from '@/components/Hero'
 import Cases from '@/components/Cases'
+import Thewaywework from '@/components/Thewaywework'
 import Share from '@/components/ShareSection'
 import Contact from '@/components/Contact'
 import FooterSection from '@/components/Footer'
@@ -27,6 +29,7 @@ export default {
   components: {
     Hero,
     Cases,
+    Thewaywework,
     Share,
     Contact,
     FooterSection
