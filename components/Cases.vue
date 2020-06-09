@@ -2,7 +2,14 @@
   <div id="cases">
     <div class="container">
       <div class="row">
-        <div class="col-md-5">
+        <div class="col-md-6">
+          <img
+            src="~/assets/images/atelie-de-software-cases.jpg"
+            alt="Conheça nossos cases."
+            class="casesImage"
+          />
+        </div>
+        <div class="col-md-5 offset-md-1">
           <h2 tabindex="0">
             {{ $t('cases.know') }}
           </h2>
@@ -10,13 +17,6 @@
           <nuxt-link :to="localePath('cases')" class="btn">
             {{ $t('cases.button') }}
           </nuxt-link>
-        </div>
-        <div class="col-md-7">
-          <img
-            src="~/assets/images/atelie-de-software-cases.jpg"
-            alt="Conheça nossos cases."
-            class="casesImage"
-          />
         </div>
       </div>
     </div>
