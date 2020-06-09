@@ -2,7 +2,6 @@
   <section class="home">
     <Hero />
     <Cases />
-    <Methods />
     <Share />
     <Contact />
     <Form />
@@ -13,7 +12,6 @@
 <script>
 import Hero from '@/components/Hero'
 import Cases from '@/components/Cases'
-import Methods from '@/components/Methods'
 import Share from '@/components/ShareSection'
 import Contact from '@/components/Contact'
 import FooterSection from '@/components/Footer'
@@ -29,12 +27,9 @@ export default {
   components: {
     Hero,
     Cases,
-    Methods,
     Share,
     Contact,
     FooterSection
   }
 }
 </script>
-
-<style></style>

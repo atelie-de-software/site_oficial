@@ -183,18 +183,6 @@ const pt = {
     cases: 'Cases',
     share: 'share!',
     tellUs: 'Fale Conosco'
-  },
-  thewaywework: {
-    title: 'Como fazemos',
-    discovery: 'Descoberta',
-    discoveryparagrah:
-      'Um time multidisciplinar co-cria com os nossos clientes, as definições básicas do projeto.',
-    exploration: 'Exploração',
-    explorationparagrah:
-      'Aprofundamos a nossa compreensão sobre o projeto, refinamos escopo e acordamos as prioridades.',
-    craft: 'Construção e entregas',
-    craftparagrah:
-      'Em conjunto como cliente, realizamos a implementação do projeto de forma iterativa e incremental.'
   }
 }
 
