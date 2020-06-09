@@ -127,8 +127,7 @@ const en = {
   },
   heroCases: {
     message: 'OUR CASES',
-    description:
-      'Here you can find some of our projects. If you want to know more or tell us about your project, contact us.'
+    description: 'Here you can find some of our projects.'
   },
   conlicitacao: {
     description:
@@ -184,6 +183,18 @@ const en = {
     cases: 'Cases',
     share: 'share!',
     tellUs: 'Contact us'
+  },
+  thewaywework: {
+    title: 'The way we work',
+    discovery: 'Discovery',
+    discoveryparagrah:
+      'A multidisciplinary team co-creates the basic project definitions with our customers.',
+    exploration: 'Exploration',
+    explorationparagrah:
+      'We deepen our understanding of the project, refine the scope and agree on priorities.',
+    craft: 'Craft & Deviliveries',
+    craftparagrah:
+      'Together with the client, we implement the project in an iterative and incremental way.'
   }
 }
 

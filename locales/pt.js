@@ -174,7 +174,7 @@ const pt = {
     description:
       'Parceria entre com o Grupo Bandeirantes que tem como objetivo ajudar as micros e pequenas empresas na venda dos seus produtos durante a pandemia da COVID-19.',
     descriptionII:
-      'Desenvolvemos e lançamos o aplicativo móvel e ele utiliza os meios de comunicação do Grupo Bandeirantes para prover propaganda acessível.',
+      'Desenvolver e lançamos o aplicativo móvel e ele utiliza os meios de comunicação do Grupo Bandeirantes para prover propaganda acessível.',
     descriptionIII:
       'A aplicação já possui empresas e usuários cadastrados e uma projeção de potencial de 700 mil pessoas impactadas.'
   },

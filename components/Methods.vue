@@ -1,18 +1,17 @@
 <template>
   <div class="container">
     <div class="row text-center">
-      <div class="col-md-12"><h3>Como Fazemos</h3></div>
+      <div class="col-md-12">
+        <h3>{{ $t('thewaywework.title') }}</h3>
+      </div>
       <div class="col-md-4">
         <img
           src="~/assets/images/atelie-de-software-binoculo.svg"
           alt="Conheça nossos cases."
           class="image"
         />
-        <h4>Descoberta</h4>
-        <p>
-          Um time multidisciplinar co-cria com os nossos clientes, as definições
-          básicas do projeto.
-        </p>
+        <h4>{{ $t('thewaywework.discovery') }}</h4>
+        <p>{{ $t('thewaywework.discoveryparagrah') }}</p>
       </div>
       <div class="col-md-4">
         <img
@@ -20,11 +19,8 @@
           alt="Conheça nossos cases."
           class="image"
         />
-        <h4>Exploração</h4>
-        <p>
-          Aprofundamos a nossa compreensão sobre o projeto, refinamos escopo e
-          acordamos as prioridades.
-        </p>
+        <h4>{{ $t('thewaywework.exploration') }}</h4>
+        <p>{{ $t('thewaywework.explorationparagrah') }}</p>
       </div>
       <div class="col-md-4">
         <img
@@ -32,11 +28,8 @@
           alt="Conheça nossos cases."
           class="image"
         />
-        <h4>Construção e entregas</h4>
-        <p>
-          Em conjunto com o cliente, realizamos a implementação do projeto de
-          forma iterativa e incremental.
-        </p>
+        <h4>{{ $t('thewaywework.craft') }}</h4>
+        <p>{{ $t('thewaywework.craftparagrah') }}</p>
       </div>
     </div>
   </div>
