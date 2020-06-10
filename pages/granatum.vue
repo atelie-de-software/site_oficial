@@ -57,7 +57,7 @@
         </div>
       </div>
     </div>
-    <div class="solution color">
+    <div class="solution">
       <div class="container">
         <div class="row">
           <div class="col-md-4 contentSection">
@@ -108,8 +108,10 @@
           <div class="col-md-6 contentSection">
             <h2>Resultados</h2>
             <p>
-              Startup brasileira que oferece um SaaS de Gestão Financeira para
-              empresas.
+              O aplicativo do Granatum foi desenvolvido em 1 ano por uma equipe
+              composta por 2 desenvolvedores e 1 designer. Após o lançamento, os
+              usuários do Granatum começaram a utilizar a solução mobile e houve
+              um aumento significativo de novos assinantes.
             </p>
           </div>
           <div class="col-md-6">
@@ -136,6 +138,9 @@
   .logo-granatum {
     width: 200px;
   }
+}
+.screen {
+  padding: 60px 0 20px 0;
 }
 .challenge {
   p {
