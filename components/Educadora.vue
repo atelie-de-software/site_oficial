@@ -15,15 +15,9 @@
             alt="Educadorafm"
             class="logo-educadorafm"
           />
-          <p>Estação de Rádio do grupo Bandeirantes de comunicação.</p>
-          <p>
-            Criamos o novo site com gerenciamento de conteúdo totalmente
-            dinâmico e com todos os jogos da rádio.
-          </p>
-          <p>
-            Criamos o aplicativo da rádio gamificado nas plataforma nas lojas
-            Android e IOS.
-          </p>
+          <p>{{ $t('educadora.description') }}</p>
+          <p>{{ $t('educadora.descriptionII') }}</p>
+          <p>{{ $t('educadora.descriptionIII') }}</p>
         </div>
       </div>
     </div>
