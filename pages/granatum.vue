@@ -1,5 +1,5 @@
 <template>
-  <div class="jeff">
+  <div class="detailsCase">
     <div class="main">
       <div class="container">
         <div class="row">
@@ -38,16 +38,16 @@
         </div>
       </div>
     </div>
-    <div class="challenge color">
+    <div class="challenge color color-granatum">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 order-last">
+          <div class="col-md-6 offset-md-2 order-last">
             <img
               src="~/assets/images/granatum/atelie-de-software-mao-iphone-granatum.webp"
               alt="Granatum Controle Financeiro Online"
             />
           </div>
-          <div class="col-md-6 order-first contentSection">
+          <div class="col-md-4 order-first contentSection">
             <h2>Desafios</h2>
             <p>
               Criar o aplicativo mobile do Granatum oferecendo as mesmas
@@ -78,7 +78,7 @@
         </div>
       </div>
     </div>
-    <div class="screen color">
+    <div class="screen color color-granatum">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -90,7 +90,7 @@
         </div>
       </div>
     </div>
-    <div class="screen color">
+    <div class="screen color color-granatum">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -105,7 +105,7 @@
     <div class="result">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 contentSection">
+          <div class="col-md-4 contentSection">
             <h2>Resultados</h2>
             <p>
               O aplicativo do Granatum foi desenvolvido em 1 ano por uma equipe
@@ -114,7 +114,7 @@
               um aumento significativo de novos assinantes.
             </p>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 offset-md-2">
             <img
               src="~/assets/images/granatum/atelie-de-software-mao-iphone-granatum.webp"
               alt="Granatum Controle Financeiro Online"
@@ -125,48 +125,3 @@
     </div>
   </div>
 </template>
-
-<style lang="scss" scoped>
-.color {
-  background-color: #0d91e5;
-  h2,
-  p {
-    color: #ffffff;
-  }
-}
-.main {
-  .logo-granatum {
-    width: 200px;
-  }
-}
-.screen {
-  padding: 60px 0 20px 0;
-}
-.challenge {
-  p {
-    font-size: 1.6em;
-    line-height: 1.4em;
-  }
-}
-h2 {
-  font-size: 2em;
-  text-transform: unset;
-  margin: 20px 0;
-}
-.details {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin: 10px 0;
-  img {
-    margin: 0 10px 0 0;
-  }
-}
-.contentSection {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-}
-</style>

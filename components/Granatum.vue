@@ -2,7 +2,7 @@
   <section class="sectionsCases">
     <div class="container">
       <div class="row">
-        <div class="col-md-5">
+        <div class="col-md-5 contentSection">
           <img
             src="~/assets/images/granatum logotipo.svg"
             alt="Granatum Controle Financeiro Online"
@@ -10,12 +10,12 @@
           />
           <p>{{ $t('granatum.description') }}</p>
           <p>{{ $t('granatum.descriptionII') }}</p>
+          <p>
+            <nuxt-link to="/granatum" class="btn">Mais informações</nuxt-link>
+          </p>
         </div>
         <div class="col-md-6 offset-md-1">
-          <img
-            src="~/assets/images/atelie-de-software-cases.jpg"
-            alt="Conheça nossos cases."
-          />
+          <img src="~/assets/images/atelie-de-software-cases.jpg" alt />
         </div>
       </div>
     </div>

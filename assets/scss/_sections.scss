@@ -1,29 +1,75 @@
 .sectionsCases {
   padding: 40px 0;
-  .logo- {
-    &granatum {
-      margin: 20px 0;
-      width: 160px;
+  .btn {
+    margin: 20px 0 0 0;
+  }
+}
+
+.logo- {
+  &granatum {
+    margin: 20px 0;
+    width: 220px;
+  }
+  &conlicitacao {
+    margin: 120px 0 20px 0;
+    width: 280px;
+  }
+  &virou_delirevy {
+    margin: 160px 0 20px 0;
+    width: 200px;
+  }
+  &educadorafm {
+    margin: 80px 0 20px 0;
+    width: 220px;
+  }
+  &accessloans {
+    margin: 70px 0 20px 0;
+    width: 240px;
+  }
+  &lumiar {
+    margin: 80px 0 20px 0;
+    width: 240px;
+  }
+}
+
+.detailsCase {
+  h2 {
+    font-size: 2em;
+    text-transform: unset;
+    margin: 0 0 20px 0;
+  }
+  .contentSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .screen {
+    padding: 60px 0 20px 0;
+  }
+  .challenge {
+    p {
+      font-size: 1.6em;
+      line-height: 1.4em;
     }
-    &conlicitacao {
-      margin: 120px 0 20px 0;
-      width: 280px;
+  }
+  .details {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    img {
+      margin: 0 10px 0 0;
     }
-    &virou_delirevy {
-      margin: 160px 0 20px 0;
-      width: 200px;
+  }
+  .color {
+    &-granatum {
+      background-color: #0d91e5;
     }
-    &educadorafm {
-      margin: 80px 0 20px 0;
-      width: 220px;
-    }
-    &accessloans {
-      margin: 70px 0 20px 0;
-      width: 240px;
-    }
-    &lumiar {
-      margin: 80px 0 20px 0;
-      width: 240px;
+    h2,
+    p {
+      color: #ffffff;
     }
   }
 }
