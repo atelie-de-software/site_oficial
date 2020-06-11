@@ -1,12 +1,22 @@
 @mixin placeholder {
-  &::-webkit-input-placeholder {@content}
-  &:-moz-placeholder           {@content}
-  &::-moz-placeholder          {@content}
-  &:-ms-input-placeholder      {@content}
+  &::-webkit-input-placeholder {
+    @content;
+  }
+  &:-moz-placeholder {
+    @content;
+  }
+  &::-moz-placeholder {
+    @content;
+  }
+  &:-ms-input-placeholder {
+    @content;
+  }
 }
 
 label {
   font-size: 15px;
+  display: block;
+  margin: 0 0 10px 0;
 }
 
 .form-input {
@@ -28,9 +38,9 @@ textarea {
   letter-spacing: 0.18px;
 
   @include placeholder {
-      color: #000000;
-      font-weight:700;
-      opacity: 1;
+    color: #000000;
+    font-weight: 700;
+    opacity: 1;
   }
 }
 

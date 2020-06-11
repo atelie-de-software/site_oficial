@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row text-center">
       <div class="col-md-12">
-        <h3>{{ $t('thewaywework.title') }}</h3>
+        <h2>{{ $t('thewaywework.title') }}</h2>
       </div>
       <div class="col-md-4">
         <img
@@ -36,6 +36,9 @@
 </template>
 
 <style scoped lang="scss">
+h2 {
+  margin: 0 0 40px 0;
+}
 img.image {
   width: 30%;
   margin: 20px 0;

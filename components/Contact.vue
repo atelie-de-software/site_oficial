@@ -79,6 +79,9 @@
 </template>
 
 <style lang="scss" scoped>
+.form-container {
+  margin: 20px 0 0 0;
+}
 .contact {
   background-color: #ffffff;
   color: rgb(0, 0, 0);
@@ -99,9 +102,6 @@
       .phone {
         margin-bottom: 5em;
       }
-    }
-    h3 {
-      font-size: 1.2em;
     }
     .phone-box {
       &:first-child {
