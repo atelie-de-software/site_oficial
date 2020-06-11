@@ -4,7 +4,6 @@
     margin: 20px 0 0 0;
   }
 }
-
 .logo- {
   &granatum {
     margin: 20px 0;
@@ -20,7 +19,7 @@
   }
   &educadorafm {
     margin: 80px 0 20px 0;
-    width: 220px;
+    width: 140px;
   }
   &accessloans {
     margin: 70px 0 20px 0;
@@ -31,8 +30,10 @@
     width: 240px;
   }
 }
-
 .detailsCase {
+  .main {
+    padding: 40px 0;
+  }
   h2 {
     font-size: 2em;
     text-transform: unset;
@@ -66,6 +67,9 @@
   .color {
     &-granatum {
       background-color: #0d91e5;
+    }
+    &-educadorafm {
+      background-color: #9ad216;
     }
     h2,
     p {
