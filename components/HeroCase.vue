@@ -1,12 +1,10 @@
 <template>
   <div class="container hero">
     <div class="row">
-      <div class="col-md-6">
-        <h1>
-          {{ $t('heroCases.message') }}
-        </h1>
+      <div class="col-md-4">
+        <h1>{{ $t('heroCases.message') }}</h1>
       </div>
-      <div class="col-md-4 offset-md-1">
+      <div class="col-md-4 offset-md-3">
         <p>{{ $t('heroCases.description') }}</p>
       </div>
     </div>
@@ -26,11 +24,6 @@
 }
 h1 {
   color: #444140;
-  font-size: 81px;
-  font-weight: 800;
-  line-height: 86.12px;
-  text-transform: uppercase;
-  letter-spacing: 2.1px;
   @media screen and (max-width: 640px) {
     font-size: 38px;
     margin-bottom: 20px;

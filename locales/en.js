@@ -5,7 +5,7 @@ const en = {
     cultureTitle: 'Culture - Ateliê de Software'
   },
   hero: {
-    message: 'HANDMADE SOFTWARE FOR YOUR BUSINESS',
+    message: 'Handmade software for your business',
     description:
       'Our purpose is to develop software to make companies better and people happier.'
   },
@@ -14,11 +14,6 @@ const en = {
     description:
       'We are a company with people-centered management. Culture is the result of everything that we do here. We value autonomy and collaboration and we also like to share knowledge not only between our team but also with the community around us.',
     more: 'More'
-  },
-  methodology: {
-    message: 'Methodology',
-    description:
-      'Leaded by our steps of Conception, Preparation, Execution and Transition, our process contains the main moments and challenges of a first-rate software development project.'
   },
   share: {
     description: 'sharing our daily challenges',
@@ -92,7 +87,7 @@ const en = {
     copyright: 'Ateliê de Software 2020 © all rights reserved'
   },
   heroCulture: {
-    message: 'OUR CULTURE',
+    message: 'Our culture',
     description:
       'The Ateliê de Software, and the Webgoal Group companies, always has been praised for its human-centered style of management. This has attracted many professionals interested in working with us, in addition to rendering numerous lectures and presentations about the subject!',
     descriptionII:
@@ -105,7 +100,7 @@ const en = {
       'The software artisans always promote studies groups or discussions on some topic of interest. We also hold and participate in events, courses and lectures. The practice of feedback is widely used here. We believe that this helps us evolve and become more and more secure and close to each other.'
   },
   ourValues: {
-    message: 'VALUES',
+    message: 'Values',
     Autonomy: 'Autonomy',
     AutonomyDescription:
       'Having autonomy means doing the work that needs to be done in the way you believe is the best, considering the impact and consequences of that choice on the people who work with you, our business, and the business of the costumer.',
@@ -126,7 +121,7 @@ const en = {
       'Having excellence is the achievement of a virtue, it is the result of having full control of what we do and the necessary skills to perform our work. The journey for excellence is what drives us away from mediocrity, providing first-rate services and products and the best experience for customers. It is the professional achievement that makes people happier at work.'
   },
   heroCases: {
-    message: 'OUR CASES',
+    message: 'Our cases',
     description: 'Here you can find some of our projects.'
   },
   conlicitacao: {

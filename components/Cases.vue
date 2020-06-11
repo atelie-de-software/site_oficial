@@ -10,9 +10,7 @@
           />
         </div>
         <div class="col-md-5 offset-md-1">
-          <h2 tabindex="0">
-            {{ $t('cases.know') }}
-          </h2>
+          <h2 tabindex="0">{{ $t('cases.know') }}</h2>
           <p>{{ $t('cases.description') }}</p>
           <nuxt-link :to="localePath('cases')" class="btn">
             {{ $t('cases.button') }}
@@ -27,9 +25,6 @@
 #cases {
   margin-bottom: 50px;
   h2 {
-    font-size: 40px;
-    line-height: 50px;
-    text-transform: uppercase;
     margin: 100px 0 40px 0;
     @media screen and (max-width: 640px) {
       margin-top: 0;

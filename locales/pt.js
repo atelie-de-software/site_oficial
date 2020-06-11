@@ -5,7 +5,7 @@ const pt = {
     cultureTitle: 'Cultura - Ateliê de Software'
   },
   hero: {
-    message: 'SOFTWARE SOB MEDIDA PARA SUA EMPRESA',
+    message: 'Software sob medida para sua empresa',
     description:
       'O nosso propósito é desenvolver software para tornar empresas melhores e pessoas mais felizes.'
   },
@@ -14,11 +14,6 @@ const pt = {
     description:
       'Somos uma empresa com estilo de Gestão Horizontal. Cultura é o resultado de tudo que fazemos aqui dentro. Valorizamos a autonomia e a colaboração entre as pessoas e gostamos de compartilhar conhecimentos com todos os integrantes do nosso time e também da comunidade ao nosso redor.',
     more: 'Saiba mais'
-  },
-  methodology: {
-    message: 'METODOLOGIA',
-    description:
-      'Composto pelas etapas de Concepção, Preparação, Execução e Transição, nosso processo engloba os principais momentos e desafios de um projeto de desenvolvimento de software de primeira linha.'
   },
   share: {
     description: 'compartilhando os desafios diários do ateliê de software',
@@ -93,7 +88,7 @@ const pt = {
     copyright: 'Ateliê de Software 2020 © all rights reserved'
   },
   heroCulture: {
-    message: 'NOSSA CULTURA',
+    message: 'Nossa cultura',
     description:
       'O Ateliê de Software, e as empresas do grupo Webgoal como um todo, sempre foi muito elogiado pelo seu estilo de gestão centrado nas pessoas. Isso tem atraído muitos profissionais interessados em trabalhar conosco, além de render inúmeras palestras e apresentações sobre o tema!',
     descriptionII:
@@ -106,7 +101,7 @@ const pt = {
       'Os membros do time sempre promovem grupos de estudos ou discussões sobre algum tema de interesse. Também realizamos e participamos de eventos, cursos e palestras. A prática do feedback é muito utilizada por aqui. Acreditamos que isso nos ajuda a evoluir e a nos tornarmos cada vez mais seguros e próximos uns dos outros.'
   },
   ourValues: {
-    message: 'VALORES',
+    message: 'Valores',
     Autonomy: 'Autonomia',
     AutonomyDescription:
       'Ter autonomia significa fazer o trabalho que precisa ser feito da maneira que você acredita ser a melhor, considerando o impacto e as consequências dessa escolha na atuação das pessoas que trabalham com você, no nosso negócio e no negócio do cliente.',
@@ -127,7 +122,7 @@ const pt = {
       'Ter excelência é a realização de uma virtude, é o resultado de se ter o domínio pleno do que fazemos e das competências necessárias para executar o nosso trabalho. A busca pela excelência é o que nos afasta da mediocridade, proporcionando serviços e produtos de primeira linha e a melhor experiência de consumo para os clientes. É a realização profissional que torna as pessoas mais felizes no trabalho.'
   },
   heroCases: {
-    message: 'CONHEÇA OS NOSSOS CASES',
+    message: 'Conheça os nossos cases',
     description:
       'Abaixo você encontrará alguns dos trabalhos realizados pelo Ateliê.'
   },
@@ -138,7 +133,7 @@ const pt = {
       'Otimizamos o tempo de processamento de licitações de dias para apenas alguns minutos e a base de clientes quintuplicou. Depois de 12 anos, uma equipe dedicada faz melhorias constantes no sistema.'
   },
   granatum: {
-    message: 'O granatum',
+    message: 'O Granatum',
     description:
       'Startup brasileira que oferece um SaaS de Gestão Financeira para empresas. Desenvolvemos o aplicativo do Granatum para aumentar a retenção de clientes.',
     descriptionII:

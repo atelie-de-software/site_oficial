@@ -2,14 +2,9 @@
   <div class="container hero">
     <div class="row">
       <div class="col-md-5">
-        <h1 tabindex="0">
-          {{ $t('hero.message') }}
-        </h1>
-        <p tabindex="0">
-          {{ $t('hero.description') }}
-        </p>
+        <h1 tabindex="0">{{ $t('hero.message') }}</h1>
+        <p tabindex="0">{{ $t('hero.description') }}</p>
       </div>
-
       <div class="col-md-7">
         <img
           src="~/assets/images/atelie-de-software-hero.jpg"
@@ -27,9 +22,6 @@
 }
 h1 {
   color: #444140;
-  font-size: 40px;
-  font-weight: 800;
-  line-height: 50px;
   margin: 120px 0 40px 0;
   @media screen and (max-width: 640px) {
     margin: 0 0 40px 0;
