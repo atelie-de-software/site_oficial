@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h1>{{ $t('ourValues.message') }}</h1>
+        <h2>{{ $t('ourValues.message') }}</h2>
       </div>
     </div>
     <div class="row">
@@ -24,21 +24,8 @@
 </template>
 
 <style lang="scss" scoped>
-h1 {
-  color: #444140;
-  font-size: 65px;
-  font-weight: 800;
-  line-height: 73.01px;
-  text-transform: uppercase;
-  letter-spacing: 2.1px;
-  margin-bottom: 60px;
-}
 h3 {
   color: #444140;
-  font-size: 38px;
-  font-weight: 800;
-  line-height: 41.02px;
-  letter-spacing: -0.9px;
   margin-top: 45px;
 }
 p {
@@ -46,7 +33,6 @@ p {
   font-size: 16px;
   font-weight: 300;
   line-height: 27px;
-  letter-spacing: 2.08px;
 }
 .center {
   display: flex;

@@ -44,8 +44,7 @@ const pt = {
       'A Synergia, através de suas pesquisas socioambientais, muda a vida de milhares de pessoas. Nosso time é responsável por sistematizar todas as etapas da pesquisa e criar inteligência para que elas possam trazer bons resultados.'
   },
   form: {
-    messageI: 'fale',
-    messageII: 'conosco'
+    message: 'Fale conosco'
   },
   contactFormQuestions: {
     name: 'Qual é o seu nome? *',

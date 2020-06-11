@@ -2,7 +2,7 @@
   <div class="container hero">
     <div class="row">
       <div class="col-md-4">
-        <h1>{{ $t('heroCases.message') }}</h1>
+        <h2>{{ $t('heroCases.message') }}</h2>
       </div>
       <div class="col-md-4 offset-md-3">
         <p>{{ $t('heroCases.description') }}</p>
@@ -23,7 +23,6 @@
   align-items: center;
 }
 h1 {
-  color: #444140;
   @media screen and (max-width: 640px) {
     font-size: 38px;
     margin-bottom: 20px;

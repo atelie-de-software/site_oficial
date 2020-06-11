@@ -43,8 +43,7 @@ const en = {
       'Synergia, through its socio-environmental research, changes the lives of thousands of people. Our team is responsible for systematizing all stages of the research and creating intelligence so that they can bring good results'
   },
   form: {
-    messageI: 'contact',
-    messageII: 'us'
+    message: 'Contact us'
   },
   contactFormQuestions: {
     name: 'What is your name? *',

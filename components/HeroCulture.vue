@@ -2,7 +2,7 @@
   <div class="container hero">
     <div class="row">
       <div class="col-md-12 center">
-        <h1>{{ $t('heroCulture.message') }}</h1>
+        <h2>{{ $t('heroCulture.message') }}</h2>
         <iframe
           class="cultureMovie"
           width="90%"
@@ -52,14 +52,8 @@
 .cultureMovie {
   margin-bottom: 40px;
 }
-h1 {
-  color: #444140;
-  font-size: 81px;
-  font-weight: 800;
-  line-height: 86.12px;
-  text-transform: uppercase;
-  letter-spacing: 2.1px;
-  margin-bottom: 67px;
+h2 {
+  margin: 40px 0;
   @media screen and (max-width: 640px) {
     font-size: 38px;
     margin-bottom: 20px;
