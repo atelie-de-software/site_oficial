@@ -41,13 +41,13 @@
     <div class="challenge color">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6 order-last">
             <img
               src="~/assets/images/granatum/atelie-de-software-mao-iphone-granatum.webp"
               alt="Granatum Controle Financeiro Online"
             />
           </div>
-          <div class="col-md-6 contentSection">
+          <div class="col-md-6 order-first contentSection">
             <h2>Desafios</h2>
             <p>
               Criar o aplicativo mobile do Granatum oferecendo as mesmas

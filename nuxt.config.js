@@ -4,9 +4,7 @@ const pt = require('./locales/pt')
 
 module.exports = {
   mode: 'spa',
-  serverMiddleware: [
-    '~/servermiddleware/seo.js'
-  ],
+  serverMiddleware: ['~/servermiddleware/seo.js'],
 
   /*
    ** Headers of the page
@@ -110,14 +108,17 @@ module.exports = {
     [
       'nuxt-i18n',
       {
-        locales: [{ code: 'en', file: 'en.js', iso: 'en' }, { code: 'pt', file: 'pt.js', iso: 'pt-BR' }],
+        locales: [
+          { code: 'en', file: 'en.js', iso: 'en' },
+          { code: 'pt', file: 'pt.js', iso: 'pt-BR' }
+        ],
         defaultLocale: 'pt',
         lazy: true,
         langDir: 'locales/',
         seo: true,
         detectBrowserLanguage: {
           useCookie: true
-        },
+        }
       }
     ],
     ['@nuxtjs/google-gtag', { id: 'UA-118597190-1' }]
