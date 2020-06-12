@@ -19,7 +19,9 @@
           <p>{{ $t('educadora.descriptionII') }}</p>
           <p>{{ $t('educadora.descriptionIII') }}</p>
           <p>
-            <nuxt-link to="cases/educadorafm" class="btn">Saiba mais</nuxt-link>
+            <nuxt-link to="/cases/educadorafm" class="btn">
+              Saiba mais
+            </nuxt-link>
           </p>
         </div>
       </div>
