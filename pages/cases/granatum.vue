@@ -16,14 +16,14 @@
             </p>
             <p class="details">
               <img
-                src="~/assets/images/atelie-de-software-icon-time.svg"
+                src="~/assets/images/granatum/atelie-de-software-icon-time.svg"
                 alt="Granatum Controle Financeiro Online"
               />
               Duração: 1 ano
             </p>
             <p class="details">
               <img
-                src="~/assets/images/atelie-de-software-icon-team.svg"
+                src="~/assets/images/granatum/atelie-de-software-icon-team.svg"
                 alt="Granatum Controle Financeiro Online"
               />
               Equipe: 4 pessoas
