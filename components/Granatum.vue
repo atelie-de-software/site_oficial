@@ -11,7 +11,7 @@
           <p>{{ $t('granatum.description') }}</p>
           <p>{{ $t('granatum.descriptionII') }}</p>
           <p>
-            <nuxt-link to="cases/granatum" class="btn">Saiba mais</nuxt-link>
+            <nuxt-link to="/granatum" class="btn">Saiba mais</nuxt-link>
           </p>
         </div>
         <div class="col-md-6 offset-md-1">
