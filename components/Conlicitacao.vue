@@ -17,9 +17,9 @@
           <p>{{ $t('conlicitacao.description') }}</p>
           <p>{{ $t('conlicitacao.descriptionII') }}</p>
           <p>
-            <nuxt-link to="/cases/conlicitacao" class="btn"
-              >Saiba mais</nuxt-link
-            >
+            <nuxt-link to="/cases/conlicitacao" class="btn">{{
+              $t('cases.button')
+            }}</nuxt-link>
           </p>
         </div>
       </div>
