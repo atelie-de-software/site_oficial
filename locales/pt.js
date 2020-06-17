@@ -189,6 +189,11 @@ const pt = {
     craft: 'Construção e Entregas',
     craftparagrah:
       'Em conjunto com o cliente, realizamos a implementação do projeto de forma iterativa e incremental.'
+  },
+  calltoactionbuttom: {
+    title:
+      'Se você quiser saber mais ou falar sobre seu projeto, é só entrar em contato.',
+    label: 'Fale conosco'
   }
 }
 

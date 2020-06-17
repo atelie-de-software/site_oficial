@@ -189,6 +189,11 @@ const en = {
     craft: 'Craft & Deliveries',
     craftparagrah:
       'Together with the client, we implement the project in an iterative and incremental way.'
+  },
+  calltoactionbuttom: {
+    title:
+      'If you want to know more or talk about your project, just get in touch.',
+    label: 'contact us'
   }
 }
 

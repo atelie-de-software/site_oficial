@@ -3,15 +3,12 @@
     <div class="row">
       <div class="col-md-12">
         <div class="buttomContact">
-          <p>
-            Se quiser saber mais ou falar do seu projeto<br />
-            é só entrar em contato.
-          </p>
+          <p>{{ $t('calltoactionbuttom.title') }}</p>
           <nuxt-link
             :to="{ path: localePath('index'), hash: '#contact' }"
             class="btn"
           >
-            Fale conosco
+            {{ $t('calltoactionbuttom.label') }}
           </nuxt-link>
         </div>
       </div>
