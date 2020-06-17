@@ -186,7 +186,7 @@ const en = {
     exploration: 'Exploration',
     explorationparagrah:
       'We deepen our understanding of the project, refine the scope and agree on priorities.',
-    craft: 'Craft & Deviliveries',
+    craft: 'Craft & Deliveries',
     craftparagrah:
       'Together with the client, we implement the project in an iterative and incremental way.'
   }

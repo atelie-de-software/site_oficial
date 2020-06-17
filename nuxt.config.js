@@ -1,5 +1,5 @@
 const cheerio = require('cheerio')
-const en = require('./locales/en')
+const en = require('./locales/enn')
 const pt = require('./locales/pt')
 
 module.exports = {
@@ -109,7 +109,7 @@ module.exports = {
       'nuxt-i18n',
       {
         locales: [
-          { code: 'en', file: 'en.js', iso: 'en' },
+          { code: 'en', file: 'enn.js', iso: 'en' },
           { code: 'pt', file: 'pt.js', iso: 'pt-BR' }
         ],
         defaultLocale: 'pt',
