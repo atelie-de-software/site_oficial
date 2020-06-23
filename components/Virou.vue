@@ -11,6 +11,11 @@
           <p>{{ $t('viroudelivery.description') }}</p>
           <p>{{ $t('viroudelivery.descriptionII') }}</p>
           <p>{{ $t('viroudelivery.descriptionIII') }}</p>
+          <p>
+            <nuxt-link to="/cases/viroudelivery" class="btn">{{
+              $t('cases.button')
+            }}</nuxt-link>
+          </p>
         </div>
         <div class="col-md-6 offset-md-1">
           <img
