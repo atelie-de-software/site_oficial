@@ -26,7 +26,7 @@
                 src="~/assets/images/granatum/atelie-de-software-icon-team.svg"
                 alt="Granatum Controle Financeiro Online"
               />
-              Equipe: 4 pessoas
+              Equipe: 3 pessoas
             </p>
           </div>
           <div class="col-md-7">
