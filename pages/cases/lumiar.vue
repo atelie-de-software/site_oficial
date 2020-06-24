@@ -105,7 +105,7 @@
           </div>
           <div class="col-md-6 offset-md-2">
             <img
-              src="~/assets/images/Lumiar/atelie-de-software-telas-lumiar.png"
+              src="~/assets/images/lumiar/atelie-de-software-telas-lumiar.png"
               alt="Lumiar"
             />
           </div>
