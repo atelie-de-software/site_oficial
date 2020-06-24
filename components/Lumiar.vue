@@ -11,6 +11,11 @@
           <p>{{ $t('lumiar.description') }}</p>
           <p>{{ $t('lumiar.descriptionII') }}</p>
           <p>{{ $t('lumiar.descriptionIII') }}</p>
+          <p>
+            <nuxt-link to="/cases/lumiar" class="btn">{{
+              $t('cases.button')
+            }}</nuxt-link>
+          </p>
         </div>
         <div class="col-md-6 offset-md-1">
           <img src="~/assets/images/atelie-de-software-tela-Lumiar.png" alt />
