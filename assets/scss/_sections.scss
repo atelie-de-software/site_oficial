@@ -26,8 +26,8 @@
     width: 160px;
   }
   &lumiar {
-    margin: 80px 0 20px 0;
-    width: 240px;
+    margin: 0 0 20px 0;
+    width: 180px;
   }
 }
 .detailsCase {
@@ -79,6 +79,9 @@
     }
     &-acessloans {
       background-color: #2df5b3;
+    }
+    &-lumiar {
+      background-color: #f6b119;
     }
     h2,
     p {
