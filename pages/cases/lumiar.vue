@@ -17,21 +17,21 @@
             <p class="details">
               <img
                 src="~/assets/images/lumiar/atelie-de-software-icon-time.svg"
-                alt="Conlicitação - Consórcio nacional de licitações do Brasil"
+                alt="Lumiar"
               />
               Duração: + de 2 anos
             </p>
             <p class="details">
               <img
                 src="~/assets/images/lumiar/atelie-de-software-icon-team.svg"
-                alt="Conlicitação - Consórcio nacional de licitações do Brasil"
+                alt="Lumiar"
               />
               Equipe: 6 pessoas
             </p>
           </div>
           <div class="col-md-7">
             <img
-              src="~/assets/images/Lumiar/atelie-de-software-telas-lumiar.png"
+              src="~/assets/images/lumiar/atelie-de-software-telas-lumiar.png"
               alt="Lumiar"
             />
           </div>
