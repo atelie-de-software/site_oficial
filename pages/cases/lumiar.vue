@@ -31,7 +31,7 @@
           </div>
           <div class="col-md-7">
             <img
-              src="~/assets/images/Lumiar/ateleie-de-software-telas-lumiar.png"
+              src="~/assets/images/Lumiar/atelie-de-software-telas-lumiar.png"
               alt="Lumiar"
             />
           </div>
@@ -50,7 +50,7 @@
           </div>
           <div class="col-md-7 order-last">
             <img
-              src="~/assets/images/lumiar/ateleie-de-software-tela-lumiar-2.png"
+              src="~/assets/images/lumiar/atelie-de-software-tela-lumiar-2.png"
               alt="Lumiar"
             />
           </div>
@@ -72,7 +72,7 @@
           </div>
           <div class="col-md-8">
             <img
-              src="~/assets/images/lumiar/ateleie-de-software-telas-lumiar-3.png"
+              src="~/assets/images/lumiar/atelie-de-software-telas-lumiar-3.png"
               alt="Lumiar"
             />
           </div>
@@ -84,7 +84,7 @@
         <div class="row">
           <div class="col-md-12">
             <img
-              src="~/assets/images/lumiar/ateleie-de-software-telas-lumiar-4.png"
+              src="~/assets/images/lumiar/atelie-de-software-telas-lumiar-4.png"
               alt="Lumiar"
             />
           </div>
@@ -105,7 +105,7 @@
           </div>
           <div class="col-md-6 offset-md-2">
             <img
-              src="~/assets/images/Lumiar/ateleie-de-software-telas-lumiar.png"
+              src="~/assets/images/Lumiar/atelie-de-software-telas-lumiar.png"
               alt="Lumiar"
             />
           </div>
