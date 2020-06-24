@@ -17,6 +17,11 @@
           <p>{{ $t('accessloans.description') }}</p>
           <p>{{ $t('accessloans.descriptionII') }}</p>
           <p>{{ $t('accessloans.descriptionIII') }}</p>
+          <p>
+            <nuxt-link to="/cases/acessloans" class="btn">{{
+              $t('cases.button')
+            }}</nuxt-link>
+          </p>
         </div>
       </div>
     </div>

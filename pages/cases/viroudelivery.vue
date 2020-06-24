@@ -21,7 +21,7 @@
                 src="~/assets/images/viroudelivery/atelie-de-software-icon-time.svg"
                 alt="Conlicitação - Consórcio nacional de licitações do Brasil"
               />
-              Duração: Em fase de validação e contrução
+              Duração: Em fase de validação e construção
             </p>
             <p class="details">
               <img
@@ -99,9 +99,9 @@
           <div class="col-md-4 contentSection">
             <h2>Resultados</h2>
             <p>
-              O aplicativo está em desenvolvimento, com previsão de lançamento,
-              já com cerca de 150 pessoas cadastradas e uma projeção de
-              potencial de 700 mil pessoas impactadas.
+              O aplicativo foi desenvolvido e lançado, já possui várias pessoas
+              cadastradas e uma projeção de potencial de 700 mil pessoas
+              impactadas.
             </p>
           </div>
           <div class="col-md-6 offset-md-2">
