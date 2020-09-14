@@ -1,5 +1,5 @@
 <template>
-  <div id="dark">
+  <div class="dark">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -23,7 +23,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 #logo-capture {
   width: 100%;
   display: flex;
@@ -31,9 +31,14 @@ export default {
   justify-content: center;
   padding: 40px 0;
 }
-#dark {
-  height: 100vh;
+.dark {
   background-color: #232323;
   color: #ffffff;
+}
+
+@media only screen and (min-width: 600px) {
+  .dark {
+    height: 100vh;
+  }
 }
 </style>

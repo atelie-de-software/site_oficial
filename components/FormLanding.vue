@@ -59,21 +59,10 @@ export default {
   name: 'FormLanding',
   methods: {
     EnviarForm() {
-      this.$router.push('/live/thanks')
+      this.$router.push('/cursos/thanks')
     }
   }
 }
 </script>
 
-<style lang="scss" scoped>
-.form-container {
-  margin-bottom: 50px;
-  .form-group {
-    margin-bottom: 20px;
-  }
-  .btn {
-    background-color: #fe0466;
-    box-shadow: 0px 10px 40px -4px rgba(254, 4, 147, 0.5);
-  }
-}
-</style>
+<style lang="scss" scoped></style>

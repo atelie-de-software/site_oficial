@@ -1,0 +1,53 @@
+.dark {
+  h1 {
+    margin: 60px 0 20px 0;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #2f00fb 0%, #fe0466 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  h3 {
+    color: white;
+  }
+}
+
+p {
+  color: white;
+}
+
+label {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    margin: 20px 0;
+    font-size: 2em;
+  }
+  p {
+    margin: 40px 0;
+    font-size: 1em;
+  }
+}
+
+.thanks {
+  height: calc(100vh - 131px);
+  width: 100%;
+  display: flex;
+  flex: 1;
+  background: url('/hand.png') no-repeat center bottom;
+  background-size: 200px;
+}
+
+.form-container {
+  margin-bottom: 50px;
+  .form-group {
+    margin-bottom: 20px;
+  }
+  .btn {
+    background-color: #fe0466;
+    box-shadow: 0px 10px 40px -4px rgba(254, 4, 147, 0.5);
+    color: white;
+    font-weight: bold;
+  }
+}
