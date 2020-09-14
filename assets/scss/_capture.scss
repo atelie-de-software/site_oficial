@@ -36,7 +36,10 @@ label {
   display: flex;
   flex: 1;
   background: url('/hand.png') no-repeat center bottom;
-  background-size: 200px;
+  background-size: 30%;
+  @media only screen and (min-width: 600px) {
+    background-size: 16%;
+  }
 }
 
 .form-container {
