@@ -1,5 +1,5 @@
 <template>
-  <div class="form-container">
+  <div class="form-landing">
     <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
     <link
       rel="stylesheet"
